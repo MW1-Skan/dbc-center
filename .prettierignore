@@ -1,0 +1,6 @@
+.next
+node_modules
+design
+public
+e2e/screenshots
+package-lock.json

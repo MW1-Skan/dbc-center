@@ -1,0 +1,524 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ */
+/* Design tokens (single source of truth, mirrored from design/)       */
+/* ------------------------------------------------------------------ */
+@theme {
+  /* Navy */
+  --color-navy-700: #0b3a6a; /* primary buttons */
+  --color-navy-800: #0a2e55; /* headings, dark sections */
+  --color-navy-900: #071f3b; /* footer */
+
+  /* Teal */
+  --color-teal-500: #1a8f97; /* accent fills */
+  --color-teal-600: #127379; /* teal text and links */
+  --color-teal-700: #0e5e63; /* text on teal tint */
+  --color-teal-200: #8fd3d8; /* teal on navy */
+  --color-teal-300: #5fc3c9; /* small icons on navy */
+
+  /* Tints */
+  --color-mint: #eff6f6; /* mint section */
+  --color-chip: #e6f2f3; /* teal chip */
+  --color-cloud: #f6f9fa; /* gray section */
+
+  /* Borders */
+  --color-line: #e2ebef;
+  --color-line-input: #cfdde4;
+  --color-line-soft: #d5e1e6; /* burger button */
+  --color-line-card: #dce6eb; /* unselected reason cards, pricing cards */
+  --color-line-mint: #cfe0e3; /* dividers on mint */
+  --color-line-faint: #eef3f5; /* card meta divider */
+  --color-line-plan: #9db6c6; /* floor plan tile border */
+  --color-outline: #b9cedb; /* outline button border */
+
+  /* Text */
+  --color-body: #23364a;
+  --color-lead: #3f5468;
+  --color-muted: #4f6175;
+  --color-label: #3e5468; /* placeholder label text */
+
+  /* On navy */
+  --color-on-navy-light: #dce7f2; /* top bar text */
+  --color-on-navy-soft: #e3ecf5; /* trust strip text */
+  --color-on-navy-muted: #c9d8e7; /* paragraph on navy */
+  --color-on-navy-faint: #9fb4ca; /* footer legal text */
+
+  /* Warm accent (Non-surgical) */
+  --color-warm: #fbebdd;
+  --color-warm-text: #6b3a10;
+  /* Warm notice (booking emergency note) */
+  --color-warm-soft: #fdf1e7;
+  --color-warm-deep: #5a3412;
+
+  /* Validation */
+  --color-error: #b3261e;
+  --color-error-deep: #7a1c14;
+  --color-error-soft: #fdecea;
+
+  /* Neutral fills */
+  --color-fill-soft: #eaf0f4; /* corridor */
+  --color-fill-disabled: #eef2f5; /* "not for rent" pill */
+  --color-fill-taken: #c6d3de;
+  --color-fill-taken-alt: #dce5ec;
+  --color-plan-taken-text: #2b4257;
+
+  /* Placeholder stripes */
+  --color-stripe-a: #e3eef1;
+  --color-stripe-b: #d9e6ea;
+  --color-stripe-mint-a: #dceaec;
+  --color-stripe-mint-b: #d2e3e6;
+  --color-stripe-navy-a: #16406b;
+  --color-stripe-navy-b: #12385f;
+
+  /* Radii */
+  --radius-pill: 999px;
+  --radius-input: 14px;
+  --radius-card: 20px;
+  --radius-card-lg: 24px;
+  --radius-panel: 28px;
+  --radius-panel-lg: 32px;
+
+  /* Type */
+  --font-sans: var(--font-dm-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-heading: var(--font-sora), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-arabic: var(--font-plex-arabic), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --tracking-heading: -0.02em;
+  --tracking-display: -0.025em;
+  --tracking-eyebrow: 0.14em;
+
+  /* Shadows */
+  --shadow-card: 0 18px 40px -18px rgb(11 58 106 / 0.35);
+  --shadow-card-teal: 0 18px 40px -22px rgb(26 143 151 / 0.6);
+  --shadow-float: 0 24px 50px -20px rgb(10 46 85 / 0.35);
+  --shadow-panel: 0 40px 80px -40px rgb(10 46 85 / 0.35);
+  --shadow-badge: 0 20px 40px -18px rgb(10 46 85 / 0.35);
+  --shadow-header: 0 10px 30px -18px rgb(10 46 85 / 0.35);
+  --shadow-sticky: 0 -10px 30px -18px rgb(10 46 85 / 0.4);
+  --shadow-button: 0 14px 28px -14px rgb(11 58 106 / 0.55);
+
+  /* Motion */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 150ms;
+  --duration-base: 200ms;
+  --duration-reveal: 550ms;
+  --duration-hero: 900ms;
+}
+
+/* Arabic swaps both families and removes the tight tracking. */
+:root[dir="rtl"] {
+  --font-sans: var(--font-plex-arabic), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-heading: var(--font-plex-arabic), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --tracking-heading: 0;
+  --tracking-display: 0;
+  --tracking-eyebrow: 0.04em;
+}
+
+/* ------------------------------------------------------------------ */
+/* Base                                                                */
+/* ------------------------------------------------------------------ */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white font-sans text-body antialiased;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: clip;
+  }
+
+  @media (min-width: 768px) {
+    body {
+      font-size: 17px;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading font-semibold text-navy-800;
+    letter-spacing: var(--tracking-heading);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  a {
+    @apply text-teal-600;
+    transition: color var(--duration-base) ease-out;
+  }
+
+  a:hover {
+    @apply text-navy-700;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-teal-500);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font: inherit;
+    color: inherit;
+  }
+
+  select {
+    appearance: auto;
+  }
+
+  [dir="rtl"] input[type="tel"],
+  [dir="rtl"] input[type="email"],
+  [dir="rtl"] input[type="date"],
+  [dir="rtl"] .force-ltr {
+    direction: ltr;
+    text-align: start;
+  }
+
+  /* Motion safety: no movement at all, content visible immediately. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+
+    [data-reveal],
+    [data-hero] {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Layout helpers                                                      */
+/* ------------------------------------------------------------------ */
+@utility container-x {
+  width: 100%;
+  max-width: 1240px;
+  margin-inline: auto;
+  padding-inline: 20px;
+
+  @media (min-width: 768px) {
+    padding-inline: 32px;
+  }
+}
+
+@utility section-y {
+  padding-block: 56px;
+
+  @media (min-width: 1024px) {
+    padding-block: 112px;
+  }
+}
+
+@utility eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-teal-600);
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+/* Headline scale taken from the design files. */
+@utility text-display {
+  font-size: clamp(34px, 4.6vw, 64px);
+  line-height: 1.06;
+  letter-spacing: var(--tracking-display);
+}
+
+@utility text-display-sm {
+  font-size: clamp(36px, 4vw, 54px);
+  line-height: 1.08;
+  letter-spacing: var(--tracking-display);
+}
+
+@utility text-display-rooms {
+  font-size: clamp(38px, 4.4vw, 60px);
+  line-height: 1.06;
+  letter-spacing: var(--tracking-display);
+}
+
+@utility text-section {
+  font-size: clamp(28px, 3.4vw, 46px);
+  line-height: 1.12;
+}
+
+@utility text-section-sm {
+  font-size: clamp(28px, 3.4vw, 44px);
+  line-height: 1.12;
+}
+
+@utility text-doctor {
+  font-size: clamp(30px, 3.6vw, 50px);
+  line-height: 1.08;
+}
+
+@utility text-band {
+  font-size: clamp(26px, 3vw, 42px);
+  line-height: 1.12;
+}
+
+/* Striped photo placeholder backgrounds. */
+@utility stripes-light {
+  background: repeating-linear-gradient(
+    135deg,
+    var(--color-stripe-a) 0 14px,
+    var(--color-stripe-b) 14px 28px
+  );
+}
+
+@utility stripes-mint {
+  background: repeating-linear-gradient(
+    135deg,
+    var(--color-stripe-mint-a) 0 14px,
+    var(--color-stripe-mint-b) 14px 28px
+  );
+}
+
+@utility stripes-navy {
+  background: repeating-linear-gradient(
+    135deg,
+    var(--color-stripe-navy-a) 0 14px,
+    var(--color-stripe-navy-b) 14px 28px
+  );
+}
+
+@utility stripes-taken {
+  background: repeating-linear-gradient(
+    135deg,
+    var(--color-fill-taken) 0 6px,
+    var(--color-fill-taken-alt) 6px 12px
+  );
+}
+
+/* Horizontal scroll rows that hide the scrollbar but stay scrollable. */
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Components                                                          */
+/* ------------------------------------------------------------------ */
+@layer components {
+  /* Text link: underline grows from the start edge. */
+  .link-grow {
+    position: relative;
+    text-decoration: none;
+  }
+  .link-grow::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    bottom: -2px;
+    height: 1.5px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--duration-base) var(--ease-out-soft);
+  }
+  [dir="rtl"] .link-grow::after {
+    transform-origin: right;
+  }
+  .link-grow:hover::after,
+  .link-grow:focus-visible::after {
+    transform: scaleX(1);
+  }
+
+  /* Interactive lift for buttons. */
+  .press {
+    transition:
+      transform var(--duration-base) ease-out,
+      box-shadow var(--duration-base) ease-out,
+      background-color var(--duration-base) ease-out,
+      color var(--duration-base) ease-out,
+      border-color var(--duration-base) ease-out;
+  }
+  .press:hover {
+    transform: scale(1.03);
+  }
+  .press:active {
+    transform: scale(0.98);
+  }
+
+  /* Card lift. */
+  .lift {
+    transition:
+      transform var(--duration-base) ease-out,
+      box-shadow var(--duration-base) ease-out,
+      border-color var(--duration-fast) ease-out;
+  }
+  .lift:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-card);
+  }
+
+  /* Arrow nudge inside a .group on hover, in reading direction. */
+  .nudge {
+    transition: transform var(--duration-base) ease-out;
+  }
+  .group:hover .nudge,
+  .group:focus-visible .nudge {
+    transform: translateX(3px);
+  }
+  [dir="rtl"] .group:hover .nudge,
+  [dir="rtl"] .group:focus-visible .nudge {
+    transform: translateX(-3px);
+  }
+
+  /* Form controls */
+  .field {
+    height: 52px;
+    width: 100%;
+    padding-inline: 16px;
+    border-radius: var(--radius-input);
+    border: 1.5px solid var(--color-line-input);
+    background: #fff;
+    color: var(--color-body);
+    font-size: 16px;
+    transition:
+      border-color var(--duration-fast) ease-out,
+      box-shadow var(--duration-base) ease-out;
+  }
+  .field::placeholder {
+    color: #8a9bad;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-teal-500);
+    box-shadow: 0 0 0 4px rgb(26 143 151 / 0.16);
+  }
+  .field[aria-invalid="true"] {
+    border-color: #c0392b;
+  }
+  select.field {
+    padding-inline: 14px;
+  }
+  textarea.field {
+    height: auto;
+    padding-block: 14px;
+    resize: vertical;
+  }
+  input[type="date"].field {
+    padding-inline: 14px;
+  }
+
+  /* Hero load sequence (CSS only so the LCP text never waits for JS). */
+  /* 0.01 rather than 0: Chrome ignores elements first painted at opacity 0 for LCP,
+     and compositor-driven fades never repaint, so the headline would never count. */
+  @keyframes fade-up {
+    from {
+      opacity: 0.01;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes arc-in {
+    from {
+      opacity: 0;
+      transform: rotate(calc(var(--arc-angle) - 20deg));
+    }
+    to {
+      opacity: 1;
+      transform: rotate(var(--arc-angle));
+    }
+  }
+  [data-hero] {
+    opacity: 0.01;
+    animation: fade-up var(--duration-reveal) var(--ease-out-soft) forwards;
+    animation-delay: var(--hero-delay, 0ms);
+  }
+  [data-hero="arc"] {
+    animation-name: arc-in;
+    animation-duration: var(--duration-hero);
+  }
+
+  /* Scroll reveal: hidden only once JavaScript has marked <html data-js>. */
+  @keyframes reveal-in {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  html[data-js] [data-reveal="hidden"] {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  html[data-js] [data-reveal="shown"] {
+    animation: reveal-in var(--duration-reveal) var(--ease-out-soft) both;
+    animation-delay: var(--reveal-delay, 0s);
+  }
+
+  /* Selection chips: scale/fade in, and out while marked as leaving. */
+  @keyframes chip-in {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes chip-out {
+    to {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+  }
+  .chip-enter {
+    animation: chip-in 180ms ease-out both;
+  }
+  .chip-enter[data-leaving] {
+    animation: chip-out 180ms ease-out forwards;
+  }
+
+  /* Success checkmark draws itself. */
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  .check-draw {
+    stroke-dasharray: 30;
+    stroke-dashoffset: 30;
+    animation: draw 500ms var(--ease-out-soft) 200ms forwards;
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .fade-in {
+    animation: fade-in 400ms ease-out both;
+  }
+}

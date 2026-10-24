@@ -1,0 +1,585 @@
+{
+  "Meta": {
+    "siteName": "[AR] Delta Bariatric Center",
+    "home": {
+      "title": "[AR] Delta Bariatric Center — Bariatric & metabolic surgery in Alexandria",
+      "description": "[AR] Lasting weight loss, with a surgeon and a team who stay with you. Led by Dr. Mohsen Karam, FRCS (UK) — surgery, nutrition, psychology and physiotherapy under one roof in Alexandria, Egypt."
+    },
+    "book": {
+      "title": "[AR] Book an appointment — Delta Bariatric Center",
+      "description": "[AR] Tell us what you need and when suits you. We will call or WhatsApp you to confirm the exact time of your consultation at Delta Bariatric Center, Alexandria."
+    },
+    "rooms": {
+      "title": "[AR] Room rental for doctors & organizations — Delta Bariatric Center",
+      "description": "[AR] Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month."
+    },
+    "ogTagline": "[AR] Bariatric & metabolic surgery · Alexandria, Egypt"
+  },
+  "Common": {
+    "brandName": "[AR] Delta Bariatric Center",
+    "brandWord": "[AR] DELTA",
+    "brandSub": "[AR] BARIATRIC CENTER",
+    "homeLinkLabel": "[AR] Delta Bariatric Center — home",
+    "skipToContent": "[AR] Skip to content",
+    "bookConsultation": "[AR] Book a consultation",
+    "whatsapp": "[AR] WhatsApp",
+    "call": "[AR] Call",
+    "optional": "[AR] (optional)",
+    "learnMore": "[AR] Learn more",
+    "language": "[AR] Language",
+    "switchToArabic": "[AR] Switch to Arabic",
+    "switchToEnglish": "[AR] Switch to English",
+    "mapPlaceholder": "[AR] Map placeholder",
+    "map": "[AR] Map"
+  },
+  "TopBar": {
+    "address": "[AR] 713 Al Horreya Road, Delta Building, Louran, Alexandria"
+  },
+  "Nav": {
+    "doctor": "[AR] Dr. Karam",
+    "procedures": "[AR] Procedures",
+    "team": "[AR] Our team",
+    "stories": "[AR] Patient stories",
+    "advice": "[AR] Medical advice",
+    "rooms": "[AR] Room rental",
+    "home": "[AR] Home",
+    "book": "[AR] Book a consultation",
+    "mainLabel": "[AR] Main",
+    "mobileLabel": "[AR] Mobile",
+    "openMenu": "[AR] Open menu",
+    "closeMenu": "[AR] Close menu"
+  },
+  "Hero": {
+    "eyebrow": "[AR] Bariatric & metabolic surgery · Alexandria, Egypt",
+    "eyebrowShort": "[AR] Bariatric surgery · Alexandria",
+    "title": "[AR] Lasting weight loss, with a surgeon and a team who stay with you.",
+    "lead": "[AR] Led by Dr. Mohsen Karam, FRCS (UK), Delta Bariatric Center brings surgery, nutrition, psychology and physiotherapy together under one roof — so every step of your journey is planned, not improvised.",
+    "leadShort": "[AR] Led by Dr. Mohsen Karam, FRCS (UK) — surgery, nutrition, psychology and physiotherapy under one roof.",
+    "ctaBook": "[AR] Book a consultation",
+    "ctaWhatsapp": "[AR] Message us on WhatsApp",
+    "ctaWhatsappShort": "[AR] WhatsApp us",
+    "photoLabel": "[AR] Photo · Dr. Karam with patient",
+    "photoLabelShort": "[AR] Photo · Dr. Karam",
+    "photoAlt": "[AR] Photo placeholder: Dr. Karam with a patient",
+    "stats": {
+      "procedures": {
+        "value": "[AR] [0,000+]",
+        "label": "[AR] procedures performed",
+        "labelShort": "[AR] procedures"
+      },
+      "years": {
+        "value": "[AR] [00] yrs",
+        "label": "[AR] in bariatric surgery",
+        "labelShort": "[AR] experience"
+      },
+      "departments": {
+        "value": "[AR] 7",
+        "label": "[AR] specialist departments",
+        "labelShort": "[AR] departments"
+      }
+    },
+    "credentialName": "[AR] Dr. Mohsen Karam",
+    "credentialSub": "[AR] FRCS · Royal College of Surgeons, UK"
+  },
+  "Trust": {
+    "label": "[AR] Trained & accredited",
+    "sectionLabel": "[AR] Training and memberships",
+    "items": {
+      "frcs": "[AR] <strong>FRCS</strong> · Royal College of Surgeons, UK",
+      "ifso": "[AR] <strong>IFSO</strong> member",
+      "asmbs": "[AR] <strong>ASMBS</strong> member",
+      "ifsoAsmbs": "[AR] <strong>IFSO</strong> & <strong>ASMBS</strong> member",
+      "strasbourg": "[AR] Advanced Laparoscopy · <strong>Univ. of Strasbourg</strong>",
+      "qatar": "[AR] Bariatric Fellowship · <strong>Qatar Metabolic Institute</strong>"
+    }
+  },
+  "Procedures": {
+    "eyebrow": "[AR] Procedures",
+    "title": "[AR] The right procedure for your body — not a one-size plan.",
+    "titleShort": "[AR] The right procedure for your body.",
+    "aside": "[AR] Every patient starts with a full assessment. Together, we choose the option that fits your health, your goals and your life.",
+    "illustration": "[AR] Illustration",
+    "illustrationAlt": "[AR] Illustration placeholder",
+    "kinds": {
+      "laparoscopic": "[AR] Laparoscopic",
+      "nonSurgical": "[AR] Non-surgical"
+    },
+    "items": {
+      "sleeve": {
+        "name": "[AR] Sleeve gastrectomy",
+        "desc": "[AR] Removes the larger part of the stomach, reducing how much you can eat and the hunger hormone it produces.",
+        "descShort": "[AR] Removes the larger part of the stomach to reduce appetite and intake.",
+        "meta": "[AR] Stay [X days] · Back to work [X weeks]"
+      },
+      "bypass": {
+        "name": "[AR] Gastric bypass",
+        "desc": "[AR] Full or partial (mini) bypass: a small stomach pouch is connected directly to the small intestine.",
+        "descShort": "[AR] Full or partial bypass — a small pouch joined to the small intestine.",
+        "meta": "[AR] Stay [X days] · Back to work [X weeks]"
+      },
+      "plication": {
+        "name": "[AR] Gastric plication",
+        "desc": "[AR] The stomach is folded inward and stitched to reduce its volume — no part of the stomach is removed.",
+        "descShort": "[AR] The stomach is folded and stitched — nothing is removed.",
+        "meta": "[AR] Stay [X days] · Back to work [X weeks]"
+      },
+      "balloon": {
+        "name": "[AR] Gastric balloon",
+        "desc": "[AR] A soft balloon placed by endoscopy for a set period — a first step for patients who need moderate weight loss.",
+        "descShort": "[AR] Placed by endoscopy for a set period, no surgery.",
+        "meta": "[AR] Same-day · Balloon kept [X months]"
+      }
+    },
+    "learnMore": "[AR] Learn more",
+    "notSure": "[AR] Not sure which one fits you? That is exactly what the first consultation is for.",
+    "notSureCta": "[AR] Book a consultation"
+  },
+  "Departments": {
+    "eyebrow": "[AR] One center, every specialist",
+    "title": "[AR] Seven departments. One plan, built around you.",
+    "lead": "[AR] Surgery is one day. Success is the year that follows. Your surgeon, dietitian, psychologist and physiotherapist work from the same file, in the same building — and see you at every stage.",
+    "photoLabel": "[AR] Photo · The care team",
+    "photoAlt": "[AR] Photo placeholder: the care team",
+    "items": {
+      "bariatricSurgery": {
+        "name": "[AR] Bariatric surgery",
+        "desc": "[AR] Assessment, surgery and surgical follow-up with Dr. Karam."
+      },
+      "bariatricMedicine": {
+        "name": "[AR] Bariatric medicine",
+        "desc": "[AR] Medical preparation before surgery and monitoring after it."
+      },
+      "clinicalNutrition": {
+        "name": "[AR] Clinical nutrition",
+        "desc": "[AR] Staged eating plans, from the first liquids to lifelong habits."
+      },
+      "psychology": {
+        "name": "[AR] Psychology",
+        "desc": "[AR] Preparing for change and building a healthier relationship with food."
+      },
+      "physiotherapy": {
+        "name": "[AR] Physiotherapy",
+        "desc": "[AR] Safe movement and strength programs adapted to each stage."
+      },
+      "plasticSurgery": {
+        "name": "[AR] Plastic surgery",
+        "desc": "[AR] Body contouring once your weight has stabilized."
+      },
+      "dermatology": {
+        "name": "[AR] Dermatology",
+        "desc": "[AR] Skin care during and after major weight loss."
+      }
+    }
+  },
+  "Doctor": {
+    "eyebrow": "[AR] Meet your surgeon",
+    "name": "[AR] Dr. Mohsen Karam",
+    "role": "[AR] Consultant in obesity & metabolic surgery",
+    "bio": "[AR] [Short biography — two or three sentences on Dr. Karam's background, years in practice and how he approaches each patient. Written in his own voice works best.]",
+    "bioShort": "[AR] [Short biography — two or three sentences.]",
+    "portraitLabel": "[AR] Portrait · Dr. Karam",
+    "portraitAlt": "[AR] Portrait placeholder: Dr. Mohsen Karam",
+    "credentials": {
+      "frcs": "[AR] <strong>Fellowship of the Royal College of Surgeons</strong> (FRCS), United Kingdom",
+      "qatar": "[AR] <strong>Fellowship in Bariatric Surgery</strong>, Qatar Metabolic Institute",
+      "strasbourg": "[AR] <strong>Diploma in Advanced Laparoscopic Surgery</strong>, University of Strasbourg, France",
+      "memberships": "[AR] Member of <strong>IFSO</strong> and <strong>ASMBS</strong>"
+    },
+    "credentialsShort": {
+      "frcs": "[AR] FRCS, Royal College of Surgeons, UK",
+      "qatar": "[AR] Bariatric Fellowship, Qatar Metabolic Institute",
+      "strasbourg": "[AR] Advanced Laparoscopy, University of Strasbourg",
+      "memberships": "[AR] Member of IFSO and ASMBS"
+    },
+    "readProfile": "[AR] Read full profile",
+    "viewCertificates": "[AR] View certificates"
+  },
+  "Stories": {
+    "eyebrow": "[AR] Patient stories",
+    "title": "[AR] Real journeys, shared with permission.",
+    "seeAll": "[AR] See all stories & videos",
+    "videoAlt": "[AR] Video placeholder",
+    "quote": "[AR] “[Patient quote — one or two sentences, shared with written consent.]”",
+    "quoteShort": "[AR] “[Patient quote, shared with consent.]”",
+    "name": "[AR] [First name]",
+    "caption": "[AR] [Procedure] · [X] months after",
+    "captionShort": "[AR] [Procedure]"
+  },
+  "Callback": {
+    "eyebrow": "[AR] Appointments",
+    "title": "[AR] Your first consultation starts here.",
+    "lead": "[AR] Leave your number and we will call you back to find a time — or pick your preferred day on the full booking page.",
+    "leadShort": "[AR] Leave your number — we call you back to find a time.",
+    "formTitle": "[AR] Request a call back",
+    "name": "[AR] Full name",
+    "namePlaceholder": "[AR] Your name",
+    "phone": "[AR] Phone / WhatsApp",
+    "phonePlaceholder": "[AR] +20 1XX XXX XXXX",
+    "interest": "[AR] I am interested in",
+    "interestOptions": {
+      "unsure": "[AR] Not sure yet — I need advice",
+      "sleeve": "[AR] Sleeve gastrectomy",
+      "bypass": "[AR] Gastric bypass",
+      "plication": "[AR] Gastric plication",
+      "balloon": "[AR] Gastric balloon",
+      "followUp": "[AR] Follow-up after surgery"
+    },
+    "submit": "[AR] Call me back",
+    "submitting": "[AR] Sending…",
+    "chooseDate": "[AR] Choose a date instead",
+    "chooseDateShort": "[AR] Or choose a date",
+    "successTitle": "[AR] Request received",
+    "successBody": "[AR] Thank you. We will call you back shortly to find a time.",
+    "another": "[AR] Send another request",
+    "whatsapp": "[AR] WhatsApp"
+  },
+  "RoomsBand": {
+    "eyebrow": "[AR] For doctors & organizations",
+    "title": "[AR] Practice from our clinic. Four consultation rooms available.",
+    "titleShort": "[AR] Four consultation rooms available to rent.",
+    "lead": "[AR] Furnished consultation rooms in the Delta Building, Louran — with reception and a waiting area already running. Rent one room or several, by the half-day, the day or the month.",
+    "leadShort": "[AR] Furnished rooms with reception and a waiting area — by the half-day, day or month.",
+    "bullets": {
+      "furnished": "[AR] Furnished, ready to use",
+      "reception": "[AR] Reception & waiting area",
+      "terms": "[AR] Half-day, daily or monthly",
+      "location": "[AR] Central Alexandria location"
+    },
+    "cta": "[AR] See rooms & availability",
+    "photoRoom2": "[AR] Photo · Room 2",
+    "photoRoom2Alt": "[AR] Photo placeholder: consultation room",
+    "room3": "[AR] Room 3",
+    "reception": "[AR] Reception",
+    "available": "[AR] Available"
+  },
+  "Advice": {
+    "eyebrow": "[AR] Medical advice",
+    "title": "[AR] From Dr. Karam's desk",
+    "all": "[AR] All articles",
+    "imageAlt": "[AR] Article image placeholder",
+    "date": "[AR] [Date]",
+    "categories": {
+      "nutrition": "[AR] Nutrition",
+      "procedures": "[AR] Procedures",
+      "recovery": "[AR] Recovery"
+    },
+    "items": {
+      "a1": "[AR] [Article title — e.g. eating in the first month after a sleeve]",
+      "a2": "[AR] [Article title — e.g. sleeve or bypass: how we decide]",
+      "a3": "[AR] [Article title — e.g. getting back to exercise safely]"
+    }
+  },
+  "Footer": {
+    "tagline": "[AR] Bariatric and metabolic surgery with a full specialist team, in Alexandria.",
+    "visit": "[AR] Visit",
+    "contact": "[AR] Contact",
+    "explore": "[AR] Explore",
+    "follow": "[AR] Follow",
+    "openInMaps": "[AR] Open in Google Maps",
+    "procedures": "[AR] Procedures",
+    "book": "[AR] Book an appointment",
+    "rooms": "[AR] Room rental",
+    "advice": "[AR] Medical advice",
+    "copyright": "[AR] © {year} Delta Bariatric Center. All rights reserved.",
+    "copyrightShort": "[AR] © {year} Delta Bariatric Center",
+    "privacy": "[AR] Privacy",
+    "medicalDisclaimer": "[AR] Medical disclaimer",
+    "rentalTerms": "[AR] Rental terms",
+    "whatsapp": "[AR] WhatsApp"
+  },
+  "Sticky": {
+    "call": "[AR] Call the clinic",
+    "whatsapp": "[AR] WhatsApp",
+    "book": "[AR] Book"
+  },
+  "Breadcrumb": {
+    "label": "[AR] Breadcrumb",
+    "home": "[AR] Home"
+  },
+  "BookPage": {
+    "crumb": "[AR] Book an appointment",
+    "title": "[AR] Book an appointment",
+    "lead": "[AR] Tell us what you need and when suits you. We will call or WhatsApp you within [X working hours] to confirm the exact time.",
+    "steps": {
+      "reason": "[AR] What is the visit for?",
+      "who": "[AR] Who would you like to see?",
+      "when": "[AR] When suits you?",
+      "details": "[AR] Your details"
+    },
+    "reasons": {
+      "first": {
+        "title": "[AR] First consultation",
+        "desc": "[AR] New patient — assessment and options"
+      },
+      "follow": {
+        "title": "[AR] Follow-up visit",
+        "desc": "[AR] For patients after surgery or a balloon"
+      },
+      "second": {
+        "title": "[AR] Second opinion",
+        "desc": "[AR] You were advised surgery elsewhere"
+      },
+      "support": {
+        "title": "[AR] Nutrition or psychology",
+        "desc": "[AR] A session with our dietitian or psychologist"
+      }
+    },
+    "department": "[AR] Department",
+    "departments": {
+      "bariatricSurgery": "[AR] Bariatric surgery — Dr. Karam",
+      "bariatricMedicine": "[AR] Bariatric medicine",
+      "clinicalNutrition": "[AR] Clinical nutrition",
+      "psychology": "[AR] Psychology",
+      "physiotherapy": "[AR] Physiotherapy",
+      "plasticSurgery": "[AR] Plastic surgery",
+      "dermatology": "[AR] Dermatology"
+    },
+    "procedure": "[AR] Procedure of interest",
+    "procedures": {
+      "unsure": "[AR] Not sure yet",
+      "sleeve": "[AR] Sleeve gastrectomy",
+      "bypass": "[AR] Gastric bypass",
+      "plication": "[AR] Gastric plication",
+      "balloon": "[AR] Gastric balloon"
+    },
+    "preferredDate": "[AR] Preferred date",
+    "secondDate": "[AR] Second choice",
+    "timeOfDay": "[AR] Time of day",
+    "times": {
+      "morning": {
+        "label": "[AR] Morning",
+        "hours": "[AR] [09–12]"
+      },
+      "afternoon": {
+        "label": "[AR] Afternoon",
+        "hours": "[AR] [12–16]"
+      },
+      "evening": {
+        "label": "[AR] Evening",
+        "hours": "[AR] [16–21]"
+      }
+    },
+    "name": "[AR] Full name",
+    "phone": "[AR] Phone / WhatsApp",
+    "phonePlaceholder": "[AR] +20 1XX XXX XXXX",
+    "email": "[AR] Email",
+    "age": "[AR] Age",
+    "bmiIntro": "[AR] <strong>Optional — helps us prepare.</strong> Your height and weight let the team estimate your BMI before you arrive.",
+    "height": "[AR] Height (cm)",
+    "weight": "[AR] Weight (kg)",
+    "notes": "[AR] Anything we should know?",
+    "notesPlaceholder": "[AR] Previous surgery, medical conditions, questions…",
+    "consent": "[AR] I agree that Delta Bariatric Center may contact me about this request. See our <link>privacy policy</link>.",
+    "submit": "[AR] Send request",
+    "submitting": "[AR] Sending…",
+    "submitNote": "[AR] This is a request — your time is confirmed once we call you.",
+    "success": {
+      "title": "[AR] Request received",
+      "body": "[AR] Thank you. We will call or WhatsApp you within [X working hours] to confirm your appointment time.",
+      "home": "[AR] Back to home",
+      "again": "[AR] Make another request"
+    },
+    "next": {
+      "title": "[AR] What happens next",
+      "steps": {
+        "confirm": {
+          "title": "[AR] We confirm your time",
+          "desc": "[AR] By phone or WhatsApp, usually within [X working hours]."
+        },
+        "visit": {
+          "title": "[AR] Your consultation",
+          "desc": "[AR] Bring any recent tests, scans and the list of medicines you take."
+        },
+        "plan": {
+          "title": "[AR] Your personal plan",
+          "desc": "[AR] Options, preparation steps and costs — explained before you decide."
+        }
+      },
+      "feeLabel": "[AR] Consultation fee",
+      "fee": "[AR] [EGP 000]"
+    },
+    "talk": {
+      "title": "[AR] Prefer to talk?",
+      "whatsapp": "[AR] WhatsApp us"
+    },
+    "emergency": "[AR] <strong>Already had surgery and feeling unwell?</strong> Don't use this form — call {line} or go to the nearest emergency department."
+  },
+  "RoomsPage": {
+    "crumb": "[AR] Room rental",
+    "eyebrow": "[AR] For doctors & organizations",
+    "title": "[AR] Your practice, in a clinic that already runs.",
+    "lead": "[AR] Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month.",
+    "ctaAvailability": "[AR] Check availability",
+    "ctaCall": "[AR] Call to arrange a visit",
+    "heroPhoto": "[AR] Photo · Reception & waiting area",
+    "heroPhotoAlt": "[AR] Photo placeholder: clinic reception",
+    "stats": {
+      "rooms": {
+        "value": "[AR] 4",
+        "label": "[AR] rooms available"
+      },
+      "size": {
+        "value": "[AR] [00] m²",
+        "label": "[AR] per room"
+      },
+      "floor": {
+        "value": "[AR] [Floor X]",
+        "label": "[AR] Delta Building"
+      }
+    },
+    "rooms": {
+      "eyebrow": "[AR] The rooms",
+      "title": "[AR] Pick the rooms you need.",
+      "aside": "[AR] Select one or more rooms — your choice is carried into the inquiry form below.",
+      "planNote": "[AR] Illustrative layout — replace with the real floor plan",
+      "legend": {
+        "available": "[AR] Available",
+        "selected": "[AR] Selected",
+        "inUse": "[AR] In use by DBC"
+      },
+      "waitingArea": "[AR] Waiting area",
+      "shared": "[AR] Shared",
+      "corridor": "[AR] Corridor",
+      "reception": "[AR] Reception · Entrance",
+      "roomName": "[AR] Room {number}",
+      "status": {
+        "available": "[AR] Available",
+        "selected": "[AR] Selected",
+        "inUse": "[AR] In use",
+        "inUseLong": "[AR] In use by DBC"
+      },
+      "ariaInUse": "[AR] {name}, in use by Delta Bariatric Center",
+      "ariaSelected": "[AR] {name}, selected",
+      "ariaAvailable": "[AR] {name}, available",
+      "photoAlt": "[AR] Room photo placeholder",
+      "ownSize": "[AR] Dr. Karam's consultation room",
+      "ownFeatures": "[AR] Reserved for Delta Bariatric Center patients.",
+      "size": "[AR] [00] m² · [window / no window]",
+      "features": "[AR] [Desk · Exam bed · Sink · Screen]",
+      "select": "[AR] Select room",
+      "selected": "[AR] Selected",
+      "notForRent": "[AR] Not for rent"
+    },
+    "included": {
+      "eyebrow": "[AR] Every rental includes",
+      "title": "[AR] Arrive, see patients, leave. We handle the rest.",
+      "items": {
+        "furnished": {
+          "title": "[AR] Furnished room",
+          "desc": "[AR] [Desk, chairs, examination bed, sink — confirm list]"
+        },
+        "reception": {
+          "title": "[AR] Reception & check-in",
+          "desc": "[AR] Our front desk welcomes your patients and lets you know when they arrive."
+        },
+        "waiting": {
+          "title": "[AR] Shared waiting area",
+          "desc": "[AR] A calm, air-conditioned space for your patients."
+        },
+        "utilities": {
+          "title": "[AR] Wi-Fi & utilities",
+          "desc": "[AR] Electricity, water, internet and air conditioning — all in the price."
+        },
+        "cleaning": {
+          "title": "[AR] Cleaning",
+          "desc": "[AR] Rooms cleaned and prepared between sessions."
+        },
+        "location": {
+          "title": "[AR] Central location",
+          "desc": "[AR] On Al Horreya Road, Louran — easy for patients across Alexandria to reach."
+        }
+      }
+    },
+    "pricing": {
+      "eyebrow": "[AR] Flexible terms",
+      "title": "[AR] Pay for the time you use.",
+      "badge": "[AR] For regular clinics",
+      "tiers": {
+        "halfDay": {
+          "title": "[AR] Half-day",
+          "desc": "[AR] One [4-hour] session — ideal for trying the space or occasional clinics.",
+          "price": "[AR] [EGP 000]",
+          "unit": "[AR] / session"
+        },
+        "fullDay": {
+          "title": "[AR] Full day",
+          "desc": "[AR] The room for the whole working day, [00:00–00:00].",
+          "price": "[AR] [EGP 000]",
+          "unit": "[AR] / day"
+        },
+        "monthly": {
+          "title": "[AR] Monthly",
+          "desc": "[AR] Your fixed weekly slots, reserved every week of the month.",
+          "price": "[AR] [EGP 0,000]",
+          "unit": "[AR] / month"
+        }
+      }
+    },
+    "inquiry": {
+      "eyebrow": "[AR] Rental inquiry",
+      "title": "[AR] Tell us how you would like to use the space.",
+      "lead": "[AR] We reply within [X working days] with availability and a quote. Visits to see the rooms can be arranged any working day.",
+      "selectionTitle": "[AR] Your selection",
+      "noSelection": "[AR] No room selected yet — <link>choose above</link>, or leave it to us.",
+      "org": "[AR] Doctor or organization",
+      "specialty": "[AR] Specialty",
+      "specialtyPlaceholder": "[AR] e.g. Endocrinology",
+      "phone": "[AR] Phone / WhatsApp",
+      "email": "[AR] Email",
+      "rentalType": "[AR] Rental type",
+      "rentalTypes": {
+        "monthly": "[AR] Monthly — fixed weekly slots",
+        "fullDay": "[AR] Full day",
+        "halfDay": "[AR] Half-day",
+        "unsure": "[AR] Not sure yet"
+      },
+      "startDate": "[AR] Start date",
+      "days": "[AR] Which days?",
+      "dayNames": {
+        "sat": "[AR] Sat",
+        "sun": "[AR] Sun",
+        "mon": "[AR] Mon",
+        "tue": "[AR] Tue",
+        "wed": "[AR] Wed",
+        "thu": "[AR] Thu",
+        "fri": "[AR] Fri"
+      },
+      "slot": "[AR] Which part of the day?",
+      "slots": {
+        "morning": "[AR] Morning",
+        "afternoon": "[AR] Afternoon",
+        "evening": "[AR] Evening",
+        "full": "[AR] Full day"
+      },
+      "message": "[AR] Anything else?",
+      "messagePlaceholder": "[AR] Equipment you need, expected number of patients…",
+      "submit": "[AR] Send inquiry",
+      "submitting": "[AR] Sending…",
+      "submitNote": "[AR] No commitment — we reply with availability and a quote.",
+      "success": {
+        "title": "[AR] Inquiry sent",
+        "body": "[AR] Thank you. We will get back to you within [X working days] with availability and pricing.",
+        "edit": "[AR] Edit my inquiry"
+      }
+    }
+  },
+  "Forms": {
+    "required": "[AR] Please fill in this field.",
+    "name": "[AR] Please enter your full name.",
+    "phone": "[AR] Please enter a valid phone number.",
+    "email": "[AR] Please enter a valid email address.",
+    "age": "[AR] Please enter an age between 12 and 99.",
+    "number": "[AR] Please enter a valid number.",
+    "date": "[AR] Please choose a date.",
+    "consent": "[AR] Please agree so we can contact you.",
+    "rateLimited": "[AR] You have sent several requests in a short time. Please wait a few minutes and try again, or call us.",
+    "failed": "[AR] We could not send your request. Please try again, or call us on {phone}.",
+    "invalid": "[AR] Please check the highlighted fields.",
+    "errorTitle": "[AR] Something needs your attention"
+  },
+  "NotFound": {
+    "title": "[AR] Page not found",
+    "body": "[AR] The page you are looking for does not exist or has moved.",
+    "home": "[AR] Back to home"
+  }
+}

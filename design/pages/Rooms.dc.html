@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Delta Bariatric Center — Room rental</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;family=Sora:wght@500;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#127379}a:hover{color:#0B3A6A}
+.nav-links{display:flex}
+.burger{display:none}
+.mobile-menu{display:none}
+@media (max-width: 1020px){
+  .nav-links{display:none}
+  .nav-cta{display:none}
+  .burger{display:flex}
+  .mobile-menu{display:flex}
+  .util-hide{display:none}
+}
+</style>
+</helmet>
+<div style="font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', sans-serif; color: #23364A; font-size: 17px; line-height: 1.6; background: #FFFFFF">
+
+  <!-- Utility bar -->
+  <div style="background: #0A2E55; color: #DCE7F2; font-size: 14px">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 10px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px">
+        <span style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5FC3C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>713 Al Horreya Road, Delta Building, Louran, Alexandria</span>
+        <span class="util-hide" style="display: flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5FC3C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>[Sat–Thu · 00:00–00:00]</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 20px">
+        <a href="tel:+201044764787" style="color: #FFFFFF; text-decoration: none; font-weight: 600">+20 104 476 4787</a>
+        <div role="group" aria-label="Language" style="display: flex; background: rgba(255,255,255,.08); border-radius: 999px; padding: 3px; gap: 2px">
+          <button type="button" style="border: 0; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; padding: 5px 12px; border-radius: 999px; min-height: 30px; background: #FFFFFF; color: #0A2E55">EN</button>
+          <button type="button" style="border: 0; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; padding: 5px 12px; border-radius: 999px; min-height: 30px; background: transparent; color: #DCE7F2">عربي</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header style="background: #FFFFFF; border-bottom: 1px solid #E2EBEF">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 18px 32px; display: flex; align-items: center; justify-content: space-between; gap: 24px">
+      <a href="Main.dc.html" style="display: flex; align-items: center; gap: 14px; text-decoration: none" aria-label="Delta Bariatric Center — home">
+        <img src="../assets/logo-mark.png" alt="" style="width: 52px; height: 52px; object-fit: contain">
+        <span style="display: flex; flex-direction: column; line-height: 1">
+          <span style="font-family: 'Sora', sans-serif; font-weight: 700; font-size: 24px; letter-spacing: .1em; color: #0B3A6A">DELTA</span>
+          <span style="font-size: 10.5px; font-weight: 700; letter-spacing: .3em; color: #127379; margin-top: 6px">BARIATRIC CENTER</span>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Main" style="align-items: center; gap: 32px; font-size: 16px; font-weight: 500">
+        <a href="Main.dc.html#doctor" style="color: #23364A; text-decoration: none">Dr. Karam</a>
+        <a href="Main.dc.html#procedures" style="color: #23364A; text-decoration: none">Procedures</a>
+        <a href="Main.dc.html#team" style="color: #23364A; text-decoration: none">Our team</a>
+        <a href="Main.dc.html#stories" style="color: #23364A; text-decoration: none">Patient stories</a>
+        <a href="Main.dc.html#advice" style="color: #23364A; text-decoration: none">Medical advice</a>
+        <a href="Rooms.dc.html" aria-current="page" style="color: #0B3A6A; text-decoration: none; font-weight: 700; border-bottom: 2px solid #1A8F97; padding-bottom: 2px">Room rental</a>
+      </nav>
+      <div style="display: flex; align-items: center; gap: 12px">
+        <a class="nav-cta" href="Booking.dc.html" style="background: #0B3A6A; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 16px; padding: 13px 22px; border-radius: 999px; white-space: nowrap">Book a consultation</a>
+        <button type="button" class="burger" onClick="{{ toggleMenu }}" aria-label="Open menu" style="width: 48px; height: 48px; border-radius: 12px; border: 1px solid #D5E1E6; background: #FFFFFF; align-items: center; justify-content: center; cursor: pointer; color: #0B3A6A"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"></path></svg></button>
+      </div>
+    </div>
+    <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+      <nav class="mobile-menu" aria-label="Mobile" style="flex-direction: column; gap: 4px; padding: 8px 24px 24px; border-top: 1px solid #E2EBEF">
+        <a href="Main.dc.html" style="color: #0B3A6A; text-decoration: none; padding: 12px 0; font-weight: 600">Home</a>
+        <a href="Main.dc.html#procedures" style="color: #0B3A6A; text-decoration: none; padding: 12px 0; font-weight: 600">Procedures</a>
+        <a href="Booking.dc.html" style="color: #0B3A6A; text-decoration: none; padding: 12px 0; font-weight: 600">Book a consultation</a>
+      </nav>
+    </sc-if>
+  </header>
+
+  <!-- Hero -->
+  <section style="position: relative; overflow: hidden; background: #0A2E55; color: #FFFFFF">
+    <img src="../assets/logo-mark-white.png" alt="" aria-hidden="true" style="position: absolute; left: -160px; bottom: -220px; width: 560px; height: 560px; object-fit: contain; opacity: .05">
+    <div style="position: relative; max-width: 1240px; margin: 0 auto; padding: 88px 32px 96px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: 64px; align-items: center">
+      <div style="display: flex; flex-direction: column; gap: 26px">
+        <nav aria-label="Breadcrumb" style="font-size: 14px; color: #9FB4CA; display: flex; gap: 8px"><a href="Main.dc.html" style="color: #9FB4CA">Home</a><span aria-hidden="true">/</span><span>Room rental</span></nav>
+        <span style="font-size: 14px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #8FD3D8">For doctors &amp; organizations</span>
+        <h1 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: clamp(38px, 4.4vw, 60px); line-height: 1.06; letter-spacing: -0.025em; text-wrap: balance">Your practice, in a clinic that already runs.</h1>
+        <p style="margin: 0; font-size: 19px; color: #C9D8E7; max-width: 520px; text-wrap: pretty">Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 14px">
+          <a href="#inquiry" style="display: flex; align-items: center; gap: 10px; background: #FFFFFF; color: #0A2E55; text-decoration: none; font-weight: 600; font-size: 17px; padding: 16px 26px; border-radius: 999px">Check availability<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+          <a href="tel:+201044764787" style="display: flex; align-items: center; gap: 10px; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 17px; padding: 15px 24px; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.35)">Call to arrange a visit</a>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 16px">
+        <div role="img" aria-label="Photo placeholder: clinic reception" style="height: 340px; border-radius: 28px; background: repeating-linear-gradient(135deg, #16406B 0 14px, #12385F 14px 28px); display: flex; align-items: center; justify-content: center"><span style="background: rgba(255,255,255,.12); color: #DCE7F2; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 7px 14px; border-radius: 999px">Photo · Reception &amp; waiting area</span></div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px">
+          <div style="background: rgba(255,255,255,.07); border-radius: 18px; padding: 18px 20px; display: flex; flex-direction: column"><strong style="font-family: 'Sora', sans-serif; font-size: 26px">4</strong><span style="font-size: 14px; color: #C9D8E7">rooms available</span></div>
+          <div style="background: rgba(255,255,255,.07); border-radius: 18px; padding: 18px 20px; display: flex; flex-direction: column"><strong style="font-family: 'Sora', sans-serif; font-size: 26px">[00] m²</strong><span style="font-size: 14px; color: #C9D8E7">per room</span></div>
+          <div style="background: rgba(255,255,255,.07); border-radius: 18px; padding: 18px 20px; display: flex; flex-direction: column"><strong style="font-family: 'Sora', sans-serif; font-size: 26px">[Floor X]</strong><span style="font-size: 14px; color: #C9D8E7">Delta Building</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rooms -->
+  <section id="rooms" style="background: #FFFFFF">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-direction: column; gap: 44px">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+        <div style="display: flex; flex-direction: column; gap: 16px; max-width: 640px">
+          <span style="font-size: 14px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #127379">The rooms</span>
+          <h2 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: clamp(32px, 3.4vw, 46px); line-height: 1.12; letter-spacing: -0.02em; color: #0A2E55">Pick the rooms you need.</h2>
+        </div>
+        <p style="margin: 0; max-width: 420px; color: #4F6175">Select one or more rooms — your choice is carried into the inquiry form below.</p>
+      </div>
+
+      <!-- Floor plan -->
+      <div style="background: #F6F9FA; border: 1px solid #E2EBEF; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #4F6175">Illustrative layout — replace with the real floor plan</span>
+          <div style="display: flex; flex-wrap: wrap; gap: 18px; font-size: 14px; color: #3F5468">
+            <span style="display: flex; align-items: center; gap: 8px"><span style="width: 14px; height: 14px; border-radius: 4px; background: #FFFFFF; border: 1.5px solid #9DB6C6"></span>Available</span>
+            <span style="display: flex; align-items: center; gap: 8px"><span style="width: 14px; height: 14px; border-radius: 4px; background: #1A8F97"></span>Selected</span>
+            <span style="display: flex; align-items: center; gap: 8px"><span style="width: 14px; height: 14px; border-radius: 4px; background: repeating-linear-gradient(135deg, #C6D3DE 0 4px, #DCE5EC 4px 8px)"></span>In use by DBC</span>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px; overflow-x: auto">
+          <div style="display: grid; grid-template-columns: repeat(5, minmax(120px, 1fr)) minmax(180px, 1.4fr); gap: 10px; min-width: 860px">
+            <sc-for list="{{ rooms }}" as="r" hint-placeholder-count="5">
+              <button type="button" onClick="{{ r.toggle }}" disabled="{{ r.taken }}" aria-pressed="{{ r.pressed }}" aria-label="{{ r.aria }}" style="{{ r.planStyle }}"><strong style="font-family: 'Sora', sans-serif; font-size: 16px">{{ r.name }}</strong><span style="font-size: 13px">{{ r.planNote }}</span></button>
+            </sc-for>
+            <div style="height: 150px; border-radius: 14px; background: #E6F2F3; border: 1.5px dashed #9CC9CD; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #0E5E63"><strong style="font-family: 'Sora', sans-serif; font-size: 16px">Waiting area</strong><span style="font-size: 13px">Shared</span></div>
+          </div>
+          <div style="display: grid; grid-template-columns: 5fr 1.4fr; gap: 10px; min-width: 860px">
+            <div style="height: 54px; border-radius: 14px; background: #EAF0F4; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #4F6175">Corridor</div>
+            <div style="height: 54px; border-radius: 14px; background: #0A2E55; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700">Reception · Entrance</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Room cards -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr)); gap: 18px">
+        <sc-for list="{{ rooms }}" as="r" hint-placeholder-count="5">
+          <article style="{{ r.cardStyle }}">
+            <div role="img" aria-label="Room photo placeholder" style="height: 150px; background: repeating-linear-gradient(135deg, #E3EEF1 0 14px, #D9E6EA 14px 28px); display: flex; align-items: flex-end; padding: 12px"><span style="{{ r.badgeStyle }}">{{ r.badge }}</span></div>
+            <div style="padding: 20px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+              <h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 20px; color: #0A2E55">{{ r.name }}</h3>
+              <span style="font-size: 15px; color: #4F6175">{{ r.size }}</span>
+              <span style="font-size: 15px; color: #4F6175; flex-grow: 1">{{ r.features }}</span>
+              <sc-if value="{{ r.available }}" hint-placeholder-val="{{ true }}">
+                <button type="button" onClick="{{ r.toggle }}" aria-pressed="{{ r.pressed }}" style="{{ r.btnStyle }}">{{ r.btnLabel }}</button>
+              </sc-if>
+              <sc-if value="{{ r.taken }}" hint-placeholder-val="{{ false }}">
+                <span style="height: 46px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: #EEF2F5; color: #4F6175; font-size: 15px; font-weight: 600">Not for rent</span>
+              </sc-if>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- Included -->
+  <section style="background: #EFF6F6">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-direction: column; gap: 48px">
+      <div style="display: flex; flex-direction: column; gap: 16px; max-width: 640px">
+        <span style="font-size: 14px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #127379">Every rental includes</span>
+        <h2 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: clamp(32px, 3.4vw, 46px); line-height: 1.12; letter-spacing: -0.02em; color: #0A2E55; text-wrap: balance">Arrive, see patients, leave. We handle the rest.</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 18px">
+        <div style="background: #FFFFFF; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="width: 48px; height: 48px; border-radius: 14px; background: #E6F2F3; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#127379" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"></rect><path d="M7 20h10M12 16v4"></path></svg></span><h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 19px; color: #0A2E55">Furnished room</h3><p style="margin: 0; font-size: 16px; color: #4F6175">[Desk, chairs, examination bed, sink — confirm list]</p></div>
+        <div style="background: #FFFFFF; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="width: 48px; height: 48px; border-radius: 14px; background: #E6F2F3; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#127379" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></span><h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 19px; color: #0A2E55">Reception &amp; check-in</h3><p style="margin: 0; font-size: 16px; color: #4F6175">Our front desk welcomes your patients and lets you know when they arrive.</p></div>
+        <div style="background: #FFFFFF; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="width: 48px; height: 48px; border-radius: 14px; background: #E6F2F3; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#127379" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10h18v8H3z"></path><path d="M5 10V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3M5 18v2M19 18v2"></path></svg></span><h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 19px; color: #0A2E55">Shared waiting area</h3><p style="margin: 0; font-size: 16px; color: #4F6175">A calm, air-conditioned space for your patients.</p></div>
+        <div style="background: #FFFFFF; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="width: 48px; height: 48px; border-radius: 14px; background: #E6F2F3; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#127379" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.55a11 11 0 0 1 14 0M8.5 16.05a6 6 0 0 1 7 0M2 9a16 16 0 0 1 20 0"></path><circle cx="12" cy="20" r="1"></circle></svg></span><h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 19px; color: #0A2E55">Wi-Fi &amp; utilities</h3><p style="margin: 0; font-size: 16px; color: #4F6175">Electricity, water, internet and air conditioning — all in the price.</p></div>
+        <div style="background: #FFFFFF; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="width: 48px; height: 48px; border-radius: 14px; background: #E6F2F3; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#127379" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"></path></svg></span><h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 19px; color: #0A2E55">Cleaning</h3><p style="margin: 0; font-size: 16px; color: #4F6175">Rooms cleaned and prepared between sessions.</p></div>
+        <div style="background: #FFFFFF; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 10px"><span style="width: 48px; height: 48px; border-radius: 14px; background: #E6F2F3; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#127379" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span><h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 19px; color: #0A2E55">Central location</h3><p style="margin: 0; font-size: 16px; color: #4F6175">On Al Horreya Road, Louran — easy for patients across Alexandria to reach.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section style="background: #FFFFFF">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-direction: column; gap: 48px">
+      <div style="display: flex; flex-direction: column; gap: 16px; max-width: 640px">
+        <span style="font-size: 14px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #127379">Flexible terms</span>
+        <h2 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: clamp(32px, 3.4vw, 46px); line-height: 1.12; letter-spacing: -0.02em; color: #0A2E55">Pay for the time you use.</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 20px; align-items: stretch">
+        <div style="border: 1px solid #DCE6EB; border-radius: 26px; padding: 34px; display: flex; flex-direction: column; gap: 16px">
+          <h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 21px; color: #0A2E55">Half-day</h3>
+          <p style="margin: 0; font-size: 16px; color: #4F6175">One [4-hour] session — ideal for trying the space or occasional clinics.</p>
+          <div style="display: flex; align-items: baseline; gap: 8px; margin-top: auto"><strong style="font-family: 'Sora', sans-serif; font-size: 34px; color: #0A2E55">[EGP 000]</strong><span style="color: #4F6175">/ session</span></div>
+        </div>
+        <div style="border: 1px solid #DCE6EB; border-radius: 26px; padding: 34px; display: flex; flex-direction: column; gap: 16px">
+          <h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 21px; color: #0A2E55">Full day</h3>
+          <p style="margin: 0; font-size: 16px; color: #4F6175">The room for the whole working day, [00:00–00:00].</p>
+          <div style="display: flex; align-items: baseline; gap: 8px; margin-top: auto"><strong style="font-family: 'Sora', sans-serif; font-size: 34px; color: #0A2E55">[EGP 000]</strong><span style="color: #4F6175">/ day</span></div>
+        </div>
+        <div style="position: relative; background: #0A2E55; color: #FFFFFF; border-radius: 26px; padding: 34px; display: flex; flex-direction: column; gap: 16px">
+          <span style="position: absolute; top: 24px; right: 24px; background: #8FD3D8; color: #0A2E55; font-size: 13px; font-weight: 700; padding: 5px 12px; border-radius: 999px">For regular clinics</span>
+          <h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 21px">Monthly</h3>
+          <p style="margin: 0; font-size: 16px; color: #C9D8E7">Your fixed weekly slots, reserved every week of the month.</p>
+          <div style="display: flex; align-items: baseline; gap: 8px; margin-top: auto"><strong style="font-family: 'Sora', sans-serif; font-size: 34px">[EGP 0,000]</strong><span style="color: #C9D8E7">/ month</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inquiry -->
+  <section id="inquiry" style="background: #F6F9FA; border-top: 1px solid #E2EBEF">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+      <div style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+        <span style="font-size: 14px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #127379">Rental inquiry</span>
+        <h2 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: clamp(32px, 3.4vw, 44px); line-height: 1.12; letter-spacing: -0.02em; color: #0A2E55">Tell us how you would like to use the space.</h2>
+        <p style="margin: 0; color: #3F5468">We reply within [X working days] with availability and a quote. Visits to see the rooms can be arranged any working day.</p>
+        <div style="background: #FFFFFF; border: 1px solid #E2EBEF; border-radius: 22px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #4F6175">Your selection</span>
+          <sc-if value="{{ hasSelection }}" hint-placeholder-val="{{ true }}">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px">
+              <sc-for list="{{ selectedRooms }}" as="s" hint-placeholder-count="1">
+                <span style="background: #1A8F97; color: #FFFFFF; font-weight: 600; font-size: 15px; padding: 6px 14px; border-radius: 999px">{{ s.name }}</span>
+              </sc-for>
+            </div>
+          </sc-if>
+          <sc-if value="{{ noSelection }}" hint-placeholder-val="{{ false }}">
+            <span style="font-size: 15px; color: #4F6175">No room selected yet — <a href="#rooms">choose above</a>, or leave it to us.</span>
+          </sc-if>
+        </div>
+      </div>
+
+      <div style="flex: 999 1 600px; min-width: 0">
+        <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
+          <form style="background: #FFFFFF; border: 1px solid #E2EBEF; border-radius: 28px; padding: 44px; display: flex; flex-direction: column; gap: 22px">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 18px">
+              <div style="display: flex; flex-direction: column; gap: 8px"><label for="rq-org" style="font-size: 15px; font-weight: 600">Doctor or organization</label><input id="rq-org" type="text" style="height: 52px; padding: 0 16px; border-radius: 14px; border: 1.5px solid #CFDDE4; font: inherit; font-size: 16px; color: #23364A; background: #FFFFFF"></div>
+              <div style="display: flex; flex-direction: column; gap: 8px"><label for="rq-spec" style="font-size: 15px; font-weight: 600">Specialty</label><input id="rq-spec" type="text" placeholder="e.g. Endocrinology" style="height: 52px; padding: 0 16px; border-radius: 14px; border: 1.5px solid #CFDDE4; font: inherit; font-size: 16px; color: #23364A; background: #FFFFFF"></div>
+              <div style="display: flex; flex-direction: column; gap: 8px"><label for="rq-phone" style="font-size: 15px; font-weight: 600">Phone / WhatsApp</label><input id="rq-phone" type="tel" style="height: 52px; padding: 0 16px; border-radius: 14px; border: 1.5px solid #CFDDE4; font: inherit; font-size: 16px; color: #23364A; background: #FFFFFF"></div>
+              <div style="display: flex; flex-direction: column; gap: 8px"><label for="rq-email" style="font-size: 15px; font-weight: 600">Email</label><input id="rq-email" type="email" style="height: 52px; padding: 0 16px; border-radius: 14px; border: 1.5px solid #CFDDE4; font: inherit; font-size: 16px; color: #23364A; background: #FFFFFF"></div>
+              <div style="display: flex; flex-direction: column; gap: 8px"><label for="rq-plan" style="font-size: 15px; font-weight: 600">Rental type</label><select id="rq-plan" style="height: 52px; padding: 0 14px; border-radius: 14px; border: 1.5px solid #CFDDE4; font: inherit; font-size: 16px; color: #23364A; background: #FFFFFF"><option>Monthly — fixed weekly slots</option><option>Full day</option><option>Half-day</option><option>Not sure yet</option></select></div>
+              <div style="display: flex; flex-direction: column; gap: 8px"><label for="rq-start" style="font-size: 15px; font-weight: 600">Start date</label><input id="rq-start" type="date" style="height: 52px; padding: 0 14px; border-radius: 14px; border: 1.5px solid #CFDDE4; font: inherit; font-size: 16px; color: #23364A; background: #FFFFFF"></div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 10px">
+              <span id="days-label" style="font-size: 15px; font-weight: 600">Which days?</span>
+              <div role="group" aria-labelledby="days-label" style="display: flex; flex-wrap: wrap; gap: 10px">
+                <sc-for list="{{ days }}" as="d" hint-placeholder-count="7">
+                  <button type="button" onClick="{{ d.toggle }}" aria-pressed="{{ d.pressed }}" style="{{ d.style }}">{{ d.label }}</button>
+                </sc-for>
+              </div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 10px">
+              <span id="slot-label" style="font-size: 15px; font-weight: 600">Which part of the day?</span>
+              <div role="group" aria-labelledby="slot-label" style="display: flex; flex-wrap: wrap; gap: 10px">
+                <sc-for list="{{ slots }}" as="s" hint-placeholder-count="3">
+                  <button type="button" onClick="{{ s.pick }}" aria-pressed="{{ s.pressed }}" style="{{ s.style }}">{{ s.label }}</button>
+                </sc-for>
+              </div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px"><label for="rq-msg" style="font-size: 15px; font-weight: 600">Anything else? <span style="font-weight: 400; color: #4F6175">(optional)</span></label><textarea id="rq-msg" rows="3" placeholder="Equipment you need, expected number of patients…" style="padding: 14px 16px; border-radius: 14px; border: 1.5px solid #CFDDE4; font: inherit; font-size: 16px; color: #23364A; background: #FFFFFF; resize: vertical"></textarea></div>
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; padding-top: 8px">
+              <button type="button" onClick="{{ send }}" style="height: 58px; padding: 0 34px; border: 0; border-radius: 999px; background: #0B3A6A; color: #FFFFFF; font: inherit; font-weight: 600; font-size: 18px; cursor: pointer">Send inquiry</button>
+              <span style="font-size: 15px; color: #4F6175">No commitment — we reply with availability and a quote.</span>
+            </div>
+          </form>
+        </sc-if>
+        <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+          <div role="status" style="background: #FFFFFF; border: 1px solid #E2EBEF; border-radius: 28px; padding: 72px 48px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px">
+            <span style="width: 76px; height: 76px; border-radius: 50%; background: #E6F2F3; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#127379" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span>
+            <h3 style="margin: 0; font-family: 'Sora', sans-serif; font-weight: 600; font-size: 30px; color: #0A2E55">Inquiry sent</h3>
+            <p style="margin: 0; max-width: 440px; color: #3F5468">Thank you. We will get back to you within [X working days] with availability and pricing.</p>
+            <button type="button" onClick="{{ unsend }}" style="background: #FFFFFF; color: #0B3A6A; font: inherit; font-weight: 600; padding: 14px 24px; border-radius: 999px; border: 1.5px solid #B9CEDB; cursor: pointer">Edit my inquiry</button>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (compact) -->
+  <footer style="background: #071F3B; color: #9FB4CA; font-size: 14px">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 32px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+      <div style="display: flex; align-items: center; gap: 12px"><img src="../assets/logo-mark-white.png" alt="" style="width: 32px; height: 32px; object-fit: contain"><span>© 2026 Delta Bariatric Center</span></div>
+      <div style="display: flex; gap: 24px"><a href="#" style="color: #9FB4CA">Privacy</a><a href="#" style="color: #9FB4CA">Rental terms</a></div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4750}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { selected: ['r2'], days: ['sun', 'tue'], slot: 'morning', sent: false, menuOpen: false };
+  }
+  toggleIn(key, id) {
+    const cur = this.state[key];
+    const next = cur.indexOf(id) >= 0 ? cur.filter((x) => x !== id) : cur.concat([id]);
+    this.setState({ [key]: next });
+  }
+  renderVals() {
+    const roomData = [
+      { id: 'r1', name: 'Room 1', taken: true },
+      { id: 'r2', name: 'Room 2', taken: false },
+      { id: 'r3', name: 'Room 3', taken: false },
+      { id: 'r4', name: 'Room 4', taken: false },
+      { id: 'r5', name: 'Room 5', taken: false }
+    ];
+    const sel = this.state.selected;
+    const rooms = roomData.map((r) => {
+      const on = sel.indexOf(r.id) >= 0;
+      const planBase = 'height: 150px; border-radius: 14px; font: inherit; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; transition: background .15s ease;';
+      let planStyle;
+      if (r.taken) planStyle = planBase + ' background: repeating-linear-gradient(135deg, #C6D3DE 0 6px, #DCE5EC 6px 12px); border: 0; color: #2B4257; cursor: not-allowed;';
+      else if (on) planStyle = planBase + ' background: #1A8F97; border: 0; color: #FFFFFF; cursor: pointer;';
+      else planStyle = planBase + ' background: #FFFFFF; border: 1.5px solid #9DB6C6; color: #0A2E55; cursor: pointer;';
+      return {
+        name: r.name,
+        taken: r.taken,
+        available: !r.taken,
+        pressed: on ? 'true' : 'false',
+        aria: r.taken ? r.name + ', in use by Delta Bariatric Center' : r.name + (on ? ', selected' : ', available'),
+        planStyle: planStyle,
+        planNote: r.taken ? 'In use by DBC' : (on ? 'Selected' : 'Available'),
+        size: r.taken ? "Dr. Karam's consultation room" : '[00] m² · [window / no window]',
+        features: r.taken ? 'Reserved for Delta Bariatric Center patients.' : '[Desk · Exam bed · Sink · Screen]',
+        badge: r.taken ? 'In use' : (on ? 'Selected' : 'Available'),
+        badgeStyle: 'font-size: 13px; font-weight: 700; padding: 5px 12px; border-radius: 999px;' + (r.taken ? ' background: #FFFFFF; color: #4F6175;' : (on ? ' background: #1A8F97; color: #FFFFFF;' : ' background: #FFFFFF; color: #0E5E63;')),
+        cardStyle: 'display: flex; flex-direction: column; border-radius: 22px; overflow: hidden; background: #FFFFFF;' + (on ? ' border: 2px solid #1A8F97; box-shadow: 0 18px 40px -22px rgba(26,143,151,.6);' : ' border: 2px solid #E2EBEF;') + (r.taken ? ' opacity: .85;' : ''),
+        btnStyle: 'height: 46px; border-radius: 999px; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;' + (on ? ' background: #1A8F97; color: #FFFFFF; border: 0;' : ' background: #FFFFFF; color: #0B3A6A; border: 1.5px solid #B9CEDB;'),
+        btnLabel: on ? 'Selected' : 'Select room',
+        toggle: () => { if (!r.taken) this.toggleIn('selected', r.id); }
+      };
+    });
+    const dayData = [['sat', 'Sat'], ['sun', 'Sun'], ['mon', 'Mon'], ['tue', 'Tue'], ['wed', 'Wed'], ['thu', 'Thu'], ['fri', 'Fri']];
+    const chip = 'font: inherit; font-size: 16px; font-weight: 600; cursor: pointer; padding: 0 20px; height: 48px; min-width: 64px; border-radius: 999px;';
+    const onChip = chip + ' background: #0B3A6A; color: #FFFFFF; border: 1.5px solid #0B3A6A;';
+    const offChip = chip + ' background: #FFFFFF; color: #0A2E55; border: 1.5px solid #CFDDE4;';
+    const days = dayData.map((d) => {
+      const on = this.state.days.indexOf(d[0]) >= 0;
+      return { label: d[1], pressed: on ? 'true' : 'false', style: on ? onChip : offChip, toggle: () => this.toggleIn('days', d[0]) };
+    });
+    const slots = [['morning', 'Morning'], ['afternoon', 'Afternoon'], ['evening', 'Evening'], ['full', 'Full day']].map((s) => {
+      const on = this.state.slot === s[0];
+      return { label: s[1], pressed: on ? 'true' : 'false', style: on ? onChip : offChip, pick: () => this.setState({ slot: s[0] }) };
+    });
+    const selectedRooms = roomData.filter((r) => sel.indexOf(r.id) >= 0).map((r) => ({ name: r.name }));
+    return {
+      rooms: rooms,
+      days: days,
+      slots: slots,
+      selectedRooms: selectedRooms,
+      hasSelection: selectedRooms.length > 0,
+      noSelection: selectedRooms.length === 0,
+      sent: this.state.sent,
+      notSent: !this.state.sent,
+      send: () => this.setState({ sent: true }),
+      unsend: () => this.setState({ sent: false }),
+      menuOpen: this.state.menuOpen,
+      toggleMenu: () => this.setState({ menuOpen: !this.state.menuOpen })
+    };
+  }
+}
+</script>
+</body>
+</html>

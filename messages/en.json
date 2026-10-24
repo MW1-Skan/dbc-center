@@ -1,0 +1,585 @@
+{
+  "Meta": {
+    "siteName": "Delta Bariatric Center",
+    "home": {
+      "title": "Delta Bariatric Center — Bariatric & metabolic surgery in Alexandria",
+      "description": "Lasting weight loss, with a surgeon and a team who stay with you. Led by Dr. Mohsen Karam, FRCS (UK) — surgery, nutrition, psychology and physiotherapy under one roof in Alexandria, Egypt."
+    },
+    "book": {
+      "title": "Book an appointment — Delta Bariatric Center",
+      "description": "Tell us what you need and when suits you. We will call or WhatsApp you to confirm the exact time of your consultation at Delta Bariatric Center, Alexandria."
+    },
+    "rooms": {
+      "title": "Room rental for doctors & organizations — Delta Bariatric Center",
+      "description": "Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month."
+    },
+    "ogTagline": "Bariatric & metabolic surgery · Alexandria, Egypt"
+  },
+  "Common": {
+    "brandName": "Delta Bariatric Center",
+    "brandWord": "DELTA",
+    "brandSub": "BARIATRIC CENTER",
+    "homeLinkLabel": "Delta Bariatric Center — home",
+    "skipToContent": "Skip to content",
+    "bookConsultation": "Book a consultation",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "optional": "(optional)",
+    "learnMore": "Learn more",
+    "language": "Language",
+    "switchToArabic": "Switch to Arabic",
+    "switchToEnglish": "Switch to English",
+    "mapPlaceholder": "Map placeholder",
+    "map": "Map"
+  },
+  "TopBar": {
+    "address": "713 Al Horreya Road, Delta Building, Louran, Alexandria"
+  },
+  "Nav": {
+    "doctor": "Dr. Karam",
+    "procedures": "Procedures",
+    "team": "Our team",
+    "stories": "Patient stories",
+    "advice": "Medical advice",
+    "rooms": "Room rental",
+    "home": "Home",
+    "book": "Book a consultation",
+    "mainLabel": "Main",
+    "mobileLabel": "Mobile",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Hero": {
+    "eyebrow": "Bariatric & metabolic surgery · Alexandria, Egypt",
+    "eyebrowShort": "Bariatric surgery · Alexandria",
+    "title": "Lasting weight loss, with a surgeon and a team who stay with you.",
+    "lead": "Led by Dr. Mohsen Karam, FRCS (UK), Delta Bariatric Center brings surgery, nutrition, psychology and physiotherapy together under one roof — so every step of your journey is planned, not improvised.",
+    "leadShort": "Led by Dr. Mohsen Karam, FRCS (UK) — surgery, nutrition, psychology and physiotherapy under one roof.",
+    "ctaBook": "Book a consultation",
+    "ctaWhatsapp": "Message us on WhatsApp",
+    "ctaWhatsappShort": "WhatsApp us",
+    "photoLabel": "Photo · Dr. Karam with patient",
+    "photoLabelShort": "Photo · Dr. Karam",
+    "photoAlt": "Photo placeholder: Dr. Karam with a patient",
+    "stats": {
+      "procedures": {
+        "value": "[0,000+]",
+        "label": "procedures performed",
+        "labelShort": "procedures"
+      },
+      "years": {
+        "value": "[00] yrs",
+        "label": "in bariatric surgery",
+        "labelShort": "experience"
+      },
+      "departments": {
+        "value": "7",
+        "label": "specialist departments",
+        "labelShort": "departments"
+      }
+    },
+    "credentialName": "Dr. Mohsen Karam",
+    "credentialSub": "FRCS · Royal College of Surgeons, UK"
+  },
+  "Trust": {
+    "label": "Trained & accredited",
+    "sectionLabel": "Training and memberships",
+    "items": {
+      "frcs": "<strong>FRCS</strong> · Royal College of Surgeons, UK",
+      "ifso": "<strong>IFSO</strong> member",
+      "asmbs": "<strong>ASMBS</strong> member",
+      "ifsoAsmbs": "<strong>IFSO</strong> & <strong>ASMBS</strong> member",
+      "strasbourg": "Advanced Laparoscopy · <strong>Univ. of Strasbourg</strong>",
+      "qatar": "Bariatric Fellowship · <strong>Qatar Metabolic Institute</strong>"
+    }
+  },
+  "Procedures": {
+    "eyebrow": "Procedures",
+    "title": "The right procedure for your body — not a one-size plan.",
+    "titleShort": "The right procedure for your body.",
+    "aside": "Every patient starts with a full assessment. Together, we choose the option that fits your health, your goals and your life.",
+    "illustration": "Illustration",
+    "illustrationAlt": "Illustration placeholder",
+    "kinds": {
+      "laparoscopic": "Laparoscopic",
+      "nonSurgical": "Non-surgical"
+    },
+    "items": {
+      "sleeve": {
+        "name": "Sleeve gastrectomy",
+        "desc": "Removes the larger part of the stomach, reducing how much you can eat and the hunger hormone it produces.",
+        "descShort": "Removes the larger part of the stomach to reduce appetite and intake.",
+        "meta": "Stay [X days] · Back to work [X weeks]"
+      },
+      "bypass": {
+        "name": "Gastric bypass",
+        "desc": "Full or partial (mini) bypass: a small stomach pouch is connected directly to the small intestine.",
+        "descShort": "Full or partial bypass — a small pouch joined to the small intestine.",
+        "meta": "Stay [X days] · Back to work [X weeks]"
+      },
+      "plication": {
+        "name": "Gastric plication",
+        "desc": "The stomach is folded inward and stitched to reduce its volume — no part of the stomach is removed.",
+        "descShort": "The stomach is folded and stitched — nothing is removed.",
+        "meta": "Stay [X days] · Back to work [X weeks]"
+      },
+      "balloon": {
+        "name": "Gastric balloon",
+        "desc": "A soft balloon placed by endoscopy for a set period — a first step for patients who need moderate weight loss.",
+        "descShort": "Placed by endoscopy for a set period, no surgery.",
+        "meta": "Same-day · Balloon kept [X months]"
+      }
+    },
+    "learnMore": "Learn more",
+    "notSure": "Not sure which one fits you? That is exactly what the first consultation is for.",
+    "notSureCta": "Book a consultation"
+  },
+  "Departments": {
+    "eyebrow": "One center, every specialist",
+    "title": "Seven departments. One plan, built around you.",
+    "lead": "Surgery is one day. Success is the year that follows. Your surgeon, dietitian, psychologist and physiotherapist work from the same file, in the same building — and see you at every stage.",
+    "photoLabel": "Photo · The care team",
+    "photoAlt": "Photo placeholder: the care team",
+    "items": {
+      "bariatricSurgery": {
+        "name": "Bariatric surgery",
+        "desc": "Assessment, surgery and surgical follow-up with Dr. Karam."
+      },
+      "bariatricMedicine": {
+        "name": "Bariatric medicine",
+        "desc": "Medical preparation before surgery and monitoring after it."
+      },
+      "clinicalNutrition": {
+        "name": "Clinical nutrition",
+        "desc": "Staged eating plans, from the first liquids to lifelong habits."
+      },
+      "psychology": {
+        "name": "Psychology",
+        "desc": "Preparing for change and building a healthier relationship with food."
+      },
+      "physiotherapy": {
+        "name": "Physiotherapy",
+        "desc": "Safe movement and strength programs adapted to each stage."
+      },
+      "plasticSurgery": {
+        "name": "Plastic surgery",
+        "desc": "Body contouring once your weight has stabilized."
+      },
+      "dermatology": {
+        "name": "Dermatology",
+        "desc": "Skin care during and after major weight loss."
+      }
+    }
+  },
+  "Doctor": {
+    "eyebrow": "Meet your surgeon",
+    "name": "Dr. Mohsen Karam",
+    "role": "Consultant in obesity & metabolic surgery",
+    "bio": "[Short biography — two or three sentences on Dr. Karam's background, years in practice and how he approaches each patient. Written in his own voice works best.]",
+    "bioShort": "[Short biography — two or three sentences.]",
+    "portraitLabel": "Portrait · Dr. Karam",
+    "portraitAlt": "Portrait placeholder: Dr. Mohsen Karam",
+    "credentials": {
+      "frcs": "<strong>Fellowship of the Royal College of Surgeons</strong> (FRCS), United Kingdom",
+      "qatar": "<strong>Fellowship in Bariatric Surgery</strong>, Qatar Metabolic Institute",
+      "strasbourg": "<strong>Diploma in Advanced Laparoscopic Surgery</strong>, University of Strasbourg, France",
+      "memberships": "Member of <strong>IFSO</strong> and <strong>ASMBS</strong>"
+    },
+    "credentialsShort": {
+      "frcs": "FRCS, Royal College of Surgeons, UK",
+      "qatar": "Bariatric Fellowship, Qatar Metabolic Institute",
+      "strasbourg": "Advanced Laparoscopy, University of Strasbourg",
+      "memberships": "Member of IFSO and ASMBS"
+    },
+    "readProfile": "Read full profile",
+    "viewCertificates": "View certificates"
+  },
+  "Stories": {
+    "eyebrow": "Patient stories",
+    "title": "Real journeys, shared with permission.",
+    "seeAll": "See all stories & videos",
+    "videoAlt": "Video placeholder",
+    "quote": "“[Patient quote — one or two sentences, shared with written consent.]”",
+    "quoteShort": "“[Patient quote, shared with consent.]”",
+    "name": "[First name]",
+    "caption": "[Procedure] · [X] months after",
+    "captionShort": "[Procedure]"
+  },
+  "Callback": {
+    "eyebrow": "Appointments",
+    "title": "Your first consultation starts here.",
+    "lead": "Leave your number and we will call you back to find a time — or pick your preferred day on the full booking page.",
+    "leadShort": "Leave your number — we call you back to find a time.",
+    "formTitle": "Request a call back",
+    "name": "Full name",
+    "namePlaceholder": "Your name",
+    "phone": "Phone / WhatsApp",
+    "phonePlaceholder": "+20 1XX XXX XXXX",
+    "interest": "I am interested in",
+    "interestOptions": {
+      "unsure": "Not sure yet — I need advice",
+      "sleeve": "Sleeve gastrectomy",
+      "bypass": "Gastric bypass",
+      "plication": "Gastric plication",
+      "balloon": "Gastric balloon",
+      "followUp": "Follow-up after surgery"
+    },
+    "submit": "Call me back",
+    "submitting": "Sending…",
+    "chooseDate": "Choose a date instead",
+    "chooseDateShort": "Or choose a date",
+    "successTitle": "Request received",
+    "successBody": "Thank you. We will call you back shortly to find a time.",
+    "another": "Send another request",
+    "whatsapp": "WhatsApp"
+  },
+  "RoomsBand": {
+    "eyebrow": "For doctors & organizations",
+    "title": "Practice from our clinic. Four consultation rooms available.",
+    "titleShort": "Four consultation rooms available to rent.",
+    "lead": "Furnished consultation rooms in the Delta Building, Louran — with reception and a waiting area already running. Rent one room or several, by the half-day, the day or the month.",
+    "leadShort": "Furnished rooms with reception and a waiting area — by the half-day, day or month.",
+    "bullets": {
+      "furnished": "Furnished, ready to use",
+      "reception": "Reception & waiting area",
+      "terms": "Half-day, daily or monthly",
+      "location": "Central Alexandria location"
+    },
+    "cta": "See rooms & availability",
+    "photoRoom2": "Photo · Room 2",
+    "photoRoom2Alt": "Photo placeholder: consultation room",
+    "room3": "Room 3",
+    "reception": "Reception",
+    "available": "Available"
+  },
+  "Advice": {
+    "eyebrow": "Medical advice",
+    "title": "From Dr. Karam's desk",
+    "all": "All articles",
+    "imageAlt": "Article image placeholder",
+    "date": "[Date]",
+    "categories": {
+      "nutrition": "Nutrition",
+      "procedures": "Procedures",
+      "recovery": "Recovery"
+    },
+    "items": {
+      "a1": "[Article title — e.g. eating in the first month after a sleeve]",
+      "a2": "[Article title — e.g. sleeve or bypass: how we decide]",
+      "a3": "[Article title — e.g. getting back to exercise safely]"
+    }
+  },
+  "Footer": {
+    "tagline": "Bariatric and metabolic surgery with a full specialist team, in Alexandria.",
+    "visit": "Visit",
+    "contact": "Contact",
+    "explore": "Explore",
+    "follow": "Follow",
+    "openInMaps": "Open in Google Maps",
+    "procedures": "Procedures",
+    "book": "Book an appointment",
+    "rooms": "Room rental",
+    "advice": "Medical advice",
+    "copyright": "© {year} Delta Bariatric Center. All rights reserved.",
+    "copyrightShort": "© {year} Delta Bariatric Center",
+    "privacy": "Privacy",
+    "medicalDisclaimer": "Medical disclaimer",
+    "rentalTerms": "Rental terms",
+    "whatsapp": "WhatsApp"
+  },
+  "Sticky": {
+    "call": "Call the clinic",
+    "whatsapp": "WhatsApp",
+    "book": "Book"
+  },
+  "Breadcrumb": {
+    "label": "Breadcrumb",
+    "home": "Home"
+  },
+  "BookPage": {
+    "crumb": "Book an appointment",
+    "title": "Book an appointment",
+    "lead": "Tell us what you need and when suits you. We will call or WhatsApp you within [X working hours] to confirm the exact time.",
+    "steps": {
+      "reason": "What is the visit for?",
+      "who": "Who would you like to see?",
+      "when": "When suits you?",
+      "details": "Your details"
+    },
+    "reasons": {
+      "first": {
+        "title": "First consultation",
+        "desc": "New patient — assessment and options"
+      },
+      "follow": {
+        "title": "Follow-up visit",
+        "desc": "For patients after surgery or a balloon"
+      },
+      "second": {
+        "title": "Second opinion",
+        "desc": "You were advised surgery elsewhere"
+      },
+      "support": {
+        "title": "Nutrition or psychology",
+        "desc": "A session with our dietitian or psychologist"
+      }
+    },
+    "department": "Department",
+    "departments": {
+      "bariatricSurgery": "Bariatric surgery — Dr. Karam",
+      "bariatricMedicine": "Bariatric medicine",
+      "clinicalNutrition": "Clinical nutrition",
+      "psychology": "Psychology",
+      "physiotherapy": "Physiotherapy",
+      "plasticSurgery": "Plastic surgery",
+      "dermatology": "Dermatology"
+    },
+    "procedure": "Procedure of interest",
+    "procedures": {
+      "unsure": "Not sure yet",
+      "sleeve": "Sleeve gastrectomy",
+      "bypass": "Gastric bypass",
+      "plication": "Gastric plication",
+      "balloon": "Gastric balloon"
+    },
+    "preferredDate": "Preferred date",
+    "secondDate": "Second choice",
+    "timeOfDay": "Time of day",
+    "times": {
+      "morning": {
+        "label": "Morning",
+        "hours": "[09–12]"
+      },
+      "afternoon": {
+        "label": "Afternoon",
+        "hours": "[12–16]"
+      },
+      "evening": {
+        "label": "Evening",
+        "hours": "[16–21]"
+      }
+    },
+    "name": "Full name",
+    "phone": "Phone / WhatsApp",
+    "phonePlaceholder": "+20 1XX XXX XXXX",
+    "email": "Email",
+    "age": "Age",
+    "bmiIntro": "<strong>Optional — helps us prepare.</strong> Your height and weight let the team estimate your BMI before you arrive.",
+    "height": "Height (cm)",
+    "weight": "Weight (kg)",
+    "notes": "Anything we should know?",
+    "notesPlaceholder": "Previous surgery, medical conditions, questions…",
+    "consent": "I agree that Delta Bariatric Center may contact me about this request. See our <link>privacy policy</link>.",
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "submitNote": "This is a request — your time is confirmed once we call you.",
+    "success": {
+      "title": "Request received",
+      "body": "Thank you. We will call or WhatsApp you within [X working hours] to confirm your appointment time.",
+      "home": "Back to home",
+      "again": "Make another request"
+    },
+    "next": {
+      "title": "What happens next",
+      "steps": {
+        "confirm": {
+          "title": "We confirm your time",
+          "desc": "By phone or WhatsApp, usually within [X working hours]."
+        },
+        "visit": {
+          "title": "Your consultation",
+          "desc": "Bring any recent tests, scans and the list of medicines you take."
+        },
+        "plan": {
+          "title": "Your personal plan",
+          "desc": "Options, preparation steps and costs — explained before you decide."
+        }
+      },
+      "feeLabel": "Consultation fee",
+      "fee": "[EGP 000]"
+    },
+    "talk": {
+      "title": "Prefer to talk?",
+      "whatsapp": "WhatsApp us"
+    },
+    "emergency": "<strong>Already had surgery and feeling unwell?</strong> Don't use this form — call {line} or go to the nearest emergency department."
+  },
+  "RoomsPage": {
+    "crumb": "Room rental",
+    "eyebrow": "For doctors & organizations",
+    "title": "Your practice, in a clinic that already runs.",
+    "lead": "Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month.",
+    "ctaAvailability": "Check availability",
+    "ctaCall": "Call to arrange a visit",
+    "heroPhoto": "Photo · Reception & waiting area",
+    "heroPhotoAlt": "Photo placeholder: clinic reception",
+    "stats": {
+      "rooms": {
+        "value": "4",
+        "label": "rooms available"
+      },
+      "size": {
+        "value": "[00] m²",
+        "label": "per room"
+      },
+      "floor": {
+        "value": "[Floor X]",
+        "label": "Delta Building"
+      }
+    },
+    "rooms": {
+      "eyebrow": "The rooms",
+      "title": "Pick the rooms you need.",
+      "aside": "Select one or more rooms — your choice is carried into the inquiry form below.",
+      "planNote": "Illustrative layout — replace with the real floor plan",
+      "legend": {
+        "available": "Available",
+        "selected": "Selected",
+        "inUse": "In use by DBC"
+      },
+      "waitingArea": "Waiting area",
+      "shared": "Shared",
+      "corridor": "Corridor",
+      "reception": "Reception · Entrance",
+      "roomName": "Room {number}",
+      "status": {
+        "available": "Available",
+        "selected": "Selected",
+        "inUse": "In use",
+        "inUseLong": "In use by DBC"
+      },
+      "ariaInUse": "{name}, in use by Delta Bariatric Center",
+      "ariaSelected": "{name}, selected",
+      "ariaAvailable": "{name}, available",
+      "photoAlt": "Room photo placeholder",
+      "ownSize": "Dr. Karam's consultation room",
+      "ownFeatures": "Reserved for Delta Bariatric Center patients.",
+      "size": "[00] m² · [window / no window]",
+      "features": "[Desk · Exam bed · Sink · Screen]",
+      "select": "Select room",
+      "selected": "Selected",
+      "notForRent": "Not for rent"
+    },
+    "included": {
+      "eyebrow": "Every rental includes",
+      "title": "Arrive, see patients, leave. We handle the rest.",
+      "items": {
+        "furnished": {
+          "title": "Furnished room",
+          "desc": "[Desk, chairs, examination bed, sink — confirm list]"
+        },
+        "reception": {
+          "title": "Reception & check-in",
+          "desc": "Our front desk welcomes your patients and lets you know when they arrive."
+        },
+        "waiting": {
+          "title": "Shared waiting area",
+          "desc": "A calm, air-conditioned space for your patients."
+        },
+        "utilities": {
+          "title": "Wi-Fi & utilities",
+          "desc": "Electricity, water, internet and air conditioning — all in the price."
+        },
+        "cleaning": {
+          "title": "Cleaning",
+          "desc": "Rooms cleaned and prepared between sessions."
+        },
+        "location": {
+          "title": "Central location",
+          "desc": "On Al Horreya Road, Louran — easy for patients across Alexandria to reach."
+        }
+      }
+    },
+    "pricing": {
+      "eyebrow": "Flexible terms",
+      "title": "Pay for the time you use.",
+      "badge": "For regular clinics",
+      "tiers": {
+        "halfDay": {
+          "title": "Half-day",
+          "desc": "One [4-hour] session — ideal for trying the space or occasional clinics.",
+          "price": "[EGP 000]",
+          "unit": "/ session"
+        },
+        "fullDay": {
+          "title": "Full day",
+          "desc": "The room for the whole working day, [00:00–00:00].",
+          "price": "[EGP 000]",
+          "unit": "/ day"
+        },
+        "monthly": {
+          "title": "Monthly",
+          "desc": "Your fixed weekly slots, reserved every week of the month.",
+          "price": "[EGP 0,000]",
+          "unit": "/ month"
+        }
+      }
+    },
+    "inquiry": {
+      "eyebrow": "Rental inquiry",
+      "title": "Tell us how you would like to use the space.",
+      "lead": "We reply within [X working days] with availability and a quote. Visits to see the rooms can be arranged any working day.",
+      "selectionTitle": "Your selection",
+      "noSelection": "No room selected yet — <link>choose above</link>, or leave it to us.",
+      "org": "Doctor or organization",
+      "specialty": "Specialty",
+      "specialtyPlaceholder": "e.g. Endocrinology",
+      "phone": "Phone / WhatsApp",
+      "email": "Email",
+      "rentalType": "Rental type",
+      "rentalTypes": {
+        "monthly": "Monthly — fixed weekly slots",
+        "fullDay": "Full day",
+        "halfDay": "Half-day",
+        "unsure": "Not sure yet"
+      },
+      "startDate": "Start date",
+      "days": "Which days?",
+      "dayNames": {
+        "sat": "Sat",
+        "sun": "Sun",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri"
+      },
+      "slot": "Which part of the day?",
+      "slots": {
+        "morning": "Morning",
+        "afternoon": "Afternoon",
+        "evening": "Evening",
+        "full": "Full day"
+      },
+      "message": "Anything else?",
+      "messagePlaceholder": "Equipment you need, expected number of patients…",
+      "submit": "Send inquiry",
+      "submitting": "Sending…",
+      "submitNote": "No commitment — we reply with availability and a quote.",
+      "success": {
+        "title": "Inquiry sent",
+        "body": "Thank you. We will get back to you within [X working days] with availability and pricing.",
+        "edit": "Edit my inquiry"
+      }
+    }
+  },
+  "Forms": {
+    "required": "Please fill in this field.",
+    "name": "Please enter your full name.",
+    "phone": "Please enter a valid phone number.",
+    "email": "Please enter a valid email address.",
+    "age": "Please enter an age between 12 and 99.",
+    "number": "Please enter a valid number.",
+    "date": "Please choose a date.",
+    "consent": "Please agree so we can contact you.",
+    "rateLimited": "You have sent several requests in a short time. Please wait a few minutes and try again, or call us.",
+    "failed": "We could not send your request. Please try again, or call us on {phone}.",
+    "invalid": "Please check the highlighted fields.",
+    "errorTitle": "Something needs your attention"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or has moved.",
+    "home": "Back to home"
+  }
+}
