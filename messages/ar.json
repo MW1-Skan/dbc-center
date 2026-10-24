@@ -30,7 +30,8 @@
     "switchToArabic": "[AR] Switch to Arabic",
     "switchToEnglish": "[AR] Switch to English",
     "mapPlaceholder": "[AR] Map placeholder",
-    "map": "[AR] Map"
+    "map": "[AR] Map",
+    "whatsappFab": "[AR] WhatsApp us"
   },
   "TopBar": {
     "address": "[AR] 713 Al Horreya Road, Delta Building, Louran, Alexandria"
@@ -79,7 +80,9 @@
       }
     },
     "credentialName": "[AR] Dr. Mohsen Karam",
-    "credentialSub": "[AR] FRCS · Royal College of Surgeons, UK"
+    "credentialSub": "[AR] FRCS · Royal College of Surgeons, UK",
+    "bmiLink": "[AR] Check your BMI",
+    "bmiLinkSub": "[AR] See if you may qualify in 30 seconds"
   },
   "Trust": {
     "label": "[AR] Trained & accredited",
@@ -285,7 +288,8 @@
     "privacy": "[AR] Privacy",
     "medicalDisclaimer": "[AR] Medical disclaimer",
     "rentalTerms": "[AR] Rental terms",
-    "whatsapp": "[AR] WhatsApp"
+    "whatsapp": "[AR] WhatsApp",
+    "disclaimerLine": "[AR] Information on this website does not replace medical advice."
   },
   "Sticky": {
     "call": "[AR] Call the clinic",
@@ -561,6 +565,13 @@
         "body": "[AR] Thank you. We will get back to you within [X working days] with availability and pricing.",
         "edit": "[AR] Edit my inquiry"
       }
+    },
+    "closing": {
+      "title": "[AR] Interested in a room?",
+      "lead": "[AR] Contact us to arrange a visit and discuss availability and pricing.",
+      "call": "[AR] Call us",
+      "whatsapp": "[AR] WhatsApp",
+      "email": "[AR] Email us"
     }
   },
   "Forms": {
@@ -575,11 +586,101 @@
     "rateLimited": "[AR] You have sent several requests in a short time. Please wait a few minutes and try again, or call us.",
     "failed": "[AR] We could not send your request. Please try again, or call us on {phone}.",
     "invalid": "[AR] Please check the highlighted fields.",
-    "errorTitle": "[AR] Something needs your attention"
+    "errorTitle": "[AR] Something needs your attention",
+    "countryCode": "[AR] Country code",
+    "phoneNational": "[AR] 1XX XXX XXXX",
+    "phoneOther": "[AR] + country code and number"
   },
   "NotFound": {
     "title": "[AR] Page not found",
     "body": "[AR] The page you are looking for does not exist or has moved.",
     "home": "[AR] Back to home"
+  },
+  "Journey": {
+    "eyebrow": "[AR] How it works",
+    "title": "[AR] Your journey with us",
+    "steps": {
+      "consultation": {
+        "title": "[AR] Consultation",
+        "desc": "[AR] Meet Dr. Karam, talk through your history and goals, and review your options."
+      },
+      "assessment": {
+        "title": "[AR] Assessment",
+        "desc": "[AR] Lab work, imaging and a nutrition review to confirm the safest plan."
+      },
+      "surgery": {
+        "title": "[AR] Surgery",
+        "desc": "[AR] Minimally invasive keyhole surgery with a short hospital stay."
+      },
+      "followUp": {
+        "title": "[AR] Follow-up",
+        "desc": "[AR] Nutrition guidance and regular check-ups for results that last."
+      }
+    }
+  },
+  "Bmi": {
+    "eyebrow": "[AR] BMI calculator",
+    "title": "[AR] Could weight-loss surgery be right for you?",
+    "lead": "[AR] Body Mass Index is one of the first things we look at. Enter your height and weight for a quick indication.",
+    "height": "[AR] Height",
+    "weight": "[AR] Weight",
+    "heightValue": "[AR] {value} cm",
+    "weightValue": "[AR] {value} kg",
+    "your": "[AR] Your BMI",
+    "categories": {
+      "healthy": "[AR] Healthy range",
+      "overweight": "[AR] Overweight",
+      "obesity1": "[AR] Obesity class I",
+      "obesity2": "[AR] Obesity class II",
+      "obesity3": "[AR] Obesity class III"
+    },
+    "messages": {
+      "low": "[AR] Surgery is usually not indicated at this BMI. We are happy to talk through other options with you.",
+      "mid": "[AR] You may qualify for the gastric balloon or, with related health conditions, for surgery.",
+      "high": "[AR] You may be a candidate for bariatric surgery. A consultation will confirm the right option."
+    },
+    "cta": "[AR] Book a consultation",
+    "note": "[AR] An indication only, not a medical diagnosis.",
+    "scaleLabel": "[AR] BMI scale from 18 to 50"
+  },
+  "Faq": {
+    "eyebrow": "[AR] Questions",
+    "title": "[AR] Frequently asked questions",
+    "items": {
+      "candidate": {
+        "q": "[AR] Am I a candidate for bariatric surgery?",
+        "a": "[AR] Generally, adults with a BMI of 35 or more, or 30 or more with conditions such as type 2 diabetes, high blood pressure or sleep apnea, may qualify. Dr. Karam will confirm after a full assessment."
+      },
+      "laparoscopic": {
+        "q": "[AR] Is the surgery done laparoscopically?",
+        "a": "[AR] Yes. Most procedures are performed through small keyhole incisions, which means less pain, smaller scars and a faster recovery."
+      },
+      "stay": {
+        "q": "[AR] How long will I stay in hospital?",
+        "a": "[AR] Most patients stay one to three nights depending on the procedure. The gastric balloon is placed and you go home the same day."
+      },
+      "work": {
+        "q": "[AR] How soon can I return to work?",
+        "a": "[AR] Many patients return to desk work within two to three weeks. Physically demanding work may need longer."
+      },
+      "after": {
+        "q": "[AR] What happens after surgery?",
+        "a": "[AR] You follow a staged diet with our nutrition team and attend regular follow-up visits so we can track your progress."
+      },
+      "abroad": {
+        "q": "[AR] I live abroad. How long should I plan to stay in Alexandria?",
+        "a": "[AR] [To be confirmed by the clinic: number of days recommended before and after surgery.]"
+      }
+    }
+  },
+  "Abroad": {
+    "title": "[AR] Travelling from the Gulf or abroad?",
+    "lead": "[AR] Message us before you travel. We will help you schedule your consultation and surgery dates so your stay in Alexandria is short and smooth.",
+    "cta": "[AR] Chat on WhatsApp"
+  },
+  "FinalCta": {
+    "title": "[AR] Take the first step today.",
+    "lead": "[AR] Request a consultation and our team will call you back to confirm a time.",
+    "cta": "[AR] Book a consultation"
   }
 }

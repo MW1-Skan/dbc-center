@@ -109,6 +109,22 @@ robots and Open Graph URLs are absolute, and add a verified sending domain in Re
 - `e2e/screenshots.spec.ts` writes full-page captures at 1440 px and 390 px (plus `/ar` at 390 px)
   to `e2e/screenshots/` and fails if any width from 320 px to 1920 px scrolls horizontally.
 
+## Additions beyond the original screens
+
+Ideas adopted from the second design exploration, built in the site's own tokens:
+
+- **BMI calculator** on the home page (`components/home/BmiCalculator.tsx`): height and weight
+  sliders, live BMI with category and guidance, and a "Book a consultation" link that prefills the
+  optional height and weight on the booking form through `?height=&weight=`.
+- **Your journey with us** four-step band, **FAQ** accordion (native `<details name>`, so it needs
+  no JavaScript, with FAQPage JSON-LD that skips placeholder answers), **international patients**
+  WhatsApp band, a **closing CTA** on the home and rooms pages, a **floating WhatsApp button** on
+  desktop and a **medical disclaimer line** in both footers.
+- **Country-code selector** on every phone field (`components/forms/PhoneField.tsx`), Egypt first
+  then the Gulf; emails show the full number.
+- `node scripts/sync-ar.mjs` adds any new English key to `messages/ar.json` with the `[AR]` prefix
+  without overwriting existing translations.
+
 ## Notes on the design
 
 - Below 768px the home page follows `design/pages/Mobile.dc.html`: that screen has no utility bar,

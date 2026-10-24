@@ -10,6 +10,7 @@ import { lazyResolver } from "@/lib/forms/lazy-resolver";
 import { Field, describedBy } from "@/components/forms/Field";
 import { FormAlert } from "@/components/forms/FormAlert";
 import { Honeypot } from "@/components/forms/Honeypot";
+import { PhoneField } from "@/components/forms/PhoneField";
 import { Chip } from "@/components/forms/Chip";
 import { SuccessPanel } from "@/components/forms/SuccessPanel";
 import { Button } from "@/components/ui/Button";
@@ -35,6 +36,7 @@ export function InquiryForm() {
       rooms: [],
       organization: "",
       specialty: "",
+      countryCode: "+20",
       phone: "",
       email: "",
       rentalType: "monthly",
@@ -52,6 +54,7 @@ export function InquiryForm() {
   }, [selected, setValue]);
 
   const days = useWatch({ control, name: "days" }) ?? [];
+  const countryCode = useWatch({ control, name: "countryCode" });
   const slot = useWatch({ control, name: "slot" });
 
   const toggleDay = (d: (typeof weekDays)[number]) =>
@@ -111,17 +114,14 @@ export function InquiryForm() {
             {...register("specialty")}
           />
         </Field>
-        <Field id="rq-phone" label={t("phone")} error={errors.phone?.message}>
-          <input
-            id="rq-phone"
-            type="tel"
-            autoComplete="tel"
-            inputMode="tel"
-            className="field"
-            {...describedBy("rq-phone", errors.phone?.message)}
-            {...register("phone")}
-          />
-        </Field>
+        <PhoneField
+          id="rq-phone"
+          label={t("phone")}
+          error={errors.phone?.message ?? errors.countryCode?.message}
+          code={countryCode}
+          codeRegistration={register("countryCode")}
+          phoneRegistration={register("phone")}
+        />
         <Field id="rq-email" label={t("email")} error={errors.email?.message}>
           <input
             id="rq-email"

@@ -64,9 +64,27 @@ export function Hero() {
             </Button>
           </div>
 
+          <a
+            href="#bmi"
+            data-hero
+            style={delay(300)}
+            className="group order-5 flex items-center gap-3.5 self-start text-body no-underline hover:text-body md:-mt-2"
+          >
+            <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-chip font-heading text-[13px] font-bold text-teal-600">
+              BMI
+            </span>
+            <span className="flex flex-col leading-[1.3]">
+              <strong className="link-grow self-start font-semibold text-navy-800">
+                {t("bmiLink")}
+              </strong>
+              <span className="text-[13px] text-muted md:text-sm">{t("bmiLinkSub")}</span>
+            </span>
+            <ArrowIcon size={16} className="nudge text-navy-700" />
+          </a>
+
           <dl
             data-hero
-            style={delay(320)}
+            style={delay(360)}
             className="order-6 grid grid-cols-3 gap-2 border-t border-line pt-[18px] md:mt-2 md:flex md:flex-wrap md:gap-10 md:pt-5"
           >
             {stats.map((key) => (

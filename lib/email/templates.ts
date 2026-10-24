@@ -1,4 +1,5 @@
 import en from "@/messages/en.json";
+import { formatPhone } from "@/lib/schemas/common";
 import type { BookingData } from "@/lib/schemas/booking";
 import type { CallbackData } from "@/lib/schemas/callback";
 import type { RoomInquiryData } from "@/lib/schemas/rooms";
@@ -42,7 +43,7 @@ export function bookingEmail(d: BookingData): EmailContent {
     ["Second choice", d.secondDate],
     ["Time of day", `${b.times[d.timeOfDay].label} ${b.times[d.timeOfDay].hours}`],
     ["Full name", d.name],
-    ["Phone / WhatsApp", d.phone],
+    ["Phone / WhatsApp", formatPhone(d.countryCode, d.phone)],
     ["Email", d.email],
     ["Age", String(d.age)],
     ["Height (cm)", d.heightCm ? String(d.heightCm) : undefined],
@@ -64,7 +65,7 @@ export function callbackEmail(d: CallbackData): EmailContent {
   const c = en.Callback;
   const rows: Row[] = [
     ["Full name", d.name],
-    ["Phone / WhatsApp", d.phone],
+    ["Phone / WhatsApp", formatPhone(d.countryCode, d.phone)],
     ["Interested in", c.interestOptions[d.interest]],
   ];
   return {
@@ -84,7 +85,7 @@ export function roomInquiryEmail(d: RoomInquiryData): EmailContent {
     ["Rooms", roomNames || "No preference"],
     ["Doctor or organization", d.organization],
     ["Specialty", d.specialty],
-    ["Phone / WhatsApp", d.phone],
+    ["Phone / WhatsApp", formatPhone(d.countryCode, d.phone)],
     ["Email", d.email],
     ["Rental type", r.inquiry.rentalTypes[d.rentalType]],
     ["Start date", d.startDate],

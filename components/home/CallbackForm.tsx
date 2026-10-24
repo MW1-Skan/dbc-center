@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { useState, useTransition } from "react";
-import { useForm } from "react-hook-form";
+import { useForm, useWatch } from "react-hook-form";
 import { Link } from "@/i18n/navigation";
 import { callbackInterest } from "@/content/booking";
 import { submitCallback, type ActionResult } from "@/lib/actions";
@@ -11,6 +11,7 @@ import { lazyResolver } from "@/lib/forms/lazy-resolver";
 import { Field, describedBy } from "@/components/forms/Field";
 import { FormAlert } from "@/components/forms/FormAlert";
 import { Honeypot } from "@/components/forms/Honeypot";
+import { PhoneField } from "@/components/forms/PhoneField";
 import { CheckIcon } from "@/components/ui/icons";
 
 export function CallbackForm() {
@@ -22,13 +23,16 @@ export function CallbackForm() {
     register,
     handleSubmit,
     reset,
+    control,
     formState: { errors },
   } = useForm<CallbackInput>({
     resolver: lazyResolver<CallbackInput>(() =>
       import("@/lib/forms/callback-resolver").then((m) => m.default),
     ),
-    defaultValues: { name: "", phone: "", interest: "unsure", website: "" },
+    defaultValues: { name: "", countryCode: "+20", phone: "", interest: "unsure", website: "" },
   });
+
+  const countryCode = useWatch({ control, name: "countryCode" });
 
   const onSubmit = handleSubmit((values) => {
     setResult(null);
@@ -102,23 +106,16 @@ export function CallbackForm() {
         />
       </Field>
 
-      <Field
+      <PhoneField
         id="cb-phone"
         label={t("phone")}
-        error={errors.phone?.message}
+        error={errors.phone?.message ?? errors.countryCode?.message}
+        code={countryCode}
+        codeRegistration={register("countryCode")}
+        phoneRegistration={register("phone")}
         labelClassName={labelClass}
-      >
-        <input
-          id="cb-phone"
-          type="tel"
-          autoComplete="tel"
-          inputMode="tel"
-          placeholder={t("phonePlaceholder")}
-          className={inputClass}
-          {...describedBy("cb-phone", errors.phone?.message)}
-          {...register("phone")}
-        />
-      </Field>
+        inputClassName={inputClass}
+      />
 
       <Field
         id="cb-proc"

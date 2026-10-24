@@ -11,6 +11,7 @@ import { SkipLink } from "@/components/layout/SkipLink";
 import { TopBar } from "@/components/layout/TopBar";
 import { Header } from "@/components/layout/Header";
 import { StickyActionBar } from "@/components/layout/StickyActionBar";
+import { WhatsAppFab } from "@/components/layout/WhatsAppFab";
 import "../globals.css";
 
 const sora = Sora({
@@ -78,6 +79,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
           <Header />
           {children}
           <StickyActionBar />
+          <WhatsAppFab />
         </NextIntlClientProvider>
       </body>
     </html>

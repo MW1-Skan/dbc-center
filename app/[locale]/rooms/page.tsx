@@ -16,6 +16,7 @@ import { Included } from "@/components/rooms/Included";
 import { Pricing } from "@/components/rooms/Pricing";
 import { SelectionSummary } from "@/components/rooms/SelectionSummary";
 import { InquiryForm } from "@/components/rooms/InquiryForm";
+import { RoomsCta } from "@/components/rooms/RoomsCta";
 
 export async function generateMetadata({
   params,
@@ -72,6 +73,7 @@ export default async function RoomsPage({ params }: PageProps<"/[locale]/rooms">
             </section>
           </RoomSelectionProvider>
         </NextIntlClientProvider>
+        <RoomsCta />
       </main>
       <FooterSlim legal="rental" />
     </>

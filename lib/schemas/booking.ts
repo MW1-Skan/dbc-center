@@ -10,6 +10,7 @@ import {
   optionalNumber,
   phoneSchema,
   requiredNumber,
+  countryCodeSchema,
 } from "./common";
 
 export const bookingSchema = z.object({
@@ -20,6 +21,7 @@ export const bookingSchema = z.object({
   secondDate: optionalIsoDateSchema,
   timeOfDay: z.enum(timesOfDay),
   name: nameSchema,
+  countryCode: countryCodeSchema,
   phone: phoneSchema,
   email: optionalEmailSchema,
   age: requiredNumber(12, 99, "age"),

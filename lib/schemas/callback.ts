@@ -1,9 +1,10 @@
 import { z } from "zod";
 import { callbackInterest } from "@/content/booking";
-import { honeypotSchema, nameSchema, phoneSchema } from "./common";
+import { honeypotSchema, nameSchema, phoneSchema, countryCodeSchema } from "./common";
 
 export const callbackSchema = z.object({
   name: nameSchema,
+  countryCode: countryCodeSchema,
   phone: phoneSchema,
   interest: z.enum(callbackInterest),
   website: honeypotSchema,

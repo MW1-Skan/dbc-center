@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useState, useTransition, type ReactNode } from "react";
+import { useEffect, useState, useTransition, type ReactNode } from "react";
 import { useForm, useWatch } from "react-hook-form";
 import { bookingDepartments, procedureInterest, timesOfDay, visitReasons } from "@/content/booking";
 import { contact } from "@/content/contact";
@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { Field, FieldError, describedBy } from "@/components/forms/Field";
 import { FormAlert } from "@/components/forms/FormAlert";
 import { Honeypot } from "@/components/forms/Honeypot";
+import { PhoneField } from "@/components/forms/PhoneField";
 import { Chip } from "@/components/forms/Chip";
 import { SuccessPanel } from "@/components/forms/SuccessPanel";
 import { Button } from "@/components/ui/Button";
@@ -57,6 +58,7 @@ export function BookingForm() {
       secondDate: "",
       timeOfDay: "morning",
       name: "",
+      countryCode: "+20",
       phone: "",
       email: "",
       age: "" as unknown as number,
@@ -68,7 +70,17 @@ export function BookingForm() {
     },
   });
 
+  // The BMI calculator links here with ?height=&weight=; fill the optional fields once.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const h = Number(params.get("height"));
+    const w = Number(params.get("weight"));
+    if (h >= 100 && h <= 250) setValue("heightCm", h);
+    if (w >= 30 && w <= 400) setValue("weightKg", w);
+  }, [setValue]);
+
   const reason = useWatch({ control, name: "reason" });
+  const countryCode = useWatch({ control, name: "countryCode" });
   const timeOfDay = useWatch({ control, name: "timeOfDay" });
 
   const onSubmit = handleSubmit((values) => {
@@ -231,18 +243,14 @@ export function BookingForm() {
               {...register("name")}
             />
           </Field>
-          <Field id="bk-phone" label={t("phone")} error={errors.phone?.message}>
-            <input
-              id="bk-phone"
-              type="tel"
-              autoComplete="tel"
-              inputMode="tel"
-              placeholder={t("phonePlaceholder")}
-              className="field"
-              {...describedBy("bk-phone", errors.phone?.message)}
-              {...register("phone")}
-            />
-          </Field>
+          <PhoneField
+            id="bk-phone"
+            label={t("phone")}
+            error={errors.phone?.message ?? errors.countryCode?.message}
+            code={countryCode}
+            codeRegistration={register("countryCode")}
+            phoneRegistration={register("phone")}
+          />
           <Field id="bk-email" label={t("email")} optional error={errors.email?.message}>
             <input
               id="bk-email"

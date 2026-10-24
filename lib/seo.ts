@@ -65,3 +65,20 @@ export function clinicJsonLd(locale: Locale) {
     },
   ];
 }
+
+type FaqItems = Record<string, { q: string; a: string }>;
+
+/** FAQPage structured data. Answers still in [brackets] are placeholders and are left out. */
+export function faqJsonLd(items: FaqItems) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: Object.values(items)
+      .filter((item) => !item.a.trim().startsWith("["))
+      .map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: { "@type": "Answer", text: item.a },
+      })),
+  };
+}

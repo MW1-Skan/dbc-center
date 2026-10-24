@@ -7,6 +7,7 @@ import {
   notesSchema,
   phoneSchema,
   requiredEmailSchema,
+  countryCodeSchema,
 } from "./common";
 
 export const roomInquirySchema = z.object({
@@ -14,6 +15,7 @@ export const roomInquirySchema = z.object({
   rooms: z.array(z.enum(rentableRoomIds)).max(4),
   organization: nameSchema,
   specialty: z.string().trim().min(2, "required").max(120, "required"),
+  countryCode: countryCodeSchema,
   phone: phoneSchema,
   email: requiredEmailSchema,
   rentalType: z.enum(rentalTypes),

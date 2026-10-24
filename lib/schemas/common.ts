@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { countryCodeValues } from "@/content/booking";
 
 /** Error messages are i18n keys under the `Forms` namespace, translated in the UI. */
 export const nameSchema = z.string().trim().min(2, "name").max(120, "name");
@@ -12,6 +13,13 @@ export const phoneSchema = z
 const blankToUndefined = (v: unknown) => (typeof v === "string" && v.trim() === "" ? undefined : v);
 
 /** Optional email: blank input becomes undefined, anything else must be a valid address. */
+export const countryCodeSchema = z.enum(countryCodeValues);
+
+/** Full number for emails: "+20 1XX…" or the free-text value when "other" was chosen. */
+export function formatPhone(countryCode: string, phone: string) {
+  return countryCode === "other" ? phone : `${countryCode} ${phone}`;
+}
+
 export const optionalEmailSchema = z.preprocess(
   blankToUndefined,
   z.email("email").max(254, "email").optional(),

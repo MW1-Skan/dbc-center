@@ -85,8 +85,11 @@ export function Footer() {
         </div>
 
         <div className="flex flex-wrap justify-between gap-4 text-[13px] text-on-navy-faint md:border-t md:border-on-navy-muted/18 md:pt-7 md:text-sm">
-          <span className="md:hidden">{t("copyrightShort", { year })}</span>
-          <span className="hidden md:inline">{t("copyright", { year })}</span>
+          <span className="flex flex-col gap-1">
+            <span className="md:hidden">{t("copyrightShort", { year })}</span>
+            <span className="hidden md:inline">{t("copyright", { year })}</span>
+            <span>{t("disclaimerLine")}</span>
+          </span>
           <div className="hidden gap-6 md:flex">
             <a href={contact.legal.privacyHref} className="text-on-navy-faint hover:text-white">
               {t("privacy")}
@@ -110,7 +113,7 @@ export function FooterSlim({ legal }: { legal: "medical" | "rental" }) {
   return (
     <footer className="bg-navy-900 text-sm text-on-navy-faint">
       <div className="container-x flex flex-wrap items-center justify-between gap-4 py-8 pb-[110px] md:pb-8">
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-1">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/brand/logo-mark-white.png"
@@ -121,6 +124,7 @@ export function FooterSlim({ legal }: { legal: "medical" | "rental" }) {
             loading="lazy"
           />
           <span>{t("copyrightShort", { year })}</span>
+          <span className="basis-full md:basis-auto">{t("disclaimerLine")}</span>
         </div>
         <div className="flex gap-6">
           <a href={contact.legal.privacyHref} className="text-on-navy-faint hover:text-white">

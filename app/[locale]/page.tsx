@@ -14,6 +14,13 @@ import { Stories } from "@/components/home/Stories";
 import { CallbackBand } from "@/components/home/CallbackBand";
 import { RoomsBand } from "@/components/home/RoomsBand";
 import { Advice } from "@/components/home/Advice";
+import { Journey } from "@/components/home/Journey";
+import { BmiSection } from "@/components/home/BmiSection";
+import { AbroadBand } from "@/components/home/AbroadBand";
+import { Faq } from "@/components/home/Faq";
+import { FinalCta } from "@/components/home/FinalCta";
+import { faqJsonLd } from "@/lib/seo";
+import { getMessages } from "next-intl/server";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
   const { locale } = await params;
@@ -22,19 +29,25 @@ export async function generateMetadata({ params }: PageProps<"/[locale]">): Prom
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const locale = await resolveLocale(params);
+  const messages = await getMessages();
   return (
     <>
-      <JsonLd data={clinicJsonLd(locale)} />
+      <JsonLd data={[...clinicJsonLd(locale), faqJsonLd(messages.Faq.items)]} />
       <main id="main" className="flex-1">
         <Hero />
         <TrustStrip />
         <Procedures />
         <Departments />
+        <Journey />
         <Doctor />
+        <BmiSection />
         <Stories />
         <CallbackBand />
+        <AbroadBand />
+        <Faq />
         <RoomsBand />
         <Advice />
+        <FinalCta />
       </main>
       <Footer />
     </>
