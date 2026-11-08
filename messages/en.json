@@ -35,7 +35,8 @@
     "switchToEnglish": "Switch to English",
     "mapPlaceholder": "Map placeholder",
     "map": "Map",
-    "whatsappFab": "WhatsApp us"
+    "whatsappFab": "WhatsApp us",
+    "backToTop": "Back to top"
   },
   "TopBar": {
     "address": "713 Al Horreya Road, Delta Building, Louran, Alexandria"
@@ -53,7 +54,9 @@
     "mobileLabel": "Mobile",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "doctorPage": "Dr. Karam"
+    "doctorPage": "Dr. Karam",
+    "backHome": "Home",
+    "backHomeLabel": "Back to the home page"
   },
   "Hero": {
     "eyebrow": "Bariatric & metabolic surgery · Alexandria, Egypt",

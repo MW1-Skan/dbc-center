@@ -7,7 +7,7 @@ import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
 import { Logo } from "@/components/ui/Logo";
-import { MenuIcon, CloseIcon } from "@/components/ui/icons";
+import { ArrowIcon, CloseIcon, MenuIcon } from "@/components/ui/icons";
 import { LanguageButton } from "./LanguageToggle";
 import { MobileMenu } from "./MobileMenu";
 
@@ -30,14 +30,19 @@ function subscribeScroll(onChange: () => void) {
   return () => window.removeEventListener("scroll", onChange);
 }
 const getScrolled = () => window.scrollY > 24;
+/** Threshold after which the home page offers a back-to-top control. */
+const getScrolledFar = () => window.scrollY > 480;
 
 export function Header() {
   const t = useTranslations("Nav");
   const pathname = usePathname();
   const scrolled = useSyncExternalStore(subscribeScroll, getScrolled, () => false);
+  const scrolledFar = useSyncExternalStore(subscribeScroll, getScrolledFar, () => false);
+  const tc = useTranslations("Common");
   const [open, setOpen] = useState(false);
   const menuId = useId();
 
+  const onHome = pathname === "/";
   const onRooms = pathname === "/rooms";
   const onBook = pathname === "/book";
 
@@ -49,7 +54,7 @@ export function Header() {
       )}
       data-scrolled={scrolled || undefined}
     >
-      <div className="container-x flex items-center justify-between gap-6 py-3.5 md:py-[18px]">
+      <div className="container-x flex items-center justify-between gap-4 py-3.5 md:py-[18px] xl:gap-6">
         <div
           className={cn(
             "duration-base origin-[left_center] transition-transform ease-out rtl:origin-[right_center]",
@@ -61,7 +66,7 @@ export function Header() {
 
         <nav
           aria-label={t("mainLabel")}
-          className="hidden items-center gap-8 text-base font-medium lg:flex"
+          className="hidden items-center gap-4 text-[15px] font-medium lg:flex xl:gap-8 xl:text-base"
         >
           {navItems.map((item) => {
             const current = item.key === "rooms" && onRooms;
@@ -71,7 +76,7 @@ export function Header() {
                 href={item.href}
                 aria-current={current ? "page" : undefined}
                 className={cn(
-                  "link-grow no-underline",
+                  "link-grow whitespace-nowrap no-underline",
                   current
                     ? "border-b-2 border-teal-500 pb-0.5 font-bold text-navy-700"
                     : "text-body hover:text-navy-700",
@@ -108,6 +113,42 @@ export function Header() {
       </div>
 
       <MobileMenu id={menuId} open={open} onClose={() => setOpen(false)} />
+
+      {/* Slot under the bar at the start edge: "Home" away from the home page, "Back to top" on it. */}
+      {!onHome ? (
+        <Link
+          href="/"
+          aria-label={t("backHomeLabel")}
+          className="press fade-in absolute start-5 top-full mt-3 inline-flex h-10 items-center gap-2 rounded-pill border border-line bg-white/95 ps-3 pe-4 text-sm font-semibold text-navy-700 no-underline shadow-header backdrop-blur-sm hover:text-navy-800 md:start-8"
+          data-testid="back-home"
+        >
+          <ArrowIcon size={16} className="-scale-x-100 rtl:scale-x-100" />
+          {t("backHome")}
+        </Link>
+      ) : scrolledFar ? (
+        <button
+          type="button"
+          aria-label={tc("backToTop")}
+          onClick={() => window.scrollTo({ top: 0 })}
+          className="press fade-in absolute start-5 top-full mt-3 flex size-10 items-center justify-center rounded-full border border-line bg-white/95 text-navy-700 shadow-header backdrop-blur-sm hover:text-navy-800 md:start-8"
+          data-testid="back-to-top"
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden
+          >
+            <path d="M12 19V5" />
+            <path d="M5 12l7-7 7 7" />
+          </svg>
+        </button>
+      ) : null}
     </header>
   );
 }

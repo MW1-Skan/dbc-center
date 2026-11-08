@@ -113,3 +113,26 @@ test.describe("profile page", () => {
     expect(xml).toContain("/en/doctor");
   });
 });
+
+test.describe("header slot", () => {
+  test("shows a Home pill away from the home page", async ({ page }) => {
+    await page.goto("/en/doctor");
+    const pill = page.getByTestId("back-home");
+    await expect(pill).toBeVisible();
+    await expect(page.getByTestId("back-to-top")).toHaveCount(0);
+    await pill.click();
+    await expect(page).toHaveURL(/\/en$/);
+  });
+
+  test("shows a back-to-top button on the home page after scrolling", async ({ page }) => {
+    await page.goto("/en");
+    await expect(page.getByTestId("back-home")).toHaveCount(0);
+    await expect(page.getByTestId("back-to-top")).toHaveCount(0);
+    await page.evaluate(() => window.scrollTo(0, 1200));
+    const up = page.getByTestId("back-to-top");
+    await expect(up).toBeVisible();
+    await up.click();
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+    await expect(up).toHaveCount(0);
+  });
+});

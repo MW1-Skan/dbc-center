@@ -13,6 +13,11 @@ export default defineConfig({
     baseURL,
     trace: "off",
     ...devices["Desktop Chrome"],
+    // Each run presents a fresh client IP so the per-IP form rate limit never
+    // trips across repeated runs against one long-lived dev server.
+    extraHTTPHeaders: {
+      "x-forwarded-for": `10.77.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}`,
+    },
   },
   webServer: {
     command: `npm run dev -- -p ${PORT}`,
