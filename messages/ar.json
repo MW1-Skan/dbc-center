@@ -1,867 +1,867 @@
 {
   "Meta": {
-    "siteName": "[AR] Delta Bariatric Center",
+    "siteName": "مركز دلتا لجراحات السمنة",
     "home": {
-      "title": "[AR] Delta Bariatric Center — Bariatric & metabolic surgery in Alexandria",
-      "description": "[AR] Lasting weight loss, with a surgeon and a team who stay with you. Led by Dr. Mohsen Karam, FRCSI — surgery, nutrition, psychology and physiotherapy under one roof in Alexandria, Egypt."
+      "title": "مركز دلتا لجراحات السمنة — جراحات السمنة والتمثيل الغذائي في الإسكندرية",
+      "description": "فقدان وزن يدوم، مع جرّاح وفريق يبقون إلى جانبك. بقيادة د. محسن كرم (FRCSI)؛ الجراحة والتغذية والدعم النفسي والعلاج الطبيعي تحت سقف واحد في الإسكندرية، مصر."
     },
     "book": {
-      "title": "[AR] Book an appointment — Delta Bariatric Center",
-      "description": "[AR] Tell us what you need and when suits you. We will call or WhatsApp you to confirm the exact time of your consultation at Delta Bariatric Center, Alexandria."
+      "title": "احجز موعدًا — مركز دلتا لجراحات السمنة",
+      "description": "أخبرنا بما تحتاجه والوقت الذي يناسبك، وسنتصل بك أو نراسلك على واتساب لتأكيد موعد استشارتك في مركز دلتا لجراحات السمنة بالإسكندرية."
     },
     "rooms": {
-      "title": "[AR] Room rental for doctors & organizations — Delta Bariatric Center",
-      "description": "[AR] Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month."
+      "title": "تأجير غرف الكشف للأطباء والمؤسسات — مركز دلتا لجراحات السمنة",
+      "description": "أربع غرف كشف مجهّزة في مركز دلتا لجراحات السمنة بلوران، الإسكندرية. استأجر غرفة واحدة أو أكثر، لنصف يوم أسبوعيًا أو للشهر بأكمله."
     },
-    "ogTagline": "[AR] Bariatric & metabolic surgery · Alexandria, Egypt",
+    "ogTagline": "جراحات السمنة والتمثيل الغذائي · الإسكندرية، مصر",
     "doctor": {
-      "title": "[AR] Dr. Mohsen Karam — Consultant bariatric surgeon in Alexandria",
-      "description": "[AR] Profile of Dr. Mohsen Karam, FRCSI: Alexandria University graduate, 25 years at Hamad Medical Corporation in Qatar, bariatric surgeon since 2013, published researcher and teacher, now at Delta Bariatric Center."
+      "title": "د. محسن كرم — استشاري جراحات السمنة في الإسكندرية",
+      "description": "نبذة عن د. محسن كرم (FRCSI): خريج جامعة الإسكندرية، 25 عامًا في مؤسسة حمد الطبية بقطر، جرّاح سمنة منذ 2013، باحث له أبحاث منشورة ومعلّم، ويمارس اليوم في مركز دلتا لجراحات السمنة."
     }
   },
   "Common": {
-    "brandName": "[AR] Delta Bariatric Center",
-    "brandWord": "[AR] DELTA",
-    "brandSub": "[AR] BARIATRIC CENTER",
-    "homeLinkLabel": "[AR] Delta Bariatric Center — home",
-    "skipToContent": "[AR] Skip to content",
-    "bookConsultation": "[AR] Book a consultation",
-    "whatsapp": "[AR] WhatsApp",
-    "call": "[AR] Call",
-    "optional": "[AR] (optional)",
-    "learnMore": "[AR] Learn more",
-    "language": "[AR] Language",
-    "switchToArabic": "[AR] Switch to Arabic",
-    "switchToEnglish": "[AR] Switch to English",
-    "mapPlaceholder": "[AR] Map placeholder",
-    "map": "[AR] Map",
-    "whatsappFab": "[AR] WhatsApp us",
-    "backToTop": "[AR] Back to top"
+    "brandName": "مركز دلتا لجراحات السمنة",
+    "brandWord": "DELTA",
+    "brandSub": "BARIATRIC CENTER",
+    "homeLinkLabel": "مركز دلتا لجراحات السمنة — الصفحة الرئيسية",
+    "skipToContent": "انتقل إلى المحتوى",
+    "bookConsultation": "احجز استشارة",
+    "whatsapp": "واتساب",
+    "call": "اتصل",
+    "optional": "(اختياري)",
+    "learnMore": "اعرف المزيد",
+    "language": "اللغة",
+    "switchToArabic": "التبديل إلى العربية",
+    "switchToEnglish": "التبديل إلى الإنجليزية",
+    "mapPlaceholder": "موضع الخريطة",
+    "map": "الخريطة",
+    "whatsappFab": "راسلنا على واتساب",
+    "backToTop": "العودة إلى الأعلى"
   },
   "TopBar": {
-    "address": "[AR] 713 Al Horreya Road, Delta Building, Louran, Alexandria"
+    "address": "713 طريق الحرية، عمارة دلتا، لوران، الإسكندرية"
   },
   "Nav": {
-    "doctor": "[AR] Dr. Karam",
-    "procedures": "[AR] Procedures",
-    "team": "[AR] Our team",
-    "stories": "[AR] Patient stories",
-    "advice": "[AR] Medical advice",
-    "rooms": "[AR] Room rental",
-    "home": "[AR] Home",
-    "book": "[AR] Book a consultation",
-    "mainLabel": "[AR] Main",
-    "mobileLabel": "[AR] Mobile",
-    "openMenu": "[AR] Open menu",
-    "closeMenu": "[AR] Close menu",
-    "doctorPage": "[AR] Dr. Karam",
-    "backHome": "[AR] Home",
-    "backHomeLabel": "[AR] Back to the home page"
+    "doctor": "د. كرم",
+    "procedures": "العمليات",
+    "team": "فريقنا",
+    "stories": "قصص المرضى",
+    "advice": "نصائح طبية",
+    "rooms": "تأجير غرف الكشف",
+    "home": "الرئيسية",
+    "book": "احجز استشارة",
+    "mainLabel": "القائمة الرئيسية",
+    "mobileLabel": "قائمة الهاتف",
+    "openMenu": "افتح القائمة",
+    "closeMenu": "أغلق القائمة",
+    "doctorPage": "د. كرم",
+    "backHome": "الرئيسية",
+    "backHomeLabel": "العودة إلى الصفحة الرئيسية"
   },
   "Hero": {
-    "eyebrow": "[AR] Bariatric & metabolic surgery · Alexandria, Egypt",
-    "eyebrowShort": "[AR] Bariatric surgery · Alexandria",
-    "title": "[AR] Lasting weight loss, with a surgeon and a team who stay with you.",
-    "lead": "[AR] Led by Dr. Mohsen Karam, FRCSI, Delta Bariatric Center brings surgery, nutrition, psychology and physiotherapy together under one roof — so every step of your journey is planned, not improvised.",
-    "leadShort": "[AR] Led by Dr. Mohsen Karam, FRCSI — surgery, nutrition, psychology and physiotherapy under one roof.",
-    "ctaBook": "[AR] Book a consultation",
-    "ctaWhatsapp": "[AR] Message us on WhatsApp",
-    "ctaWhatsappShort": "[AR] WhatsApp us",
-    "photoLabel": "[AR] Photo · Dr. Karam with patient",
-    "photoLabelShort": "[AR] Photo · Dr. Karam",
-    "photoAlt": "[AR] Photo placeholder: Dr. Karam with a patient",
+    "eyebrow": "جراحات السمنة والتمثيل الغذائي · الإسكندرية، مصر",
+    "eyebrowShort": "جراحات السمنة · الإسكندرية",
+    "title": "فقدان وزن يدوم، مع جرّاح وفريق يبقون إلى جانبك.",
+    "lead": "بقيادة د. محسن كرم (FRCSI)، يجمع مركز دلتا لجراحات السمنة بين الجراحة والتغذية والدعم النفسي والعلاج الطبيعي تحت سقف واحد، لتكون كل خطوة في رحلتك مخطَّطة لا مرتجلة.",
+    "leadShort": "بقيادة د. محسن كرم (FRCSI)؛ الجراحة والتغذية والدعم النفسي والعلاج الطبيعي تحت سقف واحد.",
+    "ctaBook": "احجز استشارة",
+    "ctaWhatsapp": "راسلنا على واتساب",
+    "ctaWhatsappShort": "راسلنا على واتساب",
+    "photoLabel": "صورة · د. كرم مع مريض",
+    "photoLabelShort": "صورة · د. كرم",
+    "photoAlt": "موضع صورة: د. كرم مع أحد المرضى",
     "stats": {
       "procedures": {
-        "value": "[AR] [0,000+]",
-        "label": "[AR] procedures performed",
-        "labelShort": "[AR] procedures"
+        "value": "[0,000+]",
+        "label": "عملية أُجريت",
+        "labelShort": "عملية"
       },
       "years": {
-        "value": "[AR] Since 2013",
-        "label": "[AR] in bariatric surgery",
-        "labelShort": "[AR] bariatric surgery"
+        "value": "منذ 2013",
+        "label": "في جراحات السمنة",
+        "labelShort": "جراحات السمنة"
       },
       "departments": {
-        "value": "[AR] 7",
-        "label": "[AR] specialist departments",
-        "labelShort": "[AR] departments"
+        "value": "7",
+        "label": "أقسام تخصصية",
+        "labelShort": "أقسام"
       }
     },
-    "credentialName": "[AR] Dr. Mohsen Karam",
-    "credentialSub": "[AR] FRCSI · Royal College of Surgeons in Ireland",
-    "bmiLink": "[AR] Check your BMI",
-    "bmiLinkSub": "[AR] See if you may qualify in 30 seconds"
+    "credentialName": "د. محسن كرم",
+    "credentialSub": "FRCSI · الكلية الملكية للجراحين في أيرلندا",
+    "bmiLink": "احسب مؤشر كتلة الجسم (BMI)",
+    "bmiLinkSub": "اعرف خلال 30 ثانية إن كنت مؤهلًا"
   },
   "Trust": {
-    "label": "[AR] Trained & accredited",
-    "sectionLabel": "[AR] Training and memberships",
+    "label": "تدريب واعتماد",
+    "sectionLabel": "التدريب والعضويات",
     "items": {
-      "frcs": "[AR] <strong>FRCSI</strong> · Royal College of Surgeons in Ireland",
-      "ifso": "[AR] <strong>IFSO</strong> member",
-      "asmbs": "[AR] <strong>ASMBS</strong> member",
-      "ifsoAsmbs": "[AR] <strong>IFSO</strong> & <strong>ASMBS</strong> member",
-      "strasbourg": "[AR] Laparoscopic Surgery Diploma · <strong>Univ. of Strasbourg</strong>",
-      "qatar": "[AR] Bariatric Fellowship Training · <strong>Qatar Metabolic Institute</strong>"
+      "frcs": "<strong>FRCSI</strong> · الكلية الملكية للجراحين في أيرلندا",
+      "ifso": "عضو <strong>IFSO</strong>",
+      "asmbs": "عضو <strong>ASMBS</strong>",
+      "ifsoAsmbs": "عضو <strong>IFSO</strong> و<strong>ASMBS</strong>",
+      "strasbourg": "دبلوم الجراحة بالمنظار · <strong>جامعة ستراسبورغ</strong>",
+      "qatar": "تدريب زمالة جراحات السمنة · <strong>معهد قطر للتمثيل الغذائي</strong>"
     }
   },
   "Procedures": {
-    "eyebrow": "[AR] Procedures",
-    "title": "[AR] The right procedure for your body — not a one-size plan.",
-    "titleShort": "[AR] The right procedure for your body.",
-    "aside": "[AR] Every patient starts with a full assessment. Together, we choose the option that fits your health, your goals and your life.",
-    "illustration": "[AR] Illustration",
-    "illustrationAlt": "[AR] Illustration placeholder",
+    "eyebrow": "العمليات",
+    "title": "العملية المناسبة لجسمك، لا خطة واحدة للجميع.",
+    "titleShort": "العملية المناسبة لجسمك.",
+    "aside": "يبدأ كل مريض بتقييم شامل، ثم نختار معًا الخيار الذي يناسب صحتك وأهدافك وحياتك.",
+    "illustration": "رسم توضيحي",
+    "illustrationAlt": "موضع رسم توضيحي",
     "kinds": {
-      "laparoscopic": "[AR] Laparoscopic",
-      "nonSurgical": "[AR] Non-surgical"
+      "laparoscopic": "بالمنظار",
+      "nonSurgical": "بدون جراحة"
     },
     "items": {
       "sleeve": {
-        "name": "[AR] Sleeve gastrectomy",
+        "name": "تكميم المعدة",
         "desc": "[AR] Removes the larger part of the stomach, reducing how much you can eat and the hunger hormone it produces.",
         "descShort": "[AR] Removes the larger part of the stomach to reduce appetite and intake.",
         "meta": "[AR] Stay [X days] · Back to work [X weeks]"
       },
       "bypass": {
-        "name": "[AR] Gastric bypass",
+        "name": "تحويل مسار المعدة",
         "desc": "[AR] Full or partial (mini) bypass: a small stomach pouch is connected directly to the small intestine.",
         "descShort": "[AR] Full or partial bypass — a small pouch joined to the small intestine.",
         "meta": "[AR] Stay [X days] · Back to work [X weeks]"
       },
       "plication": {
-        "name": "[AR] Gastric plication",
+        "name": "طي المعدة",
         "desc": "[AR] The stomach is folded inward and stitched to reduce its volume — no part of the stomach is removed.",
         "descShort": "[AR] The stomach is folded and stitched — nothing is removed.",
         "meta": "[AR] Stay [X days] · Back to work [X weeks]"
       },
       "balloon": {
-        "name": "[AR] Gastric balloon",
+        "name": "بالون المعدة",
         "desc": "[AR] A soft balloon placed by endoscopy for a set period — a first step for patients who need moderate weight loss.",
         "descShort": "[AR] Placed by endoscopy for a set period, no surgery.",
         "meta": "[AR] Same-day · Balloon kept [X months]"
       }
     },
-    "learnMore": "[AR] Learn more",
-    "notSure": "[AR] Not sure which one fits you? That is exactly what the first consultation is for.",
-    "notSureCta": "[AR] Book a consultation"
+    "learnMore": "اعرف المزيد",
+    "notSure": "لست متأكدًا أيها يناسبك؟ هذا تحديدًا ما وُجدت الاستشارة الأولى من أجله.",
+    "notSureCta": "احجز استشارة"
   },
   "Departments": {
-    "eyebrow": "[AR] One center, every specialist",
-    "title": "[AR] Seven departments. One plan, built around you.",
-    "lead": "[AR] Surgery is one day. Success is the year that follows. Your surgeon, dietitian, psychologist and physiotherapist work from the same file, in the same building — and see you at every stage.",
-    "photoLabel": "[AR] Photo · The care team",
-    "photoAlt": "[AR] Photo placeholder: the care team",
+    "eyebrow": "مركز واحد، كل التخصصات",
+    "title": "سبعة أقسام. خطة واحدة مبنية حولك.",
+    "lead": "الجراحة يوم واحد، أما النجاح فهو العام الذي يليه. جرّاحك وأخصائي التغذية والأخصائي النفسي وأخصائي العلاج الطبيعي يعملون من الملف نفسه، في المبنى نفسه، ويتابعونك في كل مرحلة.",
+    "photoLabel": "صورة · فريق الرعاية",
+    "photoAlt": "موضع صورة: فريق الرعاية",
     "items": {
       "bariatricSurgery": {
-        "name": "[AR] Bariatric surgery",
+        "name": "جراحات السمنة",
         "desc": "[AR] Assessment, surgery and surgical follow-up with Dr. Karam."
       },
       "bariatricMedicine": {
-        "name": "[AR] Bariatric medicine",
+        "name": "طب السمنة",
         "desc": "[AR] Medical preparation before surgery and monitoring after it."
       },
       "clinicalNutrition": {
-        "name": "[AR] Clinical nutrition",
+        "name": "التغذية العلاجية",
         "desc": "[AR] Staged eating plans, from the first liquids to lifelong habits."
       },
       "psychology": {
-        "name": "[AR] Psychology",
+        "name": "الدعم النفسي",
         "desc": "[AR] Preparing for change and building a healthier relationship with food."
       },
       "physiotherapy": {
-        "name": "[AR] Physiotherapy",
+        "name": "العلاج الطبيعي",
         "desc": "[AR] Safe movement and strength programs adapted to each stage."
       },
       "plasticSurgery": {
-        "name": "[AR] Plastic surgery",
+        "name": "جراحات التجميل",
         "desc": "[AR] Body contouring once your weight has stabilized."
       },
       "dermatology": {
-        "name": "[AR] Dermatology",
+        "name": "الأمراض الجلدية",
         "desc": "[AR] Skin care during and after major weight loss."
       }
     }
   },
   "Doctor": {
-    "eyebrow": "[AR] Meet your surgeon",
-    "name": "[AR] Dr. Mohsen Karam",
-    "role": "[AR] Consultant General, Laparoscopic & Bariatric Surgeon",
+    "eyebrow": "تعرّف على جرّاحك",
+    "name": "د. محسن كرم",
+    "role": "استشاري الجراحة العامة وجراحات المناظير والسمنة",
     "bio": "[AR] [Draft for Dr. Karam's approval] I graduated in medicine from Alexandria University, completed my Master of Surgery there and became a Fellow of the Royal College of Surgeons in Ireland in 1999. For 25 years I practised at Hamad Medical Corporation in Qatar, joining its bariatric and metabolic surgery team in 2013 and working as a consultant from 2018, while teaching residents and fellows and publishing research on sleeve gastrectomy outcomes and safety. At Delta Bariatric Center I bring that experience home to Alexandria, with a team that stays with every patient long after surgery.",
     "bioShort": "[AR] [Draft for approval] Alexandria graduate and FRCSI, with 25 years at Hamad Medical Corporation in Qatar and bariatric surgery since 2013. Now practising in Alexandria with a team that stays with every patient.",
-    "portraitLabel": "[AR] Portrait · Dr. Karam",
-    "portraitAlt": "[AR] Portrait placeholder: Dr. Mohsen Karam",
+    "portraitLabel": "صورة شخصية · د. كرم",
+    "portraitAlt": "موضع صورة شخصية: د. محسن كرم",
     "credentials": {
-      "frcs": "[AR] <strong>Fellow of the Royal College of Surgeons in Ireland</strong> (FRCSI), 1999",
-      "qatar": "[AR] <strong>Bariatric Surgery Fellowship Training</strong>, Hamad Medical Corporation / Qatar Metabolic Institute, 2023–24",
-      "strasbourg": "[AR] <strong>University Diploma in Laparoscopic Surgery</strong>, University of Strasbourg, France, 2009",
-      "memberships": "[AR] Member of <strong>IFSO</strong> and <strong>ASMBS</strong>"
+      "frcs": "<strong>زمالة الكلية الملكية للجراحين في أيرلندا</strong> (FRCSI)، 1999",
+      "qatar": "<strong>تدريب زمالة جراحات السمنة</strong>، مؤسسة حمد الطبية / معهد قطر للتمثيل الغذائي، 2023–24",
+      "strasbourg": "<strong>دبلوم جامعي في الجراحة بالمنظار</strong>، جامعة ستراسبورغ، فرنسا، 2009",
+      "memberships": "عضو في <strong>IFSO</strong> و<strong>ASMBS</strong>"
     },
     "credentialsShort": {
-      "frcs": "[AR] FRCSI, Royal College of Surgeons in Ireland",
-      "qatar": "[AR] Bariatric Fellowship Training, Qatar Metabolic Institute",
-      "strasbourg": "[AR] Laparoscopic Surgery Diploma, University of Strasbourg",
-      "memberships": "[AR] Member of IFSO and ASMBS"
+      "frcs": "FRCSI، الكلية الملكية للجراحين في أيرلندا",
+      "qatar": "تدريب زمالة جراحات السمنة، معهد قطر للتمثيل الغذائي",
+      "strasbourg": "دبلوم الجراحة بالمنظار، جامعة ستراسبورغ",
+      "memberships": "عضو في IFSO وASMBS"
     },
-    "readProfile": "[AR] Read full profile",
-    "viewCertificates": "[AR] View certificates"
+    "readProfile": "اقرأ السيرة الكاملة",
+    "viewCertificates": "اطّلع على الشهادات"
   },
   "Stories": {
-    "eyebrow": "[AR] Patient stories",
-    "title": "[AR] Real journeys, shared with permission.",
-    "seeAll": "[AR] See all stories & videos",
-    "videoAlt": "[AR] Video placeholder",
-    "quote": "[AR] “[Patient quote — one or two sentences, shared with written consent.]”",
-    "quoteShort": "[AR] “[Patient quote, shared with consent.]”",
-    "name": "[AR] [First name]",
-    "caption": "[AR] [Procedure] · [X] months after",
-    "captionShort": "[AR] [Procedure]"
+    "eyebrow": "قصص المرضى",
+    "title": "رحلات حقيقية، نشاركها بإذن أصحابها.",
+    "seeAll": "شاهد كل القصص والفيديوهات",
+    "videoAlt": "موضع فيديو",
+    "quote": "«[اقتباس من مريض — جملة أو جملتان، يُنشر بموافقة كتابية.]»",
+    "quoteShort": "«[اقتباس من مريض، يُنشر بموافقته.]»",
+    "name": "[الاسم الأول]",
+    "caption": "[العملية] · بعد [X] أشهر",
+    "captionShort": "[العملية]"
   },
   "Callback": {
-    "eyebrow": "[AR] Appointments",
-    "title": "[AR] Your first consultation starts here.",
-    "lead": "[AR] Leave your number and we will call you back to find a time — or pick your preferred day on the full booking page.",
-    "leadShort": "[AR] Leave your number — we call you back to find a time.",
-    "formTitle": "[AR] Request a call back",
-    "name": "[AR] Full name",
-    "namePlaceholder": "[AR] Your name",
-    "phone": "[AR] Phone / WhatsApp",
-    "phonePlaceholder": "[AR] +20 1XX XXX XXXX",
-    "interest": "[AR] I am interested in",
+    "eyebrow": "المواعيد",
+    "title": "استشارتك الأولى تبدأ من هنا.",
+    "lead": "اترك رقمك وسنعاود الاتصال بك لتحديد موعد، أو اختر اليوم الذي يناسبك من صفحة الحجز الكاملة.",
+    "leadShort": "اترك رقمك وسنعاود الاتصال بك لتحديد موعد.",
+    "formTitle": "اطلب معاودة الاتصال",
+    "name": "الاسم الكامل",
+    "namePlaceholder": "اسمك",
+    "phone": "الهاتف / واتساب",
+    "phonePlaceholder": "+20 1XX XXX XXXX",
+    "interest": "مجال اهتمامك",
     "interestOptions": {
-      "unsure": "[AR] Not sure yet — I need advice",
-      "sleeve": "[AR] Sleeve gastrectomy",
-      "bypass": "[AR] Gastric bypass",
-      "plication": "[AR] Gastric plication",
-      "balloon": "[AR] Gastric balloon",
-      "followUp": "[AR] Follow-up after surgery"
+      "unsure": "لست متأكدًا بعد — أحتاج إلى نصيحة",
+      "sleeve": "تكميم المعدة",
+      "bypass": "تحويل مسار المعدة",
+      "plication": "طي المعدة",
+      "balloon": "بالون المعدة",
+      "followUp": "متابعة بعد الجراحة"
     },
-    "submit": "[AR] Call me back",
-    "submitting": "[AR] Sending…",
-    "chooseDate": "[AR] Choose a date instead",
-    "chooseDateShort": "[AR] Or choose a date",
-    "successTitle": "[AR] Request received",
-    "successBody": "[AR] Thank you. We will call you back shortly to find a time.",
-    "another": "[AR] Send another request",
-    "whatsapp": "[AR] WhatsApp"
+    "submit": "اتصلوا بي",
+    "submitting": "جارٍ الإرسال…",
+    "chooseDate": "أو اختر تاريخًا بنفسك",
+    "chooseDateShort": "أو اختر تاريخًا",
+    "successTitle": "تم استلام طلبك",
+    "successBody": "شكرًا لك. سنعاود الاتصال بك قريبًا لتحديد موعد.",
+    "another": "أرسل طلبًا آخر",
+    "whatsapp": "واتساب"
   },
   "RoomsBand": {
-    "eyebrow": "[AR] For doctors & organizations",
-    "title": "[AR] Practice from our clinic. Four consultation rooms available.",
-    "titleShort": "[AR] Four consultation rooms available to rent.",
-    "lead": "[AR] Furnished consultation rooms in the Delta Building, Louran — with reception and a waiting area already running. Rent one room or several, by the half-day, the day or the month.",
-    "leadShort": "[AR] Furnished rooms with reception and a waiting area — by the half-day, day or month.",
+    "eyebrow": "للأطباء والمؤسسات",
+    "title": "مارس عملك من عيادتنا. أربع غرف كشف متاحة.",
+    "titleShort": "أربع غرف كشف متاحة للإيجار.",
+    "lead": "غرف كشف مجهّزة في عمارة دلتا بلوران، مع استقبال وصالة انتظار جاهزين للعمل. استأجر غرفة أو أكثر، بنصف اليوم أو اليوم أو الشهر.",
+    "leadShort": "غرف مجهّزة مع استقبال وصالة انتظار، بنصف اليوم أو اليوم أو الشهر.",
     "bullets": {
-      "furnished": "[AR] Furnished, ready to use",
-      "reception": "[AR] Reception & waiting area",
-      "terms": "[AR] Half-day, daily or monthly",
-      "location": "[AR] Central Alexandria location"
+      "furnished": "مجهّزة وجاهزة للاستخدام",
+      "reception": "استقبال وصالة انتظار",
+      "terms": "نصف يوم أو يومي أو شهري",
+      "location": "موقع في قلب الإسكندرية"
     },
-    "cta": "[AR] See rooms & availability",
-    "photoRoom2": "[AR] Photo · Room 2",
-    "photoRoom2Alt": "[AR] Photo placeholder: consultation room",
-    "room3": "[AR] Room 3",
-    "reception": "[AR] Reception",
-    "available": "[AR] Available"
+    "cta": "شاهد الغرف والمواعيد المتاحة",
+    "photoRoom2": "صورة · الغرفة 2",
+    "photoRoom2Alt": "موضع صورة: غرفة كشف",
+    "room3": "الغرفة 3",
+    "reception": "الاستقبال",
+    "available": "متاحة"
   },
   "Advice": {
-    "eyebrow": "[AR] Medical advice",
-    "title": "[AR] From Dr. Karam's desk",
-    "all": "[AR] All articles",
-    "imageAlt": "[AR] Article image placeholder",
-    "date": "[AR] [Date]",
+    "eyebrow": "نصائح طبية",
+    "title": "من مكتب د. كرم",
+    "all": "كل المقالات",
+    "imageAlt": "موضع صورة المقال",
+    "date": "[التاريخ]",
     "categories": {
-      "nutrition": "[AR] Nutrition",
-      "procedures": "[AR] Procedures",
-      "recovery": "[AR] Recovery"
+      "nutrition": "التغذية",
+      "procedures": "العمليات",
+      "recovery": "التعافي"
     },
     "items": {
-      "a1": "[AR] [Article title — e.g. eating in the first month after a sleeve]",
-      "a2": "[AR] [Article title — e.g. sleeve or bypass: how we decide]",
-      "a3": "[AR] [Article title — e.g. getting back to exercise safely]"
+      "a1": "[عنوان المقال — مثلًا: الأكل في الشهر الأول بعد التكميم]",
+      "a2": "[عنوان المقال — مثلًا: تكميم أم تحويل مسار؟ كيف نقرر]",
+      "a3": "[عنوان المقال — مثلًا: العودة إلى الرياضة بأمان]"
     }
   },
   "Footer": {
-    "tagline": "[AR] Bariatric and metabolic surgery with a full specialist team, in Alexandria.",
-    "visit": "[AR] Visit",
-    "contact": "[AR] Contact",
-    "explore": "[AR] Explore",
-    "follow": "[AR] Follow",
-    "openInMaps": "[AR] Open in Google Maps",
-    "procedures": "[AR] Procedures",
-    "book": "[AR] Book an appointment",
-    "rooms": "[AR] Room rental",
-    "advice": "[AR] Medical advice",
-    "copyright": "[AR] © {year} Delta Bariatric Center. All rights reserved.",
-    "copyrightShort": "[AR] © {year} Delta Bariatric Center",
-    "privacy": "[AR] Privacy",
-    "medicalDisclaimer": "[AR] Medical disclaimer",
-    "rentalTerms": "[AR] Rental terms",
-    "whatsapp": "[AR] WhatsApp",
-    "disclaimerLine": "[AR] Information on this website does not replace medical advice."
+    "tagline": "جراحات السمنة والتمثيل الغذائي مع فريق متكامل من التخصصات، في الإسكندرية.",
+    "visit": "زورونا",
+    "contact": "تواصل معنا",
+    "explore": "استكشف",
+    "follow": "تابعنا",
+    "openInMaps": "افتح في خرائط Google",
+    "procedures": "العمليات",
+    "book": "احجز موعدًا",
+    "rooms": "تأجير غرف الكشف",
+    "advice": "نصائح طبية",
+    "copyright": "© {year} مركز دلتا لجراحات السمنة. جميع الحقوق محفوظة.",
+    "copyrightShort": "© {year} مركز دلتا لجراحات السمنة",
+    "privacy": "الخصوصية",
+    "medicalDisclaimer": "إخلاء المسؤولية الطبية",
+    "rentalTerms": "شروط الإيجار",
+    "whatsapp": "واتساب",
+    "disclaimerLine": "المعلومات الواردة في هذا الموقع لا تغني عن استشارة الطبيب."
   },
   "Sticky": {
-    "call": "[AR] Call the clinic",
-    "whatsapp": "[AR] WhatsApp",
-    "book": "[AR] Book"
+    "call": "اتصل بالعيادة",
+    "whatsapp": "واتساب",
+    "book": "احجز"
   },
   "Breadcrumb": {
-    "label": "[AR] Breadcrumb",
-    "home": "[AR] Home"
+    "label": "مسار التنقل",
+    "home": "الرئيسية"
   },
   "BookPage": {
-    "crumb": "[AR] Book an appointment",
-    "title": "[AR] Book an appointment",
-    "lead": "[AR] Tell us what you need and when suits you. We will call or WhatsApp you within [X working hours] to confirm the exact time.",
+    "crumb": "احجز موعدًا",
+    "title": "احجز موعدًا",
+    "lead": "أخبرنا بما تحتاجه والوقت الذي يناسبك. سنتصل بك أو نراسلك على واتساب خلال [X ساعة عمل] لتأكيد الموعد بدقة.",
     "steps": {
-      "reason": "[AR] What is the visit for?",
-      "who": "[AR] Who would you like to see?",
-      "when": "[AR] When suits you?",
-      "details": "[AR] Your details"
+      "reason": "ما سبب الزيارة؟",
+      "who": "من تودّ مقابلته؟",
+      "when": "متى يناسبك؟",
+      "details": "بياناتك"
     },
     "reasons": {
       "first": {
-        "title": "[AR] First consultation",
-        "desc": "[AR] New patient — assessment and options"
+        "title": "استشارة أولى",
+        "desc": "مريض جديد — تقييم وعرض للخيارات"
       },
       "follow": {
-        "title": "[AR] Follow-up visit",
-        "desc": "[AR] For patients after surgery or a balloon"
+        "title": "زيارة متابعة",
+        "desc": "للمرضى بعد الجراحة أو البالون"
       },
       "second": {
-        "title": "[AR] Second opinion",
-        "desc": "[AR] You were advised surgery elsewhere"
+        "title": "رأي ثانٍ",
+        "desc": "نُصحت بالجراحة في مكان آخر"
       },
       "support": {
-        "title": "[AR] Nutrition or psychology",
-        "desc": "[AR] A session with our dietitian or psychologist"
+        "title": "تغذية أو دعم نفسي",
+        "desc": "جلسة مع أخصائي التغذية أو الأخصائي النفسي"
       }
     },
-    "department": "[AR] Department",
+    "department": "القسم",
     "departments": {
-      "bariatricSurgery": "[AR] Bariatric surgery — Dr. Karam",
-      "bariatricMedicine": "[AR] Bariatric medicine",
-      "clinicalNutrition": "[AR] Clinical nutrition",
-      "psychology": "[AR] Psychology",
-      "physiotherapy": "[AR] Physiotherapy",
-      "plasticSurgery": "[AR] Plastic surgery",
-      "dermatology": "[AR] Dermatology"
+      "bariatricSurgery": "جراحات السمنة — د. كرم",
+      "bariatricMedicine": "طب السمنة",
+      "clinicalNutrition": "التغذية العلاجية",
+      "psychology": "الدعم النفسي",
+      "physiotherapy": "العلاج الطبيعي",
+      "plasticSurgery": "جراحات التجميل",
+      "dermatology": "الأمراض الجلدية"
     },
-    "procedure": "[AR] Procedure of interest",
+    "procedure": "العملية التي تهمّك",
     "procedures": {
-      "unsure": "[AR] Not sure yet",
-      "sleeve": "[AR] Sleeve gastrectomy",
-      "bypass": "[AR] Gastric bypass",
-      "plication": "[AR] Gastric plication",
-      "balloon": "[AR] Gastric balloon"
+      "unsure": "لست متأكدًا بعد",
+      "sleeve": "تكميم المعدة",
+      "bypass": "تحويل مسار المعدة",
+      "plication": "طي المعدة",
+      "balloon": "بالون المعدة"
     },
-    "preferredDate": "[AR] Preferred date",
-    "secondDate": "[AR] Second choice",
-    "timeOfDay": "[AR] Time of day",
+    "preferredDate": "التاريخ المفضّل",
+    "secondDate": "خيار ثانٍ",
+    "timeOfDay": "وقت اليوم",
     "times": {
       "morning": {
-        "label": "[AR] Morning",
-        "hours": "[AR] [09–12]"
+        "label": "صباحًا",
+        "hours": "[09–12]"
       },
       "afternoon": {
-        "label": "[AR] Afternoon",
-        "hours": "[AR] [12–16]"
+        "label": "بعد الظهر",
+        "hours": "[12–16]"
       },
       "evening": {
-        "label": "[AR] Evening",
-        "hours": "[AR] [16–21]"
+        "label": "مساءً",
+        "hours": "[16–21]"
       }
     },
-    "name": "[AR] Full name",
-    "phone": "[AR] Phone / WhatsApp",
-    "phonePlaceholder": "[AR] +20 1XX XXX XXXX",
-    "email": "[AR] Email",
-    "age": "[AR] Age",
-    "bmiIntro": "[AR] <strong>Optional — helps us prepare.</strong> Your height and weight let the team estimate your BMI before you arrive.",
-    "height": "[AR] Height (cm)",
-    "weight": "[AR] Weight (kg)",
-    "notes": "[AR] Anything we should know?",
-    "notesPlaceholder": "[AR] Previous surgery, medical conditions, questions…",
-    "consent": "[AR] I agree that Delta Bariatric Center may contact me about this request. See our <link>privacy policy</link>.",
-    "submit": "[AR] Send request",
-    "submitting": "[AR] Sending…",
-    "submitNote": "[AR] This is a request — your time is confirmed once we call you.",
+    "name": "الاسم الكامل",
+    "phone": "الهاتف / واتساب",
+    "phonePlaceholder": "+20 1XX XXX XXXX",
+    "email": "البريد الإلكتروني",
+    "age": "العمر",
+    "bmiIntro": "<strong>اختياري، لكنه يساعدنا على الاستعداد.</strong> طولك ووزنك يتيحان للفريق تقدير مؤشر كتلة الجسم (BMI) قبل وصولك.",
+    "height": "الطول (سم)",
+    "weight": "الوزن (كجم)",
+    "notes": "هل هناك ما ينبغي أن نعرفه؟",
+    "notesPlaceholder": "جراحات سابقة، حالات طبية، أسئلة…",
+    "consent": "أوافق على أن يتواصل معي مركز دلتا لجراحات السمنة بخصوص هذا الطلب. اطّلع على <link>سياسة الخصوصية</link>.",
+    "submit": "أرسل الطلب",
+    "submitting": "جارٍ الإرسال…",
+    "submitNote": "هذا طلب حجز، ويُؤكَّد موعدك عندما نتصل بك.",
     "success": {
-      "title": "[AR] Request received",
-      "body": "[AR] Thank you. We will call or WhatsApp you within [X working hours] to confirm your appointment time.",
-      "home": "[AR] Back to home",
-      "again": "[AR] Make another request"
+      "title": "تم استلام طلبك",
+      "body": "شكرًا لك. سنتصل بك أو نراسلك على واتساب خلال [X ساعة عمل] لتأكيد موعدك.",
+      "home": "العودة إلى الرئيسية",
+      "again": "أرسل طلبًا آخر"
     },
     "next": {
-      "title": "[AR] What happens next",
+      "title": "ماذا يحدث بعد ذلك",
       "steps": {
         "confirm": {
-          "title": "[AR] We confirm your time",
-          "desc": "[AR] By phone or WhatsApp, usually within [X working hours]."
+          "title": "نؤكد موعدك",
+          "desc": "عبر الهاتف أو واتساب، عادةً خلال [X ساعة عمل]."
         },
         "visit": {
-          "title": "[AR] Your consultation",
-          "desc": "[AR] Bring any recent tests, scans and the list of medicines you take."
+          "title": "استشارتك",
+          "desc": "أحضر معك أي تحاليل أو أشعة حديثة، وقائمة الأدوية التي تتناولها."
         },
         "plan": {
-          "title": "[AR] Your personal plan",
-          "desc": "[AR] Options, preparation steps and costs — explained before you decide."
+          "title": "خطتك الشخصية",
+          "desc": "الخيارات وخطوات التحضير والتكاليف، نشرحها لك قبل أن تقرر."
         }
       },
-      "feeLabel": "[AR] Consultation fee",
-      "fee": "[AR] [EGP 000]"
+      "feeLabel": "رسوم الاستشارة",
+      "fee": "[000 جنيه]"
     },
     "talk": {
-      "title": "[AR] Prefer to talk?",
-      "whatsapp": "[AR] WhatsApp us"
+      "title": "تفضّل التحدث معنا؟",
+      "whatsapp": "راسلنا على واتساب"
     },
     "emergency": "[AR] <strong>Already had surgery and feeling unwell?</strong> Don't use this form — call {line} or go to the nearest emergency department."
   },
   "RoomsPage": {
-    "crumb": "[AR] Room rental",
-    "eyebrow": "[AR] For doctors & organizations",
-    "title": "[AR] Your practice, in a clinic that already runs.",
-    "lead": "[AR] Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month.",
-    "ctaAvailability": "[AR] Check availability",
-    "ctaCall": "[AR] Call to arrange a visit",
-    "heroPhoto": "[AR] Photo · Reception & waiting area",
-    "heroPhotoAlt": "[AR] Photo placeholder: clinic reception",
+    "crumb": "تأجير غرف الكشف",
+    "eyebrow": "للأطباء والمؤسسات",
+    "title": "عيادتك، داخل مركز يعمل بالفعل.",
+    "lead": "أربع غرف كشف مجهّزة في مركز دلتا لجراحات السمنة بلوران، الإسكندرية. استأجر غرفة واحدة أو أكثر، لنصف يوم أسبوعيًا أو للشهر بأكمله.",
+    "ctaAvailability": "تحقق من المواعيد المتاحة",
+    "ctaCall": "اتصل لترتيب زيارة",
+    "heroPhoto": "صورة · الاستقبال وصالة الانتظار",
+    "heroPhotoAlt": "موضع صورة: استقبال المركز",
     "stats": {
       "rooms": {
-        "value": "[AR] 4",
-        "label": "[AR] rooms available"
+        "value": "4",
+        "label": "غرف متاحة"
       },
       "size": {
-        "value": "[AR] [00] m²",
-        "label": "[AR] per room"
+        "value": "[00] م²",
+        "label": "لكل غرفة"
       },
       "floor": {
-        "value": "[AR] [Floor X]",
-        "label": "[AR] Delta Building"
+        "value": "[الطابق X]",
+        "label": "عمارة دلتا"
       }
     },
     "rooms": {
-      "eyebrow": "[AR] The rooms",
-      "title": "[AR] Pick the rooms you need.",
-      "aside": "[AR] Select one or more rooms — your choice is carried into the inquiry form below.",
-      "planNote": "[AR] Illustrative layout — replace with the real floor plan",
+      "eyebrow": "الغرف",
+      "title": "اختر الغرف التي تحتاجها.",
+      "aside": "اختر غرفة أو أكثر، وسيُنقل اختيارك تلقائيًا إلى نموذج الاستفسار أدناه.",
+      "planNote": "مخطط توضيحي — يُستبدل بالمخطط الحقيقي",
       "legend": {
-        "available": "[AR] Available",
-        "selected": "[AR] Selected",
-        "inUse": "[AR] In use by DBC"
+        "available": "متاحة",
+        "selected": "محددة",
+        "inUse": "يستخدمها مركز دلتا"
       },
-      "waitingArea": "[AR] Waiting area",
-      "shared": "[AR] Shared",
-      "corridor": "[AR] Corridor",
-      "reception": "[AR] Reception · Entrance",
-      "roomName": "[AR] Room {number}",
+      "waitingArea": "صالة الانتظار",
+      "shared": "مشتركة",
+      "corridor": "الممر",
+      "reception": "الاستقبال · المدخل",
+      "roomName": "الغرفة {number}",
       "status": {
-        "available": "[AR] Available",
-        "selected": "[AR] Selected",
-        "inUse": "[AR] In use",
-        "inUseLong": "[AR] In use by DBC"
+        "available": "متاحة",
+        "selected": "محددة",
+        "inUse": "مستخدمة",
+        "inUseLong": "يستخدمها مركز دلتا"
       },
-      "ariaInUse": "[AR] {name}, in use by Delta Bariatric Center",
-      "ariaSelected": "[AR] {name}, selected",
-      "ariaAvailable": "[AR] {name}, available",
-      "photoAlt": "[AR] Room photo placeholder",
-      "ownSize": "[AR] Dr. Karam's consultation room",
-      "ownFeatures": "[AR] Reserved for Delta Bariatric Center patients.",
-      "size": "[AR] [00] m² · [window / no window]",
-      "features": "[AR] [Desk · Exam bed · Sink · Screen]",
-      "select": "[AR] Select room",
-      "selected": "[AR] Selected",
-      "notForRent": "[AR] Not for rent"
+      "ariaInUse": "{name}، يستخدمها مركز دلتا لجراحات السمنة",
+      "ariaSelected": "{name}، محددة",
+      "ariaAvailable": "{name}، متاحة",
+      "photoAlt": "موضع صورة الغرفة",
+      "ownSize": "غرفة كشف د. كرم",
+      "ownFeatures": "مخصصة لمرضى مركز دلتا لجراحات السمنة.",
+      "size": "[00] م² · [بنافذة / بدون نافذة]",
+      "features": "[مكتب · سرير كشف · حوض · شاشة]",
+      "select": "اختر الغرفة",
+      "selected": "محددة",
+      "notForRent": "غير متاحة للإيجار"
     },
     "included": {
-      "eyebrow": "[AR] Every rental includes",
-      "title": "[AR] Arrive, see patients, leave. We handle the rest.",
+      "eyebrow": "كل إيجار يشمل",
+      "title": "تصل، وتستقبل مرضاك، وتغادر. ونحن نتولى الباقي.",
       "items": {
         "furnished": {
-          "title": "[AR] Furnished room",
-          "desc": "[AR] [Desk, chairs, examination bed, sink — confirm list]"
+          "title": "غرفة مجهّزة",
+          "desc": "[مكتب، كراسٍ، سرير كشف، حوض — تُؤكَّد القائمة]"
         },
         "reception": {
-          "title": "[AR] Reception & check-in",
-          "desc": "[AR] Our front desk welcomes your patients and lets you know when they arrive."
+          "title": "استقبال وتسجيل الحضور",
+          "desc": "موظفو الاستقبال لدينا يرحّبون بمرضاك ويخبرونك عند وصولهم."
         },
         "waiting": {
-          "title": "[AR] Shared waiting area",
-          "desc": "[AR] A calm, air-conditioned space for your patients."
+          "title": "صالة انتظار مشتركة",
+          "desc": "مساحة هادئة ومكيّفة لمرضاك."
         },
         "utilities": {
-          "title": "[AR] Wi-Fi & utilities",
-          "desc": "[AR] Electricity, water, internet and air conditioning — all in the price."
+          "title": "واي فاي ومرافق",
+          "desc": "الكهرباء والمياه والإنترنت والتكييف، كلها ضمن السعر."
         },
         "cleaning": {
-          "title": "[AR] Cleaning",
-          "desc": "[AR] Rooms cleaned and prepared between sessions."
+          "title": "التنظيف",
+          "desc": "تُنظَّف الغرف وتُجهَّز بين الجلسات."
         },
         "location": {
-          "title": "[AR] Central location",
-          "desc": "[AR] On Al Horreya Road, Louran — easy for patients across Alexandria to reach."
+          "title": "موقع مركزي",
+          "desc": "على طريق الحرية بلوران، يسهل على المرضى الوصول إليه من كل أنحاء الإسكندرية."
         }
       }
     },
     "pricing": {
-      "eyebrow": "[AR] Flexible terms",
-      "title": "[AR] Pay for the time you use.",
-      "badge": "[AR] For regular clinics",
+      "eyebrow": "شروط مرنة",
+      "title": "ادفع مقابل الوقت الذي تستخدمه فقط.",
+      "badge": "للعيادات المنتظمة",
       "tiers": {
         "halfDay": {
-          "title": "[AR] Half-day",
-          "desc": "[AR] One [4-hour] session — ideal for trying the space or occasional clinics.",
-          "price": "[AR] [EGP 000]",
-          "unit": "[AR] / session"
+          "title": "نصف يوم",
+          "desc": "جلسة واحدة [4 ساعات]، مثالية لتجربة المكان أو للعيادات غير المنتظمة.",
+          "price": "[000 جنيه]",
+          "unit": "/ جلسة"
         },
         "fullDay": {
-          "title": "[AR] Full day",
-          "desc": "[AR] The room for the whole working day, [00:00–00:00].",
-          "price": "[AR] [EGP 000]",
-          "unit": "[AR] / day"
+          "title": "يوم كامل",
+          "desc": "الغرفة طوال يوم العمل، [00:00–00:00].",
+          "price": "[000 جنيه]",
+          "unit": "/ يوم"
         },
         "monthly": {
-          "title": "[AR] Monthly",
-          "desc": "[AR] Your fixed weekly slots, reserved every week of the month.",
-          "price": "[AR] [EGP 0,000]",
-          "unit": "[AR] / month"
+          "title": "شهري",
+          "desc": "مواعيدك الأسبوعية الثابتة، محجوزة لك كل أسبوع من الشهر.",
+          "price": "[0,000 جنيه]",
+          "unit": "/ شهر"
         }
       }
     },
     "inquiry": {
-      "eyebrow": "[AR] Rental inquiry",
-      "title": "[AR] Tell us how you would like to use the space.",
-      "lead": "[AR] We reply within [X working days] with availability and a quote. Visits to see the rooms can be arranged any working day.",
-      "selectionTitle": "[AR] Your selection",
-      "noSelection": "[AR] No room selected yet — <link>choose above</link>, or leave it to us.",
-      "org": "[AR] Doctor or organization",
-      "specialty": "[AR] Specialty",
-      "specialtyPlaceholder": "[AR] e.g. Endocrinology",
-      "phone": "[AR] Phone / WhatsApp",
-      "email": "[AR] Email",
-      "rentalType": "[AR] Rental type",
+      "eyebrow": "استفسار عن الإيجار",
+      "title": "أخبرنا كيف تودّ استخدام المكان.",
+      "lead": "نرد خلال [X يوم عمل] بالمواعيد المتاحة وعرض السعر. ويمكن ترتيب زيارة لمعاينة الغرف في أي يوم عمل.",
+      "selectionTitle": "اختيارك",
+      "noSelection": "لم تختر غرفة بعد — <link>اختر من الأعلى</link>، أو اترك الأمر لنا.",
+      "org": "الطبيب أو المؤسسة",
+      "specialty": "التخصص",
+      "specialtyPlaceholder": "مثلًا: الغدد الصماء",
+      "phone": "الهاتف / واتساب",
+      "email": "البريد الإلكتروني",
+      "rentalType": "نوع الإيجار",
       "rentalTypes": {
-        "monthly": "[AR] Monthly — fixed weekly slots",
-        "fullDay": "[AR] Full day",
-        "halfDay": "[AR] Half-day",
-        "unsure": "[AR] Not sure yet"
+        "monthly": "شهري — مواعيد أسبوعية ثابتة",
+        "fullDay": "يوم كامل",
+        "halfDay": "نصف يوم",
+        "unsure": "لست متأكدًا بعد"
       },
-      "startDate": "[AR] Start date",
-      "days": "[AR] Which days?",
+      "startDate": "تاريخ البدء",
+      "days": "أي الأيام؟",
       "dayNames": {
-        "sat": "[AR] Sat",
-        "sun": "[AR] Sun",
-        "mon": "[AR] Mon",
-        "tue": "[AR] Tue",
-        "wed": "[AR] Wed",
-        "thu": "[AR] Thu",
-        "fri": "[AR] Fri"
+        "sat": "السبت",
+        "sun": "الأحد",
+        "mon": "الاثنين",
+        "tue": "الثلاثاء",
+        "wed": "الأربعاء",
+        "thu": "الخميس",
+        "fri": "الجمعة"
       },
-      "slot": "[AR] Which part of the day?",
+      "slot": "أي جزء من اليوم؟",
       "slots": {
-        "morning": "[AR] Morning",
-        "afternoon": "[AR] Afternoon",
-        "evening": "[AR] Evening",
-        "full": "[AR] Full day"
+        "morning": "صباحًا",
+        "afternoon": "بعد الظهر",
+        "evening": "مساءً",
+        "full": "يوم كامل"
       },
-      "message": "[AR] Anything else?",
-      "messagePlaceholder": "[AR] Equipment you need, expected number of patients…",
-      "submit": "[AR] Send inquiry",
-      "submitting": "[AR] Sending…",
-      "submitNote": "[AR] No commitment — we reply with availability and a quote.",
+      "message": "هل من شيء آخر؟",
+      "messagePlaceholder": "المعدات التي تحتاجها، العدد المتوقع للمرضى…",
+      "submit": "أرسل الاستفسار",
+      "submitting": "جارٍ الإرسال…",
+      "submitNote": "بدون أي التزام، نرد عليك بالمواعيد المتاحة وعرض السعر.",
       "success": {
-        "title": "[AR] Inquiry sent",
-        "body": "[AR] Thank you. We will get back to you within [X working days] with availability and pricing.",
-        "edit": "[AR] Edit my inquiry"
+        "title": "تم إرسال استفسارك",
+        "body": "شكرًا لك. سنرد عليك خلال [X يوم عمل] بالمواعيد المتاحة والأسعار.",
+        "edit": "عدّل استفساري"
       }
     },
     "closing": {
-      "title": "[AR] Interested in a room?",
-      "lead": "[AR] Contact us to arrange a visit and discuss availability and pricing.",
-      "call": "[AR] Call us",
-      "whatsapp": "[AR] WhatsApp",
-      "email": "[AR] Email us"
+      "title": "مهتم بغرفة؟",
+      "lead": "تواصل معنا لترتيب زيارة ومناقشة المواعيد المتاحة والأسعار.",
+      "call": "اتصل بنا",
+      "whatsapp": "واتساب",
+      "email": "راسلنا بالبريد"
     }
   },
   "Forms": {
-    "required": "[AR] Please fill in this field.",
-    "name": "[AR] Please enter your full name.",
-    "phone": "[AR] Please enter a valid phone number.",
-    "email": "[AR] Please enter a valid email address.",
-    "age": "[AR] Please enter an age between 12 and 99.",
-    "number": "[AR] Please enter a valid number.",
-    "date": "[AR] Please choose a date.",
-    "consent": "[AR] Please agree so we can contact you.",
-    "rateLimited": "[AR] You have sent several requests in a short time. Please wait a few minutes and try again, or call us.",
-    "failed": "[AR] We could not send your request. Please try again, or call us on {phone}.",
-    "invalid": "[AR] Please check the highlighted fields.",
-    "errorTitle": "[AR] Something needs your attention",
-    "countryCode": "[AR] Country code",
-    "phoneNational": "[AR] 1XX XXX XXXX",
-    "phoneOther": "[AR] + country code and number"
+    "required": "يرجى ملء هذا الحقل.",
+    "name": "يرجى إدخال اسمك الكامل.",
+    "phone": "يرجى إدخال رقم هاتف صحيح.",
+    "email": "يرجى إدخال بريد إلكتروني صحيح.",
+    "age": "يرجى إدخال عمر بين 12 و99.",
+    "number": "يرجى إدخال رقم صحيح.",
+    "date": "يرجى اختيار تاريخ.",
+    "consent": "يرجى الموافقة حتى نتمكن من التواصل معك.",
+    "rateLimited": "لقد أرسلت عدة طلبات في وقت قصير. يرجى الانتظار بضع دقائق ثم المحاولة مجددًا، أو الاتصال بنا.",
+    "failed": "تعذّر إرسال طلبك. يرجى المحاولة مجددًا، أو الاتصال بنا على {phone}.",
+    "invalid": "يرجى مراجعة الحقول المحددة.",
+    "errorTitle": "هناك ما يحتاج إلى انتباهك",
+    "countryCode": "رمز الدولة",
+    "phoneNational": "1XX XXX XXXX",
+    "phoneOther": "+ رمز الدولة والرقم"
   },
   "NotFound": {
-    "title": "[AR] Page not found",
-    "body": "[AR] The page you are looking for does not exist or has moved.",
-    "home": "[AR] Back to home"
+    "title": "الصفحة غير موجودة",
+    "body": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+    "home": "العودة إلى الرئيسية"
   },
   "Journey": {
-    "eyebrow": "[AR] How it works",
-    "title": "[AR] Your journey with us",
+    "eyebrow": "كيف تسير الأمور",
+    "title": "رحلتك معنا",
     "steps": {
       "consultation": {
-        "title": "[AR] Consultation",
-        "desc": "[AR] Meet Dr. Karam, talk through your history and goals, and review your options."
+        "title": "الاستشارة",
+        "desc": "تقابل د. كرم، وتتحدثان عن تاريخك الصحي وأهدافك، وتراجعان الخيارات المتاحة."
       },
       "assessment": {
-        "title": "[AR] Assessment",
-        "desc": "[AR] Lab work, imaging and a nutrition review to confirm the safest plan."
+        "title": "التقييم",
+        "desc": "تحاليل وأشعة ومراجعة غذائية لتأكيد الخطة الأكثر أمانًا."
       },
       "surgery": {
-        "title": "[AR] Surgery",
-        "desc": "[AR] Minimally invasive keyhole surgery with a short hospital stay."
+        "title": "الجراحة",
+        "desc": "جراحة بالمنظار محدودة التدخل مع إقامة قصيرة في المستشفى."
       },
       "followUp": {
-        "title": "[AR] Follow-up",
-        "desc": "[AR] Nutrition guidance and regular check-ups for results that last."
+        "title": "المتابعة",
+        "desc": "إرشاد غذائي وفحوصات منتظمة لنتائج تدوم."
       }
     }
   },
   "Bmi": {
-    "eyebrow": "[AR] BMI calculator",
-    "title": "[AR] Could weight-loss surgery be right for you?",
-    "lead": "[AR] Body Mass Index is one of the first things we look at. Enter your height and weight for a quick indication.",
-    "height": "[AR] Height",
-    "weight": "[AR] Weight",
-    "heightValue": "[AR] {value} cm",
-    "weightValue": "[AR] {value} kg",
-    "your": "[AR] Your BMI",
+    "eyebrow": "حاسبة مؤشر كتلة الجسم (BMI)",
+    "title": "هل تناسبك جراحة إنقاص الوزن؟",
+    "lead": "مؤشر كتلة الجسم من أول ما ننظر إليه. أدخل طولك ووزنك للحصول على مؤشر سريع.",
+    "height": "الطول",
+    "weight": "الوزن",
+    "heightValue": "{value} سم",
+    "weightValue": "{value} كجم",
+    "your": "مؤشر كتلة جسمك",
     "categories": {
-      "healthy": "[AR] Healthy range",
-      "overweight": "[AR] Overweight",
-      "obesity1": "[AR] Obesity class I",
-      "obesity2": "[AR] Obesity class II",
-      "obesity3": "[AR] Obesity class III"
+      "healthy": "نطاق صحي",
+      "overweight": "زيادة في الوزن",
+      "obesity1": "سمنة من الدرجة الأولى",
+      "obesity2": "سمنة من الدرجة الثانية",
+      "obesity3": "سمنة من الدرجة الثالثة"
     },
     "messages": {
       "low": "[AR] Surgery is usually not indicated at this BMI. We are happy to talk through other options with you.",
       "mid": "[AR] You may qualify for the gastric balloon or, with related health conditions, for surgery.",
       "high": "[AR] You may be a candidate for bariatric surgery. A consultation will confirm the right option."
     },
-    "cta": "[AR] Book a consultation",
-    "note": "[AR] An indication only, not a medical diagnosis.",
-    "scaleLabel": "[AR] BMI scale from 18 to 50"
+    "cta": "احجز استشارة",
+    "note": "مؤشر تقريبي فقط، وليس تشخيصًا طبيًا.",
+    "scaleLabel": "مقياس مؤشر كتلة الجسم من 18 إلى 50"
   },
   "Faq": {
-    "eyebrow": "[AR] Questions",
-    "title": "[AR] Frequently asked questions",
+    "eyebrow": "أسئلة",
+    "title": "الأسئلة الشائعة",
     "items": {
       "candidate": {
-        "q": "[AR] Am I a candidate for bariatric surgery?",
+        "q": "هل أنا مرشح لجراحة السمنة؟",
         "a": "[AR] Generally, adults with a BMI of 35 or more, or 30 or more with conditions such as type 2 diabetes, high blood pressure or sleep apnea, may qualify. Dr. Karam will confirm after a full assessment."
       },
       "laparoscopic": {
-        "q": "[AR] Is the surgery done laparoscopically?",
+        "q": "هل تُجرى الجراحة بالمنظار؟",
         "a": "[AR] Yes. Most procedures are performed through small keyhole incisions, which means less pain, smaller scars and a faster recovery."
       },
       "stay": {
-        "q": "[AR] How long will I stay in hospital?",
+        "q": "كم سأبقى في المستشفى؟",
         "a": "[AR] Most patients stay one to three nights depending on the procedure. The gastric balloon is placed and you go home the same day."
       },
       "work": {
-        "q": "[AR] How soon can I return to work?",
+        "q": "متى يمكنني العودة إلى العمل؟",
         "a": "[AR] Many patients return to desk work within two to three weeks. Physically demanding work may need longer."
       },
       "after": {
-        "q": "[AR] What happens after surgery?",
+        "q": "ماذا يحدث بعد الجراحة؟",
         "a": "[AR] You follow a staged diet with our nutrition team and attend regular follow-up visits so we can track your progress."
       },
       "abroad": {
-        "q": "[AR] I live abroad. How long should I plan to stay in Alexandria?",
+        "q": "أعيش خارج مصر. كم ينبغي أن أخطط للبقاء في الإسكندرية؟",
         "a": "[AR] [To be confirmed by the clinic: number of days recommended before and after surgery.]"
       }
     }
   },
   "Abroad": {
-    "title": "[AR] Travelling from the Gulf or abroad?",
-    "lead": "[AR] Message us before you travel. We will help you schedule your consultation and surgery dates so your stay in Alexandria is short and smooth.",
-    "cta": "[AR] Chat on WhatsApp"
+    "title": "قادم من الخليج أو من الخارج؟",
+    "lead": "راسلنا قبل سفرك، وسنساعدك على تنسيق مواعيد الاستشارة والجراحة لتكون إقامتك في الإسكندرية قصيرة وميسّرة.",
+    "cta": "تحدث معنا على واتساب"
   },
   "FinalCta": {
-    "title": "[AR] Take the first step today.",
-    "lead": "[AR] Request a consultation and our team will call you back to confirm a time.",
-    "cta": "[AR] Book a consultation"
+    "title": "اتخذ الخطوة الأولى اليوم.",
+    "lead": "اطلب استشارة وسيعاود فريقنا الاتصال بك لتأكيد الموعد.",
+    "cta": "احجز استشارة"
   },
   "DoctorPage": {
-    "crumb": "[AR] Dr. Mohsen Karam",
-    "eyebrow": "[AR] The surgeon",
-    "name": "[AR] Dr. Mohsen Karam",
-    "role": "[AR] Consultant General, Laparoscopic & Bariatric Surgeon",
-    "qualifications": "[AR] M.B.Ch.B. · M.S. · FRCSI · D.U. Chirurgie Laparoscopique",
+    "crumb": "د. محسن كرم",
+    "eyebrow": "الجرّاح",
+    "name": "د. محسن كرم",
+    "role": "استشاري الجراحة العامة وجراحات المناظير والسمنة",
+    "qualifications": "M.B.Ch.B. · M.S. · FRCSI · D.U. Chirurgie Laparoscopique",
     "p1": "[AR] [Draft for Dr. Karam's approval] I am a general, laparoscopic and bariatric surgeon from Alexandria. After graduating from Alexandria University I spent 25 years at Hamad Medical Corporation in Qatar, where I joined the bariatric and metabolic surgery team in 2013 and worked as a consultant from 2018.",
     "p2": "[AR] [Draft for Dr. Karam's approval] Surgery is one part of lasting weight loss. The patients who do best are followed closely by a whole team, so at Delta Bariatric Center the surgeon, dietitian, psychologist and physiotherapist work from the same file and see you at every stage.",
-    "portraitLabel": "[AR] Portrait · Dr. Karam",
-    "portraitAlt": "[AR] Portrait placeholder: Dr. Mohsen Karam",
-    "ctaBook": "[AR] Book a consultation",
-    "ctaCertificates": "[AR] View certificates",
+    "portraitLabel": "صورة شخصية · د. كرم",
+    "portraitAlt": "موضع صورة شخصية: د. محسن كرم",
+    "ctaBook": "احجز استشارة",
+    "ctaCertificates": "اطّلع على الشهادات",
     "facts": {
       "hmc": {
-        "value": "[AR] 25 yrs",
-        "label": "[AR] at Hamad Medical Corporation, Qatar"
+        "value": "25 عامًا",
+        "label": "في مؤسسة حمد الطبية، قطر"
       },
       "bariatric": {
-        "value": "[AR] Since 2013",
-        "label": "[AR] in bariatric & metabolic surgery"
+        "value": "منذ 2013",
+        "label": "في جراحات السمنة والتمثيل الغذائي"
       },
       "papers": {
-        "value": "[AR] 7",
-        "label": "[AR] peer-reviewed publications"
+        "value": "7",
+        "label": "أبحاث منشورة محكّمة"
       }
     },
     "blocks": {
       "education": {
-        "title": "[AR] Education",
+        "title": "التعليم",
         "items": {
           "mbchb": {
-            "year": "[AR] 1989",
-            "text": "[AR] M.B.Ch.B., Bachelor of Medicine and Surgery, Alexandria University, Faculty of Medicine — Very Good with Honour"
+            "year": "1989",
+            "text": "بكالوريوس الطب والجراحة (M.B.Ch.B.‎)، كلية الطب، جامعة الإسكندرية — تقدير جيد جدًا مع مرتبة الشرف"
           },
           "ms": {
-            "year": "[AR] 1992",
-            "text": "[AR] M.S., Master of Surgery, Alexandria University, Faculty of Medicine"
+            "year": "1992",
+            "text": "ماجستير الجراحة (M.S.‎)، كلية الطب، جامعة الإسكندرية"
           }
         }
       },
       "training": {
-        "title": "[AR] Fellowship, diploma & training",
+        "title": "الزمالة والدبلوم والتدريب",
         "items": {
           "frcsi": {
-            "year": "[AR] 1999",
-            "text": "[AR] Fellow of the Royal College of Surgeons in Ireland (FRCSI)"
+            "year": "1999",
+            "text": "زمالة الكلية الملكية للجراحين في أيرلندا (FRCSI)"
           },
           "strasbourg": {
-            "year": "[AR] 2009",
-            "text": "[AR] Diplôme d'Université de Chirurgie Laparoscopique, Université de Strasbourg, France"
+            "year": "2009",
+            "text": "دبلوم جامعي في الجراحة بالمنظار (Diplôme d'Université de Chirurgie Laparoscopique)، جامعة ستراسبورغ، فرنسا"
           },
           "qmi": {
-            "year": "[AR] 2023–24",
-            "text": "[AR] Modified Bariatric Surgery Program, one-year fellowship training, Hamad Medical Corporation / Qatar Metabolic Institute, Doha"
+            "year": "2023–24",
+            "text": "برنامج جراحات السمنة المعدّل، تدريب زمالة لمدة عام، مؤسسة حمد الطبية / معهد قطر للتمثيل الغذائي، الدوحة"
           }
         }
       },
       "appointments": {
-        "title": "[AR] Clinical appointments",
+        "title": "المناصب الإكلينيكية",
         "items": {
           "hmc": {
-            "year": "[AR] 2001–2026",
-            "text": "[AR] Hamad Medical Corporation, Qatar — Department of Surgery, including the bariatric and metabolic surgery service"
+            "year": "2001–2026",
+            "text": "مؤسسة حمد الطبية، قطر — قسم الجراحة، بما في ذلك خدمة جراحات السمنة والتمثيل الغذائي"
           },
           "specialist": {
-            "year": "[AR] 2013–2018",
-            "text": "[AR] Specialist, Bariatric Surgery — Hamad General Hospital bariatric team"
+            "year": "2013–2018",
+            "text": "أخصائي جراحات السمنة — فريق جراحات السمنة بمستشفى حمد العام"
           },
           "consultant": {
-            "year": "[AR] 2018–2026",
-            "text": "[AR] Consultant, Bariatric Surgery — Hamad General Hospital bariatric team; multidisciplinary clinical work and departmental academic activity [official title to be confirmed]"
+            "year": "2018–2026",
+            "text": "استشاري جراحات السمنة — فريق جراحات السمنة بمستشفى حمد العام؛ عمل إكلينيكي متعدد التخصصات ونشاط أكاديمي في القسم [المسمى الرسمي قيد التأكيد]"
           }
         }
       },
       "memberships": {
-        "title": "[AR] Professional memberships",
+        "title": "العضويات المهنية",
         "items": {
           "ifso": {
-            "year": "[AR] IFSO",
-            "text": "[AR] International Federation for the Surgery of Obesity and Metabolic Disorders [membership documented for 2018 — confirm current]"
+            "year": "IFSO",
+            "text": "الاتحاد الدولي لجراحة السمنة واضطرابات التمثيل الغذائي (IFSO) [العضوية موثّقة لعام 2018 — يُؤكَّد سريانها]"
           },
           "asmbs": {
-            "year": "[AR] ASMBS",
-            "text": "[AR] American Society for Metabolic and Bariatric Surgery [international membership documented for 2018 — confirm current]"
+            "year": "ASMBS",
+            "text": "الجمعية الأمريكية لجراحات التمثيل الغذائي والسمنة (ASMBS) [العضوية الدولية موثّقة لعام 2018 — يُؤكَّد سريانها]"
           }
         }
       }
     },
     "research": {
-      "eyebrow": "[AR] Research & teaching",
-      "title": "[AR] Published work on sleeve gastrectomy outcomes and safety",
-      "lead": "[AR] Collaborative bariatric research on operative technique, outcomes and cost, complications, histopathology and preoperative assessment, alongside teaching residents and fellows.",
-      "publicationsTitle": "[AR] Peer-reviewed publications",
+      "eyebrow": "البحث والتدريس",
+      "title": "أبحاث منشورة عن نتائج تكميم المعدة وسلامته",
+      "lead": "أبحاث تعاونية في جراحات السمنة تناولت التقنية الجراحية والنتائج والتكلفة والمضاعفات وعلم الأنسجة المرضي والتقييم قبل الجراحة، إلى جانب تدريس الأطباء المقيمين وأطباء الزمالة.",
+      "publicationsTitle": "منشورات علمية محكّمة",
       "publications": {
         "p2020": {
-          "year": "[AR] 2020",
-          "text": "[AR] Single-Port Sleeve Gastrectomy Compared With Conventional Laparoscopic Sleeve Gastrectomy: 5-Year Follow-up of Weight Loss, Comorbidity Resolution, and Cost"
+          "year": "2020",
+          "text": "Single-Port Sleeve Gastrectomy Compared With Conventional Laparoscopic Sleeve Gastrectomy: 5-Year Follow-up of Weight Loss, Comorbidity Resolution, and Cost"
         },
         "p2018a": {
-          "year": "[AR] 2018",
-          "text": "[AR] Is Routine Preoperative Esophagogastroduodenoscopy Screening Necessary Prior to Laparoscopic Sleeve Gastrectomy? Review of 1,555 Cases and Comparison with Current Literature"
+          "year": "2018",
+          "text": "Is Routine Preoperative Esophagogastroduodenoscopy Screening Necessary Prior to Laparoscopic Sleeve Gastrectomy? Review of 1,555 Cases and Comparison with Current Literature"
         },
         "p2018b": {
-          "year": "[AR] 2018",
-          "text": "[AR] Laparoscopic Sleeve Gastrectomy in Patients With Abdominoplasty: A Case-Control Study"
+          "year": "2018",
+          "text": "Laparoscopic Sleeve Gastrectomy in Patients With Abdominoplasty: A Case-Control Study"
         },
         "p2017a": {
-          "year": "[AR] 2017",
-          "text": "[AR] Histopathological Changes in Laparoscopic Sleeve Gastrectomy Specimens: Prevalence, Risk Factors, and Value of Routine Histopathologic Examination"
+          "year": "2017",
+          "text": "Histopathological Changes in Laparoscopic Sleeve Gastrectomy Specimens: Prevalence, Risk Factors, and Value of Routine Histopathologic Examination"
         },
         "p2017b": {
-          "year": "[AR] 2017",
-          "text": "[AR] Comparison of Two Specimen Retrieval Techniques in Laparoscopic Sleeve Gastrectomy: What Is the Role of Endobag?"
+          "year": "2017",
+          "text": "Comparison of Two Specimen Retrieval Techniques in Laparoscopic Sleeve Gastrectomy: What Is the Role of Endobag?"
         },
         "p2017c": {
-          "year": "[AR] 2017",
-          "text": "[AR] Solid Organ Infections: Rare Complications After Laparoscopic Sleeve Gastrectomy: A Report of Four Cases"
+          "year": "2017",
+          "text": "Solid Organ Infections: Rare Complications After Laparoscopic Sleeve Gastrectomy: A Report of Four Cases"
         },
         "p2011": {
-          "year": "[AR] 2011",
-          "text": "[AR] Isolated Superior Mesenteric Venous Thrombophlebitis With Acute Appendicitis"
+          "year": "2011",
+          "text": "Isolated Superior Mesenteric Venous Thrombophlebitis With Acute Appendicitis"
         }
       },
-      "presentationsTitle": "[AR] Selected presentations",
+      "presentationsTitle": "عروض مختارة",
       "presentations": {
-        "aortogastric": "[AR] Successful Management of Aortogastric Fistula Post Sleeve Gastrectomy Leak — oral presentation, GOSS Bahrain (2016) and IFSO World Congress, Naples (2017)",
-        "herniation": "[AR] Laparoscopic Management of Postoperative Intrathoracic Gastric Sleeve Herniation — surgical video, American College of Surgeons Clinical Congress, Washington, DC (2016)",
-        "abdominoplasty": "[AR] Laparoscopic Sleeve Gastrectomy in Patients With Abdominoplasty — poster, ObesityWeek (2016)",
-        "endobag": "[AR] Comparison of Two Specimen Retrieval Techniques in Laparoscopic Sleeve Gastrectomy — poster, ObesityWeek (2016)"
+        "aortogastric": "Successful Management of Aortogastric Fistula Post Sleeve Gastrectomy Leak — عرض شفهي، مؤتمر GOSS في البحرين (2016) ومؤتمر IFSO العالمي في نابولي (2017)",
+        "herniation": "Laparoscopic Management of Postoperative Intrathoracic Gastric Sleeve Herniation — فيديو جراحي، المؤتمر الإكلينيكي للكلية الأمريكية للجراحين، واشنطن (2016)",
+        "abdominoplasty": "Laparoscopic Sleeve Gastrectomy in Patients With Abdominoplasty — ملصق علمي، ObesityWeek (2016)",
+        "endobag": "Comparison of Two Specimen Retrieval Techniques in Laparoscopic Sleeve Gastrectomy — ملصق علمي، ObesityWeek (2016)"
       },
-      "teachingTitle": "[AR] Teaching & mentorship",
+      "teachingTitle": "التدريس والإشراف",
       "teaching": {
-        "rounds": "[AR] Weekly bariatric grand rounds, monthly lectures and daily case discussions at Hamad Medical Corporation",
-        "supervision": "[AR] Supervision of medical students, residents, fellows and colleagues in clinic, ward and theatre",
-        "instructor": "[AR] Instructor, Upper GI Anastomosis Hands-On Course, Qatar Robotic Surgery Centre, Doha (2016)"
+        "rounds": "جولات أسبوعية كبرى في جراحات السمنة، ومحاضرات شهرية، ومناقشات يومية للحالات في مؤسسة حمد الطبية",
+        "supervision": "الإشراف على طلاب الطب والأطباء المقيمين وأطباء الزمالة والزملاء في العيادة والجناح وغرفة العمليات",
+        "instructor": "مدرّب في الدورة التطبيقية لتوصيل الجهاز الهضمي العلوي، مركز قطر للجراحة الروبوتية، الدوحة (2016)"
       }
     },
     "recognition": {
-      "eyebrow": "[AR] Conferences & recognition",
-      "title": "[AR] Active in the international bariatric community",
-      "conferencesTitle": "[AR] Congresses attended",
+      "eyebrow": "المؤتمرات والتقدير",
+      "title": "حضور فاعل في مجتمع جراحات السمنة الدولي",
+      "conferencesTitle": "المؤتمرات التي حضرها",
       "conferences": {
-        "c2024": "[AR] IFSO World Congress, Melbourne (2024)",
-        "c2023": "[AR] ASMBS Annual Meeting, Las Vegas (2023)",
-        "c2019": "[AR] IFSO World Congress and Postgraduate Course, Madrid (2019)",
-        "c2018": "[AR] Australia & New Zealand Metabolic and Obesity Surgery Society Conference, Melbourne (2018)",
-        "c2017": "[AR] ObesityWeek / ASMBS Annual Scientific Meeting, National Harbor (2017)",
-        "c2016": "[AR] IFSO World Congress, Rio de Janeiro (2016)",
-        "c2014": "[AR] IFSO World Congress, Montreal (2014)",
-        "c2013": "[AR] IFSO World Congress, Istanbul (2013)"
+        "c2024": "مؤتمر IFSO العالمي، ملبورن (2024)",
+        "c2023": "اجتماع ASMBS السنوي، لاس فيغاس (2023)",
+        "c2019": "مؤتمر IFSO العالمي ودورة الدراسات العليا، مدريد (2019)",
+        "c2018": "مؤتمر جمعية أستراليا ونيوزيلندا لجراحات التمثيل الغذائي والسمنة، ملبورن (2018)",
+        "c2017": "اجتماع ASMBS العلمي السنوي / ObesityWeek، ناشونال هاربور (2017)",
+        "c2016": "مؤتمر IFSO العالمي، ريو دي جانيرو (2016)",
+        "c2014": "مؤتمر IFSO العالمي، مونتريال (2014)",
+        "c2013": "مؤتمر IFSO العالمي، إسطنبول (2013)"
       },
-      "honoursTitle": "[AR] Honours & recognition",
+      "honoursTitle": "الجوائز والتقدير",
       "honours": {
-        "nbc": "[AR] Certificate of Appreciation, National Bariatric Center / Qatar Metabolic Institute (2024)",
-        "stars": "[AR] Stars of Excellence — Clinical Practice Award of Merit, Hamad Medical Corporation (2014)",
-        "journalClub": "[AR] Certificate of Appreciation, HMC Bariatric & Metabolic Surgery Journal Club (2019)"
+        "nbc": "شهادة تقدير، المركز الوطني لجراحات السمنة / معهد قطر للتمثيل الغذائي (2024)",
+        "stars": "نجوم التميّز — جائزة الاستحقاق في الممارسة الإكلينيكية، مؤسسة حمد الطبية (2014)",
+        "journalClub": "شهادة تقدير، نادي الدوريات العلمية لجراحات السمنة والتمثيل الغذائي بمؤسسة حمد الطبية (HMC) (2019)"
       }
     },
     "certificates": {
-      "eyebrow": "[AR] Documents",
-      "title": "[AR] Certificates",
-      "lead": "[AR] Scans of the original documents will be shown here. [Certificate scans to be supplied by the clinic.]",
+      "eyebrow": "الوثائق",
+      "title": "الشهادات",
+      "lead": "ستُعرض هنا صور الوثائق الأصلية. [صور الشهادات يوفرها المركز.]",
       "items": {
-        "frcsi": "[AR] FRCSI — Royal College of Surgeons in Ireland, 1999",
-        "strasbourg": "[AR] Diplôme d'Université de Chirurgie Laparoscopique — Strasbourg, 2009",
-        "qmi": "[AR] Bariatric Surgery Fellowship Training — HMC / Qatar Metabolic Institute, 2024",
-        "ms": "[AR] Master of Surgery — Alexandria University, 1992",
-        "mbchb": "[AR] M.B.Ch.B. — Alexandria University, 1989",
-        "stars": "[AR] Stars of Excellence Award of Merit — HMC, 2014"
+        "frcsi": "FRCSI — الكلية الملكية للجراحين في أيرلندا، 1999",
+        "strasbourg": "Diplôme d'Université de Chirurgie Laparoscopique — ستراسبورغ، 2009",
+        "qmi": "تدريب زمالة جراحات السمنة — HMC / معهد قطر للتمثيل الغذائي، 2024",
+        "ms": "ماجستير الجراحة — جامعة الإسكندرية، 1992",
+        "mbchb": "M.B.Ch.B.‎ — جامعة الإسكندرية، 1989",
+        "stars": "نجوم التميّز، جائزة الاستحقاق — HMC، 2014"
       },
-      "placeholder": "[AR] Certificate"
+      "placeholder": "شهادة"
     }
   }
 }

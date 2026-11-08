@@ -25,12 +25,15 @@ export function Footer() {
           <div className="flex flex-col gap-3">
             <h3 className={heading}>{t("visit")}</h3>
             <span>
-              {contact.address.line1}
-              <br />
-              {contact.address.line2}
-              <br className="hidden md:inline" />
-              <span className="md:hidden">, </span>
-              {contact.address.city}, {contact.address.country}
+              {/* Latin address: kept LTR inside the RTL page. */}
+              <span dir="ltr">
+                {contact.address.line1}
+                <br />
+                {contact.address.line2}
+                <br className="hidden md:inline" />
+                <span className="md:hidden">, </span>
+                {contact.address.city}, {contact.address.country}
+              </span>
             </span>
             <span>{contact.hours}</span>
             <a

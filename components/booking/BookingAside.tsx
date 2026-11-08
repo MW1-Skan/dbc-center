@@ -74,7 +74,7 @@ export function BookingAside() {
           </span>
         </div>
         <span className="text-[15px] text-lead">
-          {contact.address.inline}
+          <span dir="ltr">{contact.address.inline}</span>
           <br />
           {contact.hours}
         </span>

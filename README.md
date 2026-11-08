@@ -49,6 +49,8 @@ app/globals.css        all design tokens (@theme), layout utilities, motion rule
 components/            ui/ layout/ home/ doctor/ booking/ rooms/ forms/ motion/ seo/
 content/               facts used everywhere: contact details, procedures, departments, rooms…
 messages/en.json       every string on the site (ar.json mirrors it, see below)
+translations/          Arabic glossary and the list of strings awaiting the doctor's Arabic
+lib/arabic-shape.ts    Arabic presentation-form shaper used only by the Open Graph image
 lib/notify.ts          single entry point for all form submissions
 lib/actions.ts         server actions: validate → honeypot → rate limit → notify
 lib/schemas/           Zod schemas shared by client and server
@@ -72,9 +74,18 @@ the `adapters` array without touching the forms.
 - **Copy placeholders**: every `[square bracket]` value is listed in `PLACEHOLDERS.md` with the
   message key or content file that holds it. Edit the value in `messages/en.json` (or `content/`),
   then rerun `node scripts/placeholders.mjs` to refresh the list.
-- **Arabic**: `messages/ar.json` holds every English string prefixed with `[AR]` until a native
-  speaker translates it. Replace values in place; keep the keys. Do not machine-translate the
-  medical copy. Arabic pages already render RTL with IBM Plex Sans Arabic.
+- **Arabic**: `messages/ar.json` is translated (interface, marketing and profile copy) except the
+  medical content, which still carries the `[AR]` prefix and renders in English until Dr. Karam
+  supplies the Arabic: procedure descriptions and stay/recovery meta, department descriptions, the
+  biography (`Doctor.bio`, `Doctor.bioShort`, `DoctorPage.p1`, `DoctorPage.p2`), the BMI result
+  messages, the FAQ answers and the booking-page emergency notice. The full list with the English
+  text is in `translations/doctor-review.md`; terminology is in `translations/GLOSSARY.md`. Paste
+  the doctor's Arabic over each `[AR] …` value (keep the `{line}` placeholder and `<strong>` tags,
+  Western digits, bracketed placeholders as brackets). `node scripts/sync-ar.mjs` never overwrites
+  a value that has lost its `[AR]` prefix. Publication titles stay in English by convention; the
+  logo wordmark stays "DELTA / BARIATRIC CENTER". Arabic pages render RTL with IBM Plex Sans
+  Arabic, and the Arabic Open Graph image pre-shapes its text (`lib/arabic-shape.ts`) because
+  Satori measures Arabic letter by letter.
 - **Photos**: every image is an `<ImagePlaceholder>` (`components/ui/ImagePlaceholder.tsx`) with a
   label such as "Photo · Dr. Karam". Replace each usage with `next/image` at the same size and
   radius; the surrounding `overflow-hidden` frames already provide the hover zoom. The hero

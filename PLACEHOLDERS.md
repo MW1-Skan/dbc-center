@@ -94,8 +94,24 @@ both are kept as designed until the clinic confirms.
 
 ## Arabic copy
 
-`messages/ar.json` contains every string prefixed with `[AR]` until a native speaker translates it.
-Keep the keys, replace the values, and do not machine-translate the medical copy.
+`messages/ar.json` is translated except for 33 medical strings, which keep the `[AR]` prefix and
+show the English text on the Arabic pages until Dr. Karam supplies the Arabic:
+
+| Keys                                             | Where it shows                                   |
+| ------------------------------------------------ | ------------------------------------------------ |
+| `Procedures.items.*.desc`, `.descShort`, `.meta` | Home — procedure cards and phone rows            |
+| `Departments.items.*.desc`                       | Home — seven departments (desktop)               |
+| `Doctor.bio`, `Doctor.bioShort`                  | Home — Meet your surgeon                         |
+| `DoctorPage.p1`, `DoctorPage.p2`                 | Doctor profile — introduction                    |
+| `Bmi.messages.low`, `.mid`, `.high`              | Home — BMI calculator result                     |
+| `Faq.items.*.a`                                  | Home — FAQ answers (also skipped in the JSON-LD) |
+| `BookPage.emergency`                             | Booking page — emergency notice                  |
+
+`translations/doctor-review.md` lists each one with its English text, ready to send to the doctor;
+`translations/GLOSSARY.md` holds the terminology. Replace each `[AR] …` value in place and keep
+the key, the `{line}` placeholder and the `<strong>` tags. Placeholders inside Arabic strings are
+Arabic too (e.g. `[X ساعة عمل]`, `[000 جنيه]`, `[الطابق X]`); the table above lists the English
+keys only, since `scripts/placeholders.mjs` reads `messages/en.json`.
 
 ## Demo state in the design that was not reproduced
 

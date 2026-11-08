@@ -52,9 +52,7 @@ export function BmiCalculator() {
           <label htmlFor={`${id}-h`} className="flex flex-col gap-2.5">
             <span className="flex justify-between font-semibold text-navy-800">
               <span>{t("height")}</span>
-              <span dir="ltr" className="tabular-nums">
-                {t("heightValue", { value: height })}
-              </span>
+              <span className="tabular-nums">{t("heightValue", { value: height })}</span>
             </span>
             <input
               id={`${id}-h`}
@@ -69,9 +67,7 @@ export function BmiCalculator() {
           <label htmlFor={`${id}-w`} className="flex flex-col gap-2.5">
             <span className="flex justify-between font-semibold text-navy-800">
               <span>{t("weight")}</span>
-              <span dir="ltr" className="tabular-nums">
-                {t("weightValue", { value: weight })}
-              </span>
+              <span className="tabular-nums">{t("weightValue", { value: weight })}</span>
             </span>
             <input
               id={`${id}-w`}

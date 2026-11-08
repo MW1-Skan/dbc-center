@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { getTranslations } from "next-intl/server";
 import { hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
+import { shapeArabicVisual } from "@/lib/arabic-shape";
 
 export const alt = "Delta Bariatric Center";
 export const size = { width: 1200, height: 630 };
@@ -26,6 +27,31 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
   ]);
   const logoSrc = `data:image/png;base64,${logo.toString("base64")}`;
 
+  // Satori lays words out left-to-right whatever the direction and measures each
+  // letter in its isolated form, so Arabic lines are pre-shaped and built word by
+  // word in a reversed flex row; English text is rendered as-is.
+  const line = (text: string, fontSize: number, color: string, maxWidth?: number) => {
+    const base = { fontSize, lineHeight: 1.1, color, ...(maxWidth ? { maxWidth } : {}) };
+    return isAr ? (
+      <div
+        style={{
+          ...base,
+          display: "flex",
+          flexDirection: "row-reverse",
+          flexWrap: "wrap",
+          justifyContent: "flex-start",
+          columnGap: Math.round(fontSize * 0.28),
+        }}
+      >
+        {text.split(" ").map((word, i) => (
+          <span key={i}>{shapeArabicVisual(word)}</span>
+        ))}
+      </div>
+    ) : (
+      <span style={base}>{text}</span>
+    );
+  };
+
   return new ImageResponse(
     <div
       style={{
@@ -38,19 +64,34 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
         background: "#0A2E55",
         color: "#FFFFFF",
         fontFamily: "Brand",
-        direction: isAr ? "rtl" : "ltr",
+        alignItems: isAr ? "flex-end" : "flex-start",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: isAr ? "row-reverse" : "row",
+          alignItems: "center",
+          gap: 24,
+        }}
+      >
         <img src={logoSrc} width={96} height={96} alt="" />
         <div style={{ display: "flex", flexDirection: "column" }}>
           <span style={{ fontSize: 44, letterSpacing: 4 }}>DELTA</span>
           <span style={{ fontSize: 18, letterSpacing: 7, color: "#8FD3D8" }}>BARIATRIC CENTER</span>
         </div>
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-        <span style={{ fontSize: 60, lineHeight: 1.1, maxWidth: 960 }}>{t("siteName")}</span>
-        <span style={{ fontSize: 30, color: "#C9D8E7" }}>{t("ogTagline")}</span>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: isAr ? "flex-end" : "flex-start",
+          gap: 20,
+          width: "100%",
+        }}
+      >
+        {line(t("siteName"), 60, "#FFFFFF", 960)}
+        {line(t("ogTagline"), 30, "#C9D8E7")}
       </div>
       <div
         style={{
