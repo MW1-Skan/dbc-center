@@ -3,8 +3,8 @@ import { getTranslations } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
 import { contact, siteUrl } from "@/content/contact";
 
-type Page = "home" | "book" | "rooms";
-const paths: Record<Page, string> = { home: "", book: "/book", rooms: "/rooms" };
+type Page = "home" | "book" | "rooms" | "doctor";
+const paths: Record<Page, string> = { home: "", book: "/book", rooms: "/rooms", doctor: "/doctor" };
 
 export async function buildMetadata(locale: Locale, page: Page): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "Meta" });
@@ -61,7 +61,21 @@ export function clinicJsonLd(locale: Locale) {
       name: "Dr. Mohsen Karam",
       medicalSpecialty: "Bariatric surgery",
       worksFor: { "@id": clinicId },
-      url: `${siteUrl}/${locale}#doctor`,
+      url: `${siteUrl}/${locale}/doctor`,
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: "Alexandria University, Faculty of Medicine",
+      },
+      hasCredential: [
+        {
+          "@type": "EducationalOccupationalCredential",
+          name: "FRCSI, Royal College of Surgeons in Ireland",
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          name: "Diplôme d'Université de Chirurgie Laparoscopique, Université de Strasbourg",
+        },
+      ],
     },
   ];
 }

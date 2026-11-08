@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { siteUrl } from "@/content/contact";
 
-const pages = ["", "/book", "/rooms"] as const;
+const pages = ["", "/doctor", "/book", "/rooms"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();

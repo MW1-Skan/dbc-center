@@ -93,3 +93,23 @@ test("journey, abroad band, closing CTA and footer disclaimer render", async ({ 
   await page.goto("/en/rooms");
   await expect(page.getByRole("heading", { name: "Interested in a room?" })).toBeAttached();
 });
+
+test.describe("profile page", () => {
+  test("home buttons lead to the profile and its certificates", async ({ page }) => {
+    await page.goto("/en");
+    await page.getByRole("link", { name: "Read full profile" }).first().click();
+    await expect(page).toHaveURL(/\/en\/doctor$/);
+    await expect(page.getByRole("heading", { level: 1, name: "Dr. Mohsen Karam" })).toBeVisible();
+    await expect(
+      page.getByText("Fellow of the Royal College of Surgeons in Ireland (FRCSI)"),
+    ).toBeVisible();
+    await page.getByRole("link", { name: "View certificates" }).first().click();
+    await expect(page).toHaveURL(/#certificates$/);
+    await expect(page.getByRole("heading", { name: "Certificates" })).toBeVisible();
+  });
+
+  test("is listed in the sitemap", async ({ request }) => {
+    const xml = await (await request.get("/sitemap.xml")).text();
+    expect(xml).toContain("/en/doctor");
+  });
+});

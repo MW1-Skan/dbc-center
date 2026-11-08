@@ -13,40 +13,44 @@ node scripts/placeholders.mjs
 
 ## Copy placeholders
 
-| Placeholder                                                                                                                                                        | Where it is used                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| `[0,000+]`                                                                                                                                                         | `Hero.stats.procedures.value`                                                                             |
-| `[00:00–00:00]`                                                                                                                                                    | `RoomsPage.pricing.tiers.fullDay.desc`                                                                    |
-| `[00]`                                                                                                                                                             | `Hero.stats.years.value`<br>`RoomsPage.stats.size.value`<br>`RoomsPage.rooms.size`                        |
-| `[09–12]`                                                                                                                                                          | `BookPage.times.morning.hours`                                                                            |
-| `[12–16]`                                                                                                                                                          | `BookPage.times.afternoon.hours`                                                                          |
-| `[16–21]`                                                                                                                                                          | `BookPage.times.evening.hours`                                                                            |
-| `[4-hour]`                                                                                                                                                         | `RoomsPage.pricing.tiers.halfDay.desc`                                                                    |
-| `[Article title — e.g. eating in the first month after a sleeve]`                                                                                                  | `Advice.items.a1`                                                                                         |
-| `[Article title — e.g. getting back to exercise safely]`                                                                                                           | `Advice.items.a3`                                                                                         |
-| `[Article title — e.g. sleeve or bypass: how we decide]`                                                                                                           | `Advice.items.a2`                                                                                         |
-| `[Date]`                                                                                                                                                           | `Advice.date`                                                                                             |
-| `[Desk · Exam bed · Sink · Screen]`                                                                                                                                | `RoomsPage.rooms.features`                                                                                |
-| `[Desk, chairs, examination bed, sink — confirm list]`                                                                                                             | `RoomsPage.included.items.furnished.desc`                                                                 |
-| `[EGP 0,000]`                                                                                                                                                      | `RoomsPage.pricing.tiers.monthly.price`                                                                   |
-| `[EGP 000]`                                                                                                                                                        | `BookPage.next.fee`<br>`RoomsPage.pricing.tiers.halfDay.price`<br>`RoomsPage.pricing.tiers.fullDay.price` |
-| `[emergency line]`                                                                                                                                                 | `content/contact.ts`                                                                                      |
-| `[First name]`                                                                                                                                                     | `Stories.name`                                                                                            |
-| `[Floor X]`                                                                                                                                                        | `RoomsPage.stats.floor.value`                                                                             |
-| `[Patient quote — one or two sentences, shared with written consent.]`                                                                                             | `Stories.quote`                                                                                           |
-| `[Patient quote, shared with consent.]`                                                                                                                            | `Stories.quoteShort`                                                                                      |
-| `[Procedure]`                                                                                                                                                      | `Stories.caption`<br>`Stories.captionShort`                                                               |
-| `[Sat–Thu · 00:00–00:00]`                                                                                                                                          | `content/contact.ts`                                                                                      |
-| `[Short biography — two or three sentences on Dr. Karam's background, years in practice and how he approaches each patient. Written in his own voice works best.]` | `Doctor.bio`                                                                                              |
-| `[Short biography — two or three sentences.]`                                                                                                                      | `Doctor.bioShort`                                                                                         |
-| `[To be confirmed by the clinic: number of days recommended before and after surgery.]`                                                                            | `Faq.items.abroad.a`                                                                                      |
-| `[window / no window]`                                                                                                                                             | `RoomsPage.rooms.size`                                                                                    |
-| `[X days]`                                                                                                                                                         | `Procedures.items.sleeve.meta`<br>`Procedures.items.bypass.meta`<br>`Procedures.items.plication.meta`     |
-| `[X months]`                                                                                                                                                       | `Procedures.items.balloon.meta`                                                                           |
-| `[X weeks]`                                                                                                                                                        | `Procedures.items.sleeve.meta`<br>`Procedures.items.bypass.meta`<br>`Procedures.items.plication.meta`     |
-| `[X working days]`                                                                                                                                                 | `RoomsPage.inquiry.lead`<br>`RoomsPage.inquiry.success.body`                                              |
-| `[X working hours]`                                                                                                                                                | `BookPage.lead`<br>`BookPage.success.body`<br>`BookPage.next.steps.confirm.desc`                          |
-| `[X]`                                                                                                                                                              | `Stories.caption`                                                                                         |
+| Placeholder                                                                             | Where it is used                                                                                          |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `[0,000+]`                                                                              | `Hero.stats.procedures.value`                                                                             |
+| `[00:00–00:00]`                                                                         | `RoomsPage.pricing.tiers.fullDay.desc`                                                                    |
+| `[00]`                                                                                  | `RoomsPage.stats.size.value`<br>`RoomsPage.rooms.size`                                                    |
+| `[09–12]`                                                                               | `BookPage.times.morning.hours`                                                                            |
+| `[12–16]`                                                                               | `BookPage.times.afternoon.hours`                                                                          |
+| `[16–21]`                                                                               | `BookPage.times.evening.hours`                                                                            |
+| `[4-hour]`                                                                              | `RoomsPage.pricing.tiers.halfDay.desc`                                                                    |
+| `[Article title — e.g. eating in the first month after a sleeve]`                       | `Advice.items.a1`                                                                                         |
+| `[Article title — e.g. getting back to exercise safely]`                                | `Advice.items.a3`                                                                                         |
+| `[Article title — e.g. sleeve or bypass: how we decide]`                                | `Advice.items.a2`                                                                                         |
+| `[Certificate scans to be supplied by the clinic.]`                                     | `DoctorPage.certificates.lead`                                                                            |
+| `[Date]`                                                                                | `Advice.date`                                                                                             |
+| `[Desk · Exam bed · Sink · Screen]`                                                     | `RoomsPage.rooms.features`                                                                                |
+| `[Desk, chairs, examination bed, sink — confirm list]`                                  | `RoomsPage.included.items.furnished.desc`                                                                 |
+| `[Draft for approval]`                                                                  | `Doctor.bioShort`                                                                                         |
+| `[Draft for Dr. Karam's approval]`                                                      | `Doctor.bio`<br>`DoctorPage.p1`<br>`DoctorPage.p2`                                                        |
+| `[EGP 0,000]`                                                                           | `RoomsPage.pricing.tiers.monthly.price`                                                                   |
+| `[EGP 000]`                                                                             | `BookPage.next.fee`<br>`RoomsPage.pricing.tiers.halfDay.price`<br>`RoomsPage.pricing.tiers.fullDay.price` |
+| `[emergency line]`                                                                      | `content/contact.ts`                                                                                      |
+| `[First name]`                                                                          | `Stories.name`                                                                                            |
+| `[Floor X]`                                                                             | `RoomsPage.stats.floor.value`                                                                             |
+| `[international membership documented for 2018 — confirm current]`                      | `DoctorPage.blocks.memberships.items.asmbs.text`                                                          |
+| `[membership documented for 2018 — confirm current]`                                    | `DoctorPage.blocks.memberships.items.ifso.text`                                                           |
+| `[official title to be confirmed]`                                                      | `DoctorPage.blocks.appointments.items.consultant.text`                                                    |
+| `[Patient quote — one or two sentences, shared with written consent.]`                  | `Stories.quote`                                                                                           |
+| `[Patient quote, shared with consent.]`                                                 | `Stories.quoteShort`                                                                                      |
+| `[Procedure]`                                                                           | `Stories.caption`<br>`Stories.captionShort`                                                               |
+| `[Sat–Thu · 00:00–00:00]`                                                               | `content/contact.ts`                                                                                      |
+| `[To be confirmed by the clinic: number of days recommended before and after surgery.]` | `Faq.items.abroad.a`                                                                                      |
+| `[window / no window]`                                                                  | `RoomsPage.rooms.size`                                                                                    |
+| `[X days]`                                                                              | `Procedures.items.sleeve.meta`<br>`Procedures.items.bypass.meta`<br>`Procedures.items.plication.meta`     |
+| `[X months]`                                                                            | `Procedures.items.balloon.meta`                                                                           |
+| `[X weeks]`                                                                             | `Procedures.items.sleeve.meta`<br>`Procedures.items.bypass.meta`<br>`Procedures.items.plication.meta`     |
+| `[X working days]`                                                                      | `RoomsPage.inquiry.lead`<br>`RoomsPage.inquiry.success.body`                                              |
+| `[X working hours]`                                                                     | `BookPage.lead`<br>`BookPage.success.body`<br>`BookPage.next.steps.confirm.desc`                          |
+| `[X]`                                                                                   | `Stories.caption`                                                                                         |
 
 ## Photo and media placeholders
 
@@ -78,6 +82,15 @@ Rendered with `components/ui/ImagePlaceholder.tsx` (striped frame with a label).
 | Open in Google Maps                       | `content/contact.ts` (`mapsHref`) |
 | Facebook, Instagram, TikTok               | `content/contact.ts` (`social`)   |
 | Privacy, Medical disclaimer, Rental terms | `content/contact.ts` (`legal`)    |
+
+## Content drafted from the CV
+
+The biography (`Doctor.bio`, `Doctor.bioShort`) is drafted from Dr. Karam's CV and starts with
+"[Draft for approval]" until he signs it off. The credentials (FRCSI 1999, University Diploma in
+Laparoscopic Surgery, Strasbourg 2009, Bariatric Surgery Fellowship Training at Hamad Medical
+Corporation / Qatar Metabolic Institute 2023–24) and the "Since 2013" stat come from the CV. IFSO and
+ASMBS memberships are documented for 2018 only and the public contact details differ from the CV;
+both are kept as designed until the clinic confirms.
 
 ## Arabic copy
 

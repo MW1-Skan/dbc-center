@@ -8,6 +8,7 @@ import { mkdirSync } from "node:fs";
  */
 const pages = [
   { name: "home", path: "" },
+  { name: "doctor", path: "/doctor" },
   { name: "book", path: "/book" },
   { name: "rooms", path: "/rooms" },
 ] as const;

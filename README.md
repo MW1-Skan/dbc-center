@@ -16,15 +16,15 @@ npm run dev                  # http://localhost:3000 → redirects to /en
 
 Other scripts:
 
-| Script                | What it does                                                             |
-| --------------------- | ------------------------------------------------------------------------ |
-| `npm run build`       | Production build                                                         |
-| `npm run start`       | Serve the production build                                               |
-| `npm run lint`        | ESLint                                                                   |
-| `npm run format`      | Prettier (with the Tailwind class sorter)                                |
-| `npm run typecheck`   | `tsc --noEmit` (run `npx next typegen` first on a fresh clone)           |
-| `npm run test:e2e`    | Playwright: interactions, screenshots and the no-horizontal-scroll check |
-| `npm run screenshots` | Only the screenshots, written to `e2e/screenshots/`                      |
+| Script                | What it does                                                                                                             |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `npm run build`       | Production build                                                                                                         |
+| `npm run start`       | Serve the production build                                                                                               |
+| `npm run lint`        | ESLint                                                                                                                   |
+| `npm run format`      | Prettier (with the Tailwind class sorter)                                                                                |
+| `npm run typecheck`   | `tsc --noEmit` (run `npx next typegen` first on a fresh clone)                                                           |
+| `npm run test:e2e`    | Playwright: interactions, screenshots and the no-horizontal-scroll check (set `PORT=3000` to reuse a running dev server) |
+| `npm run screenshots` | Only the screenshots, written to `e2e/screenshots/`                                                                      |
 
 Playwright needs its browser once: `npx playwright install chromium`.
 
@@ -44,9 +44,9 @@ friendly "could not send" error. Form payloads are never logged anywhere: they c
 ## Where things live
 
 ```
-app/[locale]/          routes: / (home), /book, /rooms, opengraph-image, not-found
+app/[locale]/          routes: / (home), /doctor, /book, /rooms, opengraph-image, not-found
 app/globals.css        all design tokens (@theme), layout utilities, motion rules
-components/            ui/ layout/ home/ booking/ rooms/ forms/ motion/ seo/
+components/            ui/ layout/ home/ doctor/ booking/ rooms/ forms/ motion/ seo/
 content/               facts used everywhere: contact details, procedures, departments, rooms…
 messages/en.json       every string on the site (ar.json mirrors it, see below)
 lib/notify.ts          single entry point for all form submissions
@@ -80,7 +80,7 @@ the `adapters` array without touching the forms.
   radius; the surrounding `overflow-hidden` frames already provide the hover zoom. The hero
   portrait, team photo, doctor portrait, story videos, article images, room photos and the map are
   all placeholders.
-- **Links to pages that don't exist yet** (procedure details, full profile, certificates, stories
+- **Links to pages that don't exist yet** (procedure details, stories
   index, articles, privacy, disclaimer, rental terms, Google Maps, social profiles) point to `#`.
   They are set in `content/` and `components/`; search for `href: "#"` and `href="#"`.
 - **Logo**: `public/brand/` holds the mark (colour and white). `app/icon.png` and
@@ -124,6 +124,14 @@ Ideas adopted from the second design exploration, built in the site's own tokens
   then the Gulf; emails show the full number.
 - `node scripts/sync-ar.mjs` adds any new English key to `messages/ar.json` with the `[AR]` prefix
   without overwriting existing translations.
+
+## Profile page
+
+`/doctor` is built from Dr. Karam's CV: introduction (two paragraphs marked "[Draft for approval]"),
+quick facts, education, fellowship and training, clinical appointments, memberships, publications,
+presentations, teaching, congresses, honours and a certificates section with placeholder cards for
+the scans. Copy lives under `DoctorPage` in the messages; the ordering of items is in
+`content/credentials.ts`.
 
 ## Notes on the design
 

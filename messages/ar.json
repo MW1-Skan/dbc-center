@@ -3,7 +3,7 @@
     "siteName": "[AR] Delta Bariatric Center",
     "home": {
       "title": "[AR] Delta Bariatric Center — Bariatric & metabolic surgery in Alexandria",
-      "description": "[AR] Lasting weight loss, with a surgeon and a team who stay with you. Led by Dr. Mohsen Karam, FRCS (UK) — surgery, nutrition, psychology and physiotherapy under one roof in Alexandria, Egypt."
+      "description": "[AR] Lasting weight loss, with a surgeon and a team who stay with you. Led by Dr. Mohsen Karam, FRCSI — surgery, nutrition, psychology and physiotherapy under one roof in Alexandria, Egypt."
     },
     "book": {
       "title": "[AR] Book an appointment — Delta Bariatric Center",
@@ -13,7 +13,11 @@
       "title": "[AR] Room rental for doctors & organizations — Delta Bariatric Center",
       "description": "[AR] Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month."
     },
-    "ogTagline": "[AR] Bariatric & metabolic surgery · Alexandria, Egypt"
+    "ogTagline": "[AR] Bariatric & metabolic surgery · Alexandria, Egypt",
+    "doctor": {
+      "title": "[AR] Dr. Mohsen Karam — Consultant bariatric surgeon in Alexandria",
+      "description": "[AR] Profile of Dr. Mohsen Karam, FRCSI: Alexandria University graduate, 25 years at Hamad Medical Corporation in Qatar, bariatric surgeon since 2013, published researcher and teacher, now at Delta Bariatric Center."
+    }
   },
   "Common": {
     "brandName": "[AR] Delta Bariatric Center",
@@ -48,14 +52,15 @@
     "mainLabel": "[AR] Main",
     "mobileLabel": "[AR] Mobile",
     "openMenu": "[AR] Open menu",
-    "closeMenu": "[AR] Close menu"
+    "closeMenu": "[AR] Close menu",
+    "doctorPage": "[AR] Dr. Karam"
   },
   "Hero": {
     "eyebrow": "[AR] Bariatric & metabolic surgery · Alexandria, Egypt",
     "eyebrowShort": "[AR] Bariatric surgery · Alexandria",
     "title": "[AR] Lasting weight loss, with a surgeon and a team who stay with you.",
-    "lead": "[AR] Led by Dr. Mohsen Karam, FRCS (UK), Delta Bariatric Center brings surgery, nutrition, psychology and physiotherapy together under one roof — so every step of your journey is planned, not improvised.",
-    "leadShort": "[AR] Led by Dr. Mohsen Karam, FRCS (UK) — surgery, nutrition, psychology and physiotherapy under one roof.",
+    "lead": "[AR] Led by Dr. Mohsen Karam, FRCSI, Delta Bariatric Center brings surgery, nutrition, psychology and physiotherapy together under one roof — so every step of your journey is planned, not improvised.",
+    "leadShort": "[AR] Led by Dr. Mohsen Karam, FRCSI — surgery, nutrition, psychology and physiotherapy under one roof.",
     "ctaBook": "[AR] Book a consultation",
     "ctaWhatsapp": "[AR] Message us on WhatsApp",
     "ctaWhatsappShort": "[AR] WhatsApp us",
@@ -69,9 +74,9 @@
         "labelShort": "[AR] procedures"
       },
       "years": {
-        "value": "[AR] [00] yrs",
+        "value": "[AR] Since 2013",
         "label": "[AR] in bariatric surgery",
-        "labelShort": "[AR] experience"
+        "labelShort": "[AR] bariatric surgery"
       },
       "departments": {
         "value": "[AR] 7",
@@ -80,7 +85,7 @@
       }
     },
     "credentialName": "[AR] Dr. Mohsen Karam",
-    "credentialSub": "[AR] FRCS · Royal College of Surgeons, UK",
+    "credentialSub": "[AR] FRCSI · Royal College of Surgeons in Ireland",
     "bmiLink": "[AR] Check your BMI",
     "bmiLinkSub": "[AR] See if you may qualify in 30 seconds"
   },
@@ -88,12 +93,12 @@
     "label": "[AR] Trained & accredited",
     "sectionLabel": "[AR] Training and memberships",
     "items": {
-      "frcs": "[AR] <strong>FRCS</strong> · Royal College of Surgeons, UK",
+      "frcs": "[AR] <strong>FRCSI</strong> · Royal College of Surgeons in Ireland",
       "ifso": "[AR] <strong>IFSO</strong> member",
       "asmbs": "[AR] <strong>ASMBS</strong> member",
       "ifsoAsmbs": "[AR] <strong>IFSO</strong> & <strong>ASMBS</strong> member",
-      "strasbourg": "[AR] Advanced Laparoscopy · <strong>Univ. of Strasbourg</strong>",
-      "qatar": "[AR] Bariatric Fellowship · <strong>Qatar Metabolic Institute</strong>"
+      "strasbourg": "[AR] Laparoscopic Surgery Diploma · <strong>Univ. of Strasbourg</strong>",
+      "qatar": "[AR] Bariatric Fellowship Training · <strong>Qatar Metabolic Institute</strong>"
     }
   },
   "Procedures": {
@@ -177,21 +182,21 @@
   "Doctor": {
     "eyebrow": "[AR] Meet your surgeon",
     "name": "[AR] Dr. Mohsen Karam",
-    "role": "[AR] Consultant in obesity & metabolic surgery",
-    "bio": "[AR] [Short biography — two or three sentences on Dr. Karam's background, years in practice and how he approaches each patient. Written in his own voice works best.]",
-    "bioShort": "[AR] [Short biography — two or three sentences.]",
+    "role": "[AR] Consultant General, Laparoscopic & Bariatric Surgeon",
+    "bio": "[AR] [Draft for Dr. Karam's approval] I graduated in medicine from Alexandria University, completed my Master of Surgery there and became a Fellow of the Royal College of Surgeons in Ireland in 1999. For 25 years I practised at Hamad Medical Corporation in Qatar, joining its bariatric and metabolic surgery team in 2013 and working as a consultant from 2018, while teaching residents and fellows and publishing research on sleeve gastrectomy outcomes and safety. At Delta Bariatric Center I bring that experience home to Alexandria, with a team that stays with every patient long after surgery.",
+    "bioShort": "[AR] [Draft for approval] Alexandria graduate and FRCSI, with 25 years at Hamad Medical Corporation in Qatar and bariatric surgery since 2013. Now practising in Alexandria with a team that stays with every patient.",
     "portraitLabel": "[AR] Portrait · Dr. Karam",
     "portraitAlt": "[AR] Portrait placeholder: Dr. Mohsen Karam",
     "credentials": {
-      "frcs": "[AR] <strong>Fellowship of the Royal College of Surgeons</strong> (FRCS), United Kingdom",
-      "qatar": "[AR] <strong>Fellowship in Bariatric Surgery</strong>, Qatar Metabolic Institute",
-      "strasbourg": "[AR] <strong>Diploma in Advanced Laparoscopic Surgery</strong>, University of Strasbourg, France",
+      "frcs": "[AR] <strong>Fellow of the Royal College of Surgeons in Ireland</strong> (FRCSI), 1999",
+      "qatar": "[AR] <strong>Bariatric Surgery Fellowship Training</strong>, Hamad Medical Corporation / Qatar Metabolic Institute, 2023–24",
+      "strasbourg": "[AR] <strong>University Diploma in Laparoscopic Surgery</strong>, University of Strasbourg, France, 2009",
       "memberships": "[AR] Member of <strong>IFSO</strong> and <strong>ASMBS</strong>"
     },
     "credentialsShort": {
-      "frcs": "[AR] FRCS, Royal College of Surgeons, UK",
-      "qatar": "[AR] Bariatric Fellowship, Qatar Metabolic Institute",
-      "strasbourg": "[AR] Advanced Laparoscopy, University of Strasbourg",
+      "frcs": "[AR] FRCSI, Royal College of Surgeons in Ireland",
+      "qatar": "[AR] Bariatric Fellowship Training, Qatar Metabolic Institute",
+      "strasbourg": "[AR] Laparoscopic Surgery Diploma, University of Strasbourg",
       "memberships": "[AR] Member of IFSO and ASMBS"
     },
     "readProfile": "[AR] Read full profile",
@@ -682,5 +687,178 @@
     "title": "[AR] Take the first step today.",
     "lead": "[AR] Request a consultation and our team will call you back to confirm a time.",
     "cta": "[AR] Book a consultation"
+  },
+  "DoctorPage": {
+    "crumb": "[AR] Dr. Mohsen Karam",
+    "eyebrow": "[AR] The surgeon",
+    "name": "[AR] Dr. Mohsen Karam",
+    "role": "[AR] Consultant General, Laparoscopic & Bariatric Surgeon",
+    "qualifications": "[AR] M.B.Ch.B. · M.S. · FRCSI · D.U. Chirurgie Laparoscopique",
+    "p1": "[AR] [Draft for Dr. Karam's approval] I am a general, laparoscopic and bariatric surgeon from Alexandria. After graduating from Alexandria University I spent 25 years at Hamad Medical Corporation in Qatar, where I joined the bariatric and metabolic surgery team in 2013 and worked as a consultant from 2018.",
+    "p2": "[AR] [Draft for Dr. Karam's approval] Surgery is one part of lasting weight loss. The patients who do best are followed closely by a whole team, so at Delta Bariatric Center the surgeon, dietitian, psychologist and physiotherapist work from the same file and see you at every stage.",
+    "portraitLabel": "[AR] Portrait · Dr. Karam",
+    "portraitAlt": "[AR] Portrait placeholder: Dr. Mohsen Karam",
+    "ctaBook": "[AR] Book a consultation",
+    "ctaCertificates": "[AR] View certificates",
+    "facts": {
+      "hmc": {
+        "value": "[AR] 25 yrs",
+        "label": "[AR] at Hamad Medical Corporation, Qatar"
+      },
+      "bariatric": {
+        "value": "[AR] Since 2013",
+        "label": "[AR] in bariatric & metabolic surgery"
+      },
+      "papers": {
+        "value": "[AR] 7",
+        "label": "[AR] peer-reviewed publications"
+      }
+    },
+    "blocks": {
+      "education": {
+        "title": "[AR] Education",
+        "items": {
+          "mbchb": {
+            "year": "[AR] 1989",
+            "text": "[AR] M.B.Ch.B., Bachelor of Medicine and Surgery, Alexandria University, Faculty of Medicine — Very Good with Honour"
+          },
+          "ms": {
+            "year": "[AR] 1992",
+            "text": "[AR] M.S., Master of Surgery, Alexandria University, Faculty of Medicine"
+          }
+        }
+      },
+      "training": {
+        "title": "[AR] Fellowship, diploma & training",
+        "items": {
+          "frcsi": {
+            "year": "[AR] 1999",
+            "text": "[AR] Fellow of the Royal College of Surgeons in Ireland (FRCSI)"
+          },
+          "strasbourg": {
+            "year": "[AR] 2009",
+            "text": "[AR] Diplôme d'Université de Chirurgie Laparoscopique, Université de Strasbourg, France"
+          },
+          "qmi": {
+            "year": "[AR] 2023–24",
+            "text": "[AR] Modified Bariatric Surgery Program, one-year fellowship training, Hamad Medical Corporation / Qatar Metabolic Institute, Doha"
+          }
+        }
+      },
+      "appointments": {
+        "title": "[AR] Clinical appointments",
+        "items": {
+          "hmc": {
+            "year": "[AR] 2001–2026",
+            "text": "[AR] Hamad Medical Corporation, Qatar — Department of Surgery, including the bariatric and metabolic surgery service"
+          },
+          "specialist": {
+            "year": "[AR] 2013–2018",
+            "text": "[AR] Specialist, Bariatric Surgery — Hamad General Hospital bariatric team"
+          },
+          "consultant": {
+            "year": "[AR] 2018–2026",
+            "text": "[AR] Consultant, Bariatric Surgery — Hamad General Hospital bariatric team; multidisciplinary clinical work and departmental academic activity [official title to be confirmed]"
+          }
+        }
+      },
+      "memberships": {
+        "title": "[AR] Professional memberships",
+        "items": {
+          "ifso": {
+            "year": "[AR] IFSO",
+            "text": "[AR] International Federation for the Surgery of Obesity and Metabolic Disorders [membership documented for 2018 — confirm current]"
+          },
+          "asmbs": {
+            "year": "[AR] ASMBS",
+            "text": "[AR] American Society for Metabolic and Bariatric Surgery [international membership documented for 2018 — confirm current]"
+          }
+        }
+      }
+    },
+    "research": {
+      "eyebrow": "[AR] Research & teaching",
+      "title": "[AR] Published work on sleeve gastrectomy outcomes and safety",
+      "lead": "[AR] Collaborative bariatric research on operative technique, outcomes and cost, complications, histopathology and preoperative assessment, alongside teaching residents and fellows.",
+      "publicationsTitle": "[AR] Peer-reviewed publications",
+      "publications": {
+        "p2020": {
+          "year": "[AR] 2020",
+          "text": "[AR] Single-Port Sleeve Gastrectomy Compared With Conventional Laparoscopic Sleeve Gastrectomy: 5-Year Follow-up of Weight Loss, Comorbidity Resolution, and Cost"
+        },
+        "p2018a": {
+          "year": "[AR] 2018",
+          "text": "[AR] Is Routine Preoperative Esophagogastroduodenoscopy Screening Necessary Prior to Laparoscopic Sleeve Gastrectomy? Review of 1,555 Cases and Comparison with Current Literature"
+        },
+        "p2018b": {
+          "year": "[AR] 2018",
+          "text": "[AR] Laparoscopic Sleeve Gastrectomy in Patients With Abdominoplasty: A Case-Control Study"
+        },
+        "p2017a": {
+          "year": "[AR] 2017",
+          "text": "[AR] Histopathological Changes in Laparoscopic Sleeve Gastrectomy Specimens: Prevalence, Risk Factors, and Value of Routine Histopathologic Examination"
+        },
+        "p2017b": {
+          "year": "[AR] 2017",
+          "text": "[AR] Comparison of Two Specimen Retrieval Techniques in Laparoscopic Sleeve Gastrectomy: What Is the Role of Endobag?"
+        },
+        "p2017c": {
+          "year": "[AR] 2017",
+          "text": "[AR] Solid Organ Infections: Rare Complications After Laparoscopic Sleeve Gastrectomy: A Report of Four Cases"
+        },
+        "p2011": {
+          "year": "[AR] 2011",
+          "text": "[AR] Isolated Superior Mesenteric Venous Thrombophlebitis With Acute Appendicitis"
+        }
+      },
+      "presentationsTitle": "[AR] Selected presentations",
+      "presentations": {
+        "aortogastric": "[AR] Successful Management of Aortogastric Fistula Post Sleeve Gastrectomy Leak — oral presentation, GOSS Bahrain (2016) and IFSO World Congress, Naples (2017)",
+        "herniation": "[AR] Laparoscopic Management of Postoperative Intrathoracic Gastric Sleeve Herniation — surgical video, American College of Surgeons Clinical Congress, Washington, DC (2016)",
+        "abdominoplasty": "[AR] Laparoscopic Sleeve Gastrectomy in Patients With Abdominoplasty — poster, ObesityWeek (2016)",
+        "endobag": "[AR] Comparison of Two Specimen Retrieval Techniques in Laparoscopic Sleeve Gastrectomy — poster, ObesityWeek (2016)"
+      },
+      "teachingTitle": "[AR] Teaching & mentorship",
+      "teaching": {
+        "rounds": "[AR] Weekly bariatric grand rounds, monthly lectures and daily case discussions at Hamad Medical Corporation",
+        "supervision": "[AR] Supervision of medical students, residents, fellows and colleagues in clinic, ward and theatre",
+        "instructor": "[AR] Instructor, Upper GI Anastomosis Hands-On Course, Qatar Robotic Surgery Centre, Doha (2016)"
+      }
+    },
+    "recognition": {
+      "eyebrow": "[AR] Conferences & recognition",
+      "title": "[AR] Active in the international bariatric community",
+      "conferencesTitle": "[AR] Congresses attended",
+      "conferences": {
+        "c2024": "[AR] IFSO World Congress, Melbourne (2024)",
+        "c2023": "[AR] ASMBS Annual Meeting, Las Vegas (2023)",
+        "c2019": "[AR] IFSO World Congress and Postgraduate Course, Madrid (2019)",
+        "c2018": "[AR] Australia & New Zealand Metabolic and Obesity Surgery Society Conference, Melbourne (2018)",
+        "c2017": "[AR] ObesityWeek / ASMBS Annual Scientific Meeting, National Harbor (2017)",
+        "c2016": "[AR] IFSO World Congress, Rio de Janeiro (2016)",
+        "c2014": "[AR] IFSO World Congress, Montreal (2014)",
+        "c2013": "[AR] IFSO World Congress, Istanbul (2013)"
+      },
+      "honoursTitle": "[AR] Honours & recognition",
+      "honours": {
+        "nbc": "[AR] Certificate of Appreciation, National Bariatric Center / Qatar Metabolic Institute (2024)",
+        "stars": "[AR] Stars of Excellence — Clinical Practice Award of Merit, Hamad Medical Corporation (2014)",
+        "journalClub": "[AR] Certificate of Appreciation, HMC Bariatric & Metabolic Surgery Journal Club (2019)"
+      }
+    },
+    "certificates": {
+      "eyebrow": "[AR] Documents",
+      "title": "[AR] Certificates",
+      "lead": "[AR] Scans of the original documents will be shown here. [Certificate scans to be supplied by the clinic.]",
+      "items": {
+        "frcsi": "[AR] FRCSI — Royal College of Surgeons in Ireland, 1999",
+        "strasbourg": "[AR] Diplôme d'Université de Chirurgie Laparoscopique — Strasbourg, 2009",
+        "qmi": "[AR] Bariatric Surgery Fellowship Training — HMC / Qatar Metabolic Institute, 2024",
+        "ms": "[AR] Master of Surgery — Alexandria University, 1992",
+        "mbchb": "[AR] M.B.Ch.B. — Alexandria University, 1989",
+        "stars": "[AR] Stars of Excellence Award of Merit — HMC, 2014"
+      },
+      "placeholder": "[AR] Certificate"
+    }
   }
 }
