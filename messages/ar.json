@@ -1,29 +1,29 @@
 {
   "Meta": {
-    "siteName": "مركز دلتا لجراحات السمنة",
+    "siteName": "Delta Clinics",
     "home": {
-      "title": "مركز دلتا لجراحات السمنة — جراحات السمنة والتمثيل الغذائي في الإسكندرية",
-      "description": "فقدان وزن يدوم، مع جرّاح وفريق يبقون إلى جانبك. بقيادة د. محسن كرم (FRCSI)؛ الجراحة والتغذية والدعم النفسي والعلاج الطبيعي تحت سقف واحد في الإسكندرية، مصر."
+      "title": "Delta Clinics — مقر Delta Bariatric Center في الإسكندرية",
+      "description": "Delta Clinics في الإسكندرية، مصر — عيادات طبية متعددة التخصصات ومقر Delta Bariatric Center بقيادة د. محسن كرم (FRCSI)."
     },
     "book": {
-      "title": "احجز موعدًا — مركز دلتا لجراحات السمنة",
-      "description": "أخبرنا بما تحتاجه والوقت الذي يناسبك، وسنتصل بك أو نراسلك على واتساب لتأكيد موعد استشارتك في مركز دلتا لجراحات السمنة بالإسكندرية."
+      "title": "احجز موعدًا — Delta Clinics",
+      "description": "أخبرنا بما تحتاجه والوقت الذي يناسبك، وسنتصل بك أو نراسلك على واتساب لتأكيد موعد استشارتك في Delta Clinics بالإسكندرية."
     },
     "rooms": {
-      "title": "تأجير غرف الكشف للأطباء والمؤسسات — مركز دلتا لجراحات السمنة",
-      "description": "أربع غرف كشف مجهّزة في مركز دلتا لجراحات السمنة بلوران، الإسكندرية. استأجر غرفة واحدة أو أكثر، لنصف يوم أسبوعيًا أو للشهر بأكمله."
+      "title": "تأجير غرف الكشف للأطباء والمؤسسات — Delta Clinics",
+      "description": "أربع غرف كشف مجهّزة في Delta Clinics بلوران، الإسكندرية. استأجر غرفة واحدة أو أكثر، لنصف يوم أسبوعيًا أو للشهر بأكمله."
     },
-    "ogTagline": "جراحات السمنة والتمثيل الغذائي · الإسكندرية، مصر",
+    "ogTagline": "عيادات متعددة التخصصات · جراحات السمنة والتمثيل الغذائي · الإسكندرية، مصر",
     "doctor": {
-      "title": "د. محسن كرم — استشاري جراحات السمنة في الإسكندرية",
-      "description": "نبذة عن د. محسن كرم (FRCSI): خريج جامعة الإسكندرية، 25 عامًا في مؤسسة حمد الطبية بقطر، جرّاح سمنة منذ 2013، باحث له أبحاث منشورة ومعلّم، ويمارس اليوم في مركز دلتا لجراحات السمنة."
+      "title": "د. محسن كرم — استشاري جراحات السمنة في Delta Clinics، الإسكندرية",
+      "description": "نبذة عن د. محسن كرم (FRCSI): خريج جامعة الإسكندرية، 25 عامًا في مؤسسة حمد الطبية بقطر، أكثر من 2,000 عملية سمنة، ويقود اليوم Delta Bariatric Center في Delta Clinics."
     }
   },
   "Common": {
-    "brandName": "مركز دلتا لجراحات السمنة",
+    "brandName": "Delta Clinics",
     "brandWord": "DELTA",
-    "brandSub": "BARIATRIC CENTER",
-    "homeLinkLabel": "مركز دلتا لجراحات السمنة — الصفحة الرئيسية",
+    "brandSub": "CLINICS",
+    "homeLinkLabel": "Delta Clinics — الصفحة الرئيسية",
     "skipToContent": "انتقل إلى المحتوى",
     "bookConsultation": "احجز استشارة",
     "whatsapp": "واتساب",
@@ -64,11 +64,11 @@
     "backHomeLabel": "العودة إلى الصفحة الرئيسية"
   },
   "Hero": {
-    "eyebrow": "جراحات السمنة والتمثيل الغذائي · الإسكندرية، مصر",
-    "eyebrowShort": "جراحات السمنة · الإسكندرية",
+    "eyebrow": "Delta Bariatric Center · قسم جراحات السمنة في Delta Clinics · الإسكندرية",
+    "eyebrowShort": "Delta Bariatric Center · الإسكندرية",
     "title": "فقدان وزن يدوم، مع جرّاح وفريق يبقون إلى جانبك.",
-    "lead": "بقيادة د. محسن كرم (FRCSI)، يجمع مركز دلتا لجراحات السمنة بين الجراحة والتغذية والدعم النفسي والعلاج الطبيعي تحت سقف واحد، لتكون كل خطوة في رحلتك مخطَّطة لا مرتجلة.",
-    "leadShort": "بقيادة د. محسن كرم (FRCSI)؛ الجراحة والتغذية والدعم النفسي والعلاج الطبيعي تحت سقف واحد.",
+    "lead": "في Delta Bariatric Center — قسم جراحات السمنة المتخصص في Delta Clinics — يجمع د. محسن كرم (FRCSI) بين الجراحة والتغذية والدعم النفسي والعلاج الطبيعي تحت سقف واحد، لتكون كل خطوة في رحلتك مخطَّطة لا مرتجلة.",
+    "leadShort": "Delta Bariatric Center في Delta Clinics — بقيادة د. محسن كرم (FRCSI)، الجراحة والتغذية والدعم النفسي والعلاج الطبيعي تحت سقف واحد.",
     "ctaBook": "احجز استشارة",
     "ctaWhatsapp": "راسلنا على واتساب",
     "ctaWhatsappShort": "راسلنا على واتساب",
@@ -77,7 +77,7 @@
     "photoAlt": "موضع صورة: د. كرم مع أحد المرضى",
     "stats": {
       "procedures": {
-        "value": "[0,000+]",
+        "value": "2,000+",
         "label": "عملية أُجريت",
         "labelShort": "عملية"
       },
@@ -151,7 +151,7 @@
     "notSureCta": "احجز استشارة"
   },
   "Departments": {
-    "eyebrow": "مركز واحد، كل التخصصات",
+    "eyebrow": "Delta Clinics · مركز واحد، كل التخصصات",
     "title": "سبعة أقسام. خطة واحدة مبنية حولك.",
     "lead": "الجراحة يوم واحد، أما النجاح فهو العام الذي يليه. جرّاحك وأخصائي التغذية والأخصائي النفسي وأخصائي العلاج الطبيعي يعملون من الملف نفسه، في المبنى نفسه، ويتابعونك في كل مرحلة.",
     "photoLabel": "صورة · فريق الرعاية",
@@ -191,7 +191,7 @@
     "eyebrow": "تعرّف على جرّاحك",
     "name": "د. محسن كرم",
     "role": "استشاري الجراحة العامة وجراحات المناظير والسمنة",
-    "bio": "[AR] [Draft for Dr. Karam's approval] I graduated in medicine from Alexandria University, completed my Master of Surgery there and became a Fellow of the Royal College of Surgeons in Ireland in 1999. For 25 years I practised at Hamad Medical Corporation in Qatar, joining its bariatric and metabolic surgery team in 2013 and working as a consultant from 2018, while teaching residents and fellows and publishing research on sleeve gastrectomy outcomes and safety. At Delta Bariatric Center I bring that experience home to Alexandria, with a team that stays with every patient long after surgery.",
+    "bio": "[AR] [Draft for Dr. Karam's approval] I graduated in medicine from Alexandria University, completed my Master of Surgery there and became a Fellow of the Royal College of Surgeons in Ireland in 1999. For 25 years I practised at Hamad Medical Corporation in Qatar, joining its bariatric and metabolic surgery team in 2013 and working as a consultant from 2018, while teaching residents and fellows and publishing research on sleeve gastrectomy outcomes and safety. At Delta Bariatric Center within Delta Clinics I bring that experience home to Alexandria, with a team that stays with every patient long after surgery.",
     "bioShort": "[AR] [Draft for approval] Alexandria graduate and FRCSI, with 25 years at Hamad Medical Corporation in Qatar and bariatric surgery since 2013. Now practising in Alexandria with a team that stays with every patient.",
     "portraitLabel": "صورة شخصية · د. كرم",
     "portraitAlt": "موضع صورة شخصية: د. محسن كرم",
@@ -253,7 +253,7 @@
     "eyebrow": "للأطباء والمؤسسات",
     "title": "مارس عملك من عيادتنا. أربع غرف كشف متاحة.",
     "titleShort": "أربع غرف كشف متاحة للإيجار.",
-    "lead": "غرف كشف مجهّزة في عمارة دلتا بلوران، مع استقبال وصالة انتظار جاهزين للعمل. استأجر غرفة أو أكثر، بنصف اليوم أو اليوم أو الشهر.",
+    "lead": "غرف كشف مجهّزة في Delta Clinics بعمارة دلتا بلوران، مع استقبال وصالة انتظار جاهزين للعمل. استأجر غرفة أو أكثر، بنصف اليوم أو اليوم أو الشهر.",
     "leadShort": "غرف مجهّزة مع استقبال وصالة انتظار، بنصف اليوم أو اليوم أو الشهر.",
     "bullets": {
       "furnished": "مجهّزة وجاهزة للاستخدام",
@@ -286,7 +286,7 @@
     }
   },
   "Footer": {
-    "tagline": "جراحات السمنة والتمثيل الغذائي مع فريق متكامل من التخصصات، في الإسكندرية.",
+    "tagline": "عيادات طبية متخصصة في الإسكندرية، وتضم Delta Bariatric Center بقيادة د. محسن كرم.",
     "visit": "زورونا",
     "contact": "تواصل معنا",
     "explore": "استكشف",
@@ -296,8 +296,8 @@
     "book": "احجز موعدًا",
     "rooms": "تأجير غرف الكشف",
     "advice": "نصائح طبية",
-    "copyright": "© {year} مركز دلتا لجراحات السمنة. جميع الحقوق محفوظة.",
-    "copyrightShort": "© {year} مركز دلتا لجراحات السمنة",
+    "copyright": "© {year} Delta Clinics. جميع الحقوق محفوظة.",
+    "copyrightShort": "© {year} Delta Clinics",
     "privacy": "الخصوصية",
     "medicalDisclaimer": "إخلاء المسؤولية الطبية",
     "rentalTerms": "شروط الإيجار",
@@ -386,7 +386,7 @@
     "weight": "الوزن (كجم)",
     "notes": "هل هناك ما ينبغي أن نعرفه؟",
     "notesPlaceholder": "جراحات سابقة، حالات طبية، أسئلة…",
-    "consent": "أوافق على أن يتواصل معي مركز دلتا لجراحات السمنة بخصوص هذا الطلب. اطّلع على <link>سياسة الخصوصية</link>.",
+    "consent": "أوافق على أن تتواصل معي Delta Clinics بخصوص هذا الطلب. اطّلع على <link>سياسة الخصوصية</link>.",
     "submit": "أرسل الطلب",
     "submitting": "جارٍ الإرسال…",
     "submitNote": "هذا طلب حجز، ويُؤكَّد موعدك عندما نتصل بك.",
@@ -425,7 +425,7 @@
     "crumb": "تأجير غرف الكشف",
     "eyebrow": "للأطباء والمؤسسات",
     "title": "عيادتك، داخل مركز يعمل بالفعل.",
-    "lead": "أربع غرف كشف مجهّزة في مركز دلتا لجراحات السمنة بلوران، الإسكندرية. استأجر غرفة واحدة أو أكثر، لنصف يوم أسبوعيًا أو للشهر بأكمله.",
+    "lead": "أربع غرف كشف مجهّزة في Delta Clinics بلوران، الإسكندرية. استأجر غرفة واحدة أو أكثر، لنصف يوم أسبوعيًا أو للشهر بأكمله.",
     "ctaAvailability": "تحقق من المواعيد المتاحة",
     "ctaCall": "اتصل لترتيب زيارة",
     "heroPhoto": "صورة · الاستقبال وصالة الانتظار",
@@ -452,7 +452,7 @@
       "legend": {
         "available": "متاحة",
         "selected": "محددة",
-        "inUse": "يستخدمها مركز دلتا"
+        "inUse": "قسم جراحات السمنة"
       },
       "waitingArea": "صالة الانتظار",
       "shared": "مشتركة",
@@ -463,14 +463,14 @@
         "available": "متاحة",
         "selected": "محددة",
         "inUse": "مستخدمة",
-        "inUseLong": "يستخدمها مركز دلتا"
+        "inUseLong": "قسم جراحات السمنة"
       },
-      "ariaInUse": "{name}، يستخدمها مركز دلتا لجراحات السمنة",
+      "ariaInUse": "{name}، يستخدمها Delta Bariatric Center",
       "ariaSelected": "{name}، محددة",
       "ariaAvailable": "{name}، متاحة",
       "photoAlt": "موضع صورة الغرفة",
       "ownSize": "غرفة كشف د. كرم",
-      "ownFeatures": "مخصصة لمرضى مركز دلتا لجراحات السمنة.",
+      "ownFeatures": "مخصصة لمرضى Delta Bariatric Center في Delta Clinics.",
       "size": "[00] م² · [بنافذة / بدون نافذة]",
       "features": "[مكتب · سرير كشف · حوض · شاشة]",
       "select": "اختر الغرفة",
@@ -703,12 +703,16 @@
     "role": "استشاري الجراحة العامة وجراحات المناظير والسمنة",
     "qualifications": "M.B.Ch.B. · M.S. · FRCSI · D.U. Chirurgie Laparoscopique",
     "p1": "[AR] [Draft for Dr. Karam's approval] I am a general, laparoscopic and bariatric surgeon from Alexandria. After graduating from Alexandria University I spent 25 years at Hamad Medical Corporation in Qatar, where I joined the bariatric and metabolic surgery team in 2013 and worked as a consultant from 2018.",
-    "p2": "[AR] [Draft for Dr. Karam's approval] Surgery is one part of lasting weight loss. The patients who do best are followed closely by a whole team, so at Delta Bariatric Center the surgeon, dietitian, psychologist and physiotherapist work from the same file and see you at every stage.",
+    "p2": "[AR] [Draft for Dr. Karam's approval] Surgery is one part of lasting weight loss. The patients who do best are followed closely by a whole team, so at Delta Bariatric Center within Delta Clinics the surgeon, dietitian, psychologist and physiotherapist work from the same file and see you at every stage.",
     "portraitLabel": "صورة شخصية · د. كرم",
     "portraitAlt": "موضع صورة شخصية: د. محسن كرم",
     "ctaBook": "احجز استشارة",
     "ctaCertificates": "اطّلع على الشهادات",
     "facts": {
+      "procedures": {
+        "value": "2,000+",
+        "label": "عملية سمنة موثّقة"
+      },
       "hmc": {
         "value": "25 عامًا",
         "label": "في مؤسسة حمد الطبية، قطر"

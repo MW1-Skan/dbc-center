@@ -59,7 +59,7 @@ test.describe("booking form", () => {
     await page.getByLabel("Preferred date").fill("2026-12-10");
     await page.getByLabel("Phone / WhatsApp").fill("+20 100 000 0000");
     await page.getByRole("spinbutton", { name: "Age" }).fill("34");
-    await page.getByLabel(/I agree that Delta Bariatric Center/).check();
+    await page.getByLabel(/I agree that Delta Clinics/).check();
     await page.getByRole("button", { name: "Send request" }).click();
     await expect(page.getByRole("status")).toContainText("Request received");
   });

@@ -130,6 +130,16 @@ test.describe("profile page", () => {
 test("Arabic footer displays localized clinic address", async ({ page }) => {
   await page.goto("/ar");
   await expect(page.locator("footer")).toContainText("713 طريق الحرية");
+  await expect(page.locator("header")).toContainText("CLINICS");
+  await expect(page.locator("footer")).toContainText("Delta Clinics");
+});
+
+test("displays Delta Clinics rebrand and 2,000+ procedures", async ({ page }) => {
+  await page.goto("/en");
+  await expect(page.locator("header")).toContainText("CLINICS");
+  await expect(page.getByText("2,000+")).toBeVisible();
+  await page.goto("/en/doctor");
+  await expect(page.getByText("2,000+")).toBeVisible();
 });
 
 test.describe("header slot", () => {

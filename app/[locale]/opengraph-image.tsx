@@ -6,7 +6,7 @@ import { hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { shapeArabicVisual } from "@/lib/arabic-shape";
 
-export const alt = "Delta Bariatric Center";
+export const alt = "Delta Clinics";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -32,7 +32,8 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
   // word in a reversed flex row; English text is rendered as-is.
   const line = (text: string, fontSize: number, color: string, maxWidth?: number) => {
     const base = { fontSize, lineHeight: 1.1, color, ...(maxWidth ? { maxWidth } : {}) };
-    return isAr ? (
+    const hasArabic = /[\u0600-\u06FF]/.test(text);
+    return isAr && hasArabic ? (
       <div
         style={{
           ...base,
@@ -78,7 +79,7 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
         <img src={logoSrc} width={96} height={96} alt="" />
         <div style={{ display: "flex", flexDirection: "column" }}>
           <span style={{ fontSize: 44, letterSpacing: 4 }}>DELTA</span>
-          <span style={{ fontSize: 18, letterSpacing: 7, color: "#8FD3D8" }}>BARIATRIC CENTER</span>
+          <span style={{ fontSize: 18, letterSpacing: 8, color: "#8FD3D8" }}>CLINICS</span>
         </div>
       </div>
       <div

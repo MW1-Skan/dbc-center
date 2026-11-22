@@ -115,5 +115,5 @@ export const profile = {
   ],
   honours: ["nbc", "stars", "journalClub"],
   certificates: certificateItems,
-  facts: ["hmc", "bariatric", "papers"],
+  facts: ["procedures", "hmc", "bariatric", "papers"],
 } as const;

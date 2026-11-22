@@ -19,37 +19,37 @@ new term is decided, add it here first.
   side. It is invisible in editors; keep it when editing those strings.
 - Publication and presentation titles under `DoctorPage.research` stay in English (academic
   convention); only the venue, teaching, congress and honours lines are Arabic.
-- The logo wordmark (`Common.brandWord`, `Common.brandSub`) stays "DELTA" / "BARIATRIC CENTER".
+- The logo wordmark (`Common.brandWord`, `Common.brandSub`) stays "DELTA" / "CLINICS", and the brand name `"Delta Clinics"` (and `"Delta Bariatric Center"` as its specialized division) stays in Latin even on Arabic pages.
 - Square-bracket placeholders stay bracketed with the text inside translated:
   `[X working hours]` → `[X ساعة عمل]`, `[EGP 000]` → `[000 جنيه]`, `[Draft for approval]` →
   a bracketed note once the doctor's copy arrives.
 
 ## Names
 
-| English                               | Arabic                                                 |
-| ------------------------------------- | ------------------------------------------------------ |
-| Delta Bariatric Center (running text) | مركز دلتا لجراحات السمنة                               |
-| Delta Bariatric Center (short, "DBC") | مركز دلتا                                              |
-| Dr. Mohsen Karam                      | د. محسن كرم                                            |
-| Dr. Karam                             | د. كرم                                                 |
-| Delta Building, Louran                | عمارة دلتا، لوران                                      |
-| Al Horreya Road                       | طريق الحرية                                            |
-| Alexandria                            | الإسكندرية                                             |
-| Hamad Medical Corporation (HMC)       | مؤسسة حمد الطبية                                       |
-| Hamad General Hospital                | مستشفى حمد العام                                       |
-| Qatar Metabolic Institute (QMI)       | معهد قطر للتمثيل الغذائي                               |
-| National Bariatric Center             | المركز الوطني لجراحات السمنة                           |
-| Qatar Robotic Surgery Centre          | مركز قطر للجراحة الروبوتية                             |
-| Royal College of Surgeons in Ireland  | الكلية الملكية للجراحين في أيرلندا                     |
-| University of Strasbourg              | جامعة ستراسبورغ                                        |
-| Alexandria University                 | جامعة الإسكندرية                                       |
-| Faculty of Medicine                   | كلية الطب                                              |
-| IFSO (full name)                      | الاتحاد الدولي لجراحة السمنة واضطرابات التمثيل الغذائي |
-| ASMBS (full name)                     | الجمعية الأمريكية لجراحات التمثيل الغذائي والسمنة      |
-| American College of Surgeons          | الكلية الأمريكية للجراحين                              |
-| IFSO World Congress                   | مؤتمر IFSO العالمي                                     |
-| ASMBS Annual Meeting                  | اجتماع ASMBS السنوي                                    |
-| ObesityWeek, GOSS                     | kept in Latin                                          |
+| English                              | Arabic                                                 |
+| ------------------------------------ | ------------------------------------------------------ |
+| Delta Clinics                        | Delta Clinics (kept in Latin)                          |
+| Delta Bariatric Center (division)    | Delta Bariatric Center (kept in Latin)                 |
+| Dr. Mohsen Karam                     | د. محسن كرم                                            |
+| Dr. Karam                            | د. كرم                                                 |
+| Delta Building, Louran               | عمارة دلتا، لوران                                      |
+| Al Horreya Road                      | طريق الحرية                                            |
+| Alexandria                           | الإسكندرية                                             |
+| Hamad Medical Corporation (HMC)      | مؤسسة حمد الطبية                                       |
+| Hamad General Hospital               | مستشفى حمد العام                                       |
+| Qatar Metabolic Institute (QMI)      | معهد قطر للتمثيل الغذائي                               |
+| National Bariatric Center            | المركز الوطني لجراحات السمنة                           |
+| Qatar Robotic Surgery Centre         | مركز قطر للجراحة الروبوتية                             |
+| Royal College of Surgeons in Ireland | الكلية الملكية للجراحين في أيرلندا                     |
+| University of Strasbourg             | جامعة ستراسبورغ                                        |
+| Alexandria University                | جامعة الإسكندرية                                       |
+| Faculty of Medicine                  | كلية الطب                                              |
+| IFSO (full name)                     | الاتحاد الدولي لجراحة السمنة واضطرابات التمثيل الغذائي |
+| ASMBS (full name)                    | الجمعية الأمريكية لجراحات التمثيل الغذائي والسمنة      |
+| American College of Surgeons         | الكلية الأمريكية للجراحين                              |
+| IFSO World Congress                  | مؤتمر IFSO العالمي                                     |
+| ASMBS Annual Meeting                 | اجتماع ASMBS السنوي                                    |
+| ObesityWeek, GOSS                    | kept in Latin                                          |
 
 ## Medical and service terms (given)
 
@@ -109,7 +109,7 @@ new term is decided, add it here first.
 | Time of day: Morning / Afternoon / Evening           | صباحًا / بعد الظهر / مساءً                                |                                                        |
 | Half-day / Full day / Monthly                        | نصف يوم / يوم كامل / شهري                                 |                                                        |
 | Available / Selected / In use                        | متاحة / محددة / مستخدمة                                   | feminine, agreeing with غرفة                           |
-| In use by DBC                                        | يستخدمها مركز دلتا                                        |                                                        |
+| In use by DBC / Delta Bariatric                      | قسم جراحات السمنة                                         |                                                        |
 | Not for rent                                         | غير متاحة للإيجار                                         |                                                        |
 | Waiting area / Reception / Corridor                  | صالة الانتظار / الاستقبال / الممر                         |                                                        |
 | Floor plan                                           | مخطط                                                      |                                                        |

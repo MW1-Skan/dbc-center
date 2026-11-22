@@ -14,14 +14,14 @@ const sizes = {
   sm: {
     mark: 42,
     word: "text-[19px]",
-    sub: "text-[8.5px] tracking-[.28em] mt-[5px]",
+    sub: "text-[9.5px] tracking-[.34em] mt-[5px]",
     gap: "gap-2.5",
   },
-  md: { mark: 52, word: "text-2xl", sub: "text-[10.5px] tracking-[.3em] mt-1.5", gap: "gap-3.5" },
+  md: { mark: 52, word: "text-2xl", sub: "text-[11px] tracking-[.36em] mt-1.5", gap: "gap-3.5" },
   footer: {
     mark: 48,
     word: "text-[22px]",
-    sub: "text-[10px] tracking-[.3em] mt-1.5",
+    sub: "text-[10.5px] tracking-[.36em] mt-1.5",
     gap: "gap-3.5",
   },
 } as const;
@@ -61,7 +61,7 @@ export function Logo({ tone = "color", size = "md", asLink = true, className }: 
             "font-bold",
             subColor,
             responsive
-              ? "mt-[5px] text-[8.5px] tracking-[.28em] md:mt-1.5 md:text-[10.5px] md:tracking-[.3em]"
+              ? "mt-[5px] text-[9.5px] tracking-[.34em] md:mt-1.5 md:text-[11px] md:tracking-[.36em]"
               : s.sub,
           )}
         >

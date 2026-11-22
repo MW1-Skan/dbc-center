@@ -57,7 +57,7 @@ export function FloorPlan() {
                 aria-label={aria}
                 onClick={() => room.rentable && toggle(room.id as RentableRoomId)}
                 className={cn(
-                  "duration-fast flex h-[150px] flex-col items-center justify-center gap-0.5 rounded-input transition-colors",
+                  "duration-fast flex h-[150px] flex-col items-center justify-center gap-0.5 rounded-input px-2 text-center transition-colors",
                   state === "taken" && "cursor-not-allowed text-plan-taken-text stripes-taken",
                   state === "on" && "bg-teal-500 text-white",
                   state === "off" &&

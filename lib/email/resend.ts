@@ -2,7 +2,7 @@ import "server-only";
 import { Resend } from "resend";
 import type { EmailContent } from "./templates";
 
-const DEFAULT_FROM = "Delta Bariatric Center <onboarding@resend.dev>";
+const DEFAULT_FROM = "Delta Clinics <onboarding@resend.dev>";
 
 export type SendOptions = EmailContent & { replyTo?: string };
 

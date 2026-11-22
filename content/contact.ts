@@ -3,8 +3,9 @@
  * Values in [square brackets] are placeholders we do not have yet (see PLACEHOLDERS.md).
  */
 export const contact = {
-  name: "Delta Bariatric Center",
-  shortName: "DBC",
+  name: "Delta Clinics",
+  shortName: "Delta Clinics",
+  bariatricDivision: "Delta Bariatric Center",
   phoneDisplay: "+20 104 476 4787",
   phoneHref: "tel:+201044764787",
   whatsappHref: "https://wa.me/201044764787",
