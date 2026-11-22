@@ -38,8 +38,13 @@
     "whatsappFab": "WhatsApp us",
     "backToTop": "Back to top"
   },
-  "TopBar": {
-    "address": "713 Al Horreya Road, Delta Building, Louran, Alexandria"
+  "Contact": {
+    "addressLine1": "713 Al Horreya Road",
+    "addressLine2": "Delta Building, Louran",
+    "addressCityCountry": "Alexandria, Egypt",
+    "addressInline": "713 Al Horreya Road, Delta Building, Louran, Alexandria",
+    "addressComma": ", ",
+    "hours": "[Sat–Thu · 00:00–00:00]"
   },
   "Nav": {
     "doctor": "Dr. Karam",
@@ -727,7 +732,7 @@
           },
           "ms": {
             "year": "1992",
-            "text": "M.S., Master of Surgery, Alexandria University, Faculty of Medicine"
+            "text": "M.S., Master of Surgery, Alexandria University, Faculty of Medicine — Very Good"
           }
         }
       },
@@ -738,9 +743,21 @@
             "year": "1999",
             "text": "Fellow of the Royal College of Surgeons in Ireland (FRCSI)"
           },
+          "ircad": {
+            "year": "2009",
+            "text": "Laparoscopic General Surgery Intensive Course, ASIA IRCAD-Taiwan (IRCAD/EITS Strasbourg)"
+          },
           "strasbourg": {
             "year": "2009",
             "text": "Diplôme d'Université de Chirurgie Laparoscopique, Université de Strasbourg, France"
+          },
+          "pancreatic": {
+            "year": "2013",
+            "text": "Master Class Program on Pancreatic Diseases and Pancreatic Exocrine Insufficiency, University Hospital of Santiago de Compostela, Spain"
+          },
+          "endoscopy": {
+            "year": "2016",
+            "text": "Hands-On GI Endoscopy Training (diagnostic upper endoscopy, perforation closure, stenting, hemostasis, polypectomy & capsule endoscopy), Roeya / ECE Germany, Cairo"
           },
           "qmi": {
             "year": "2023–24",
@@ -779,11 +796,18 @@
         }
       }
     },
+    "endorsement": {
+      "eyebrow": "Peer endorsement · Hamad Medical Corporation",
+      "quote": "“I can confidently state that his medical knowledge, clinical experience and surgical skills exceed what is required for a graduated fellow of a bariatric & metabolic surgery fellowship program.”",
+      "author": "Dr. Moataz M. Bashah, PhD, FRCS, FASMBS, FACS, FEBS",
+      "role": "Director & Senior Consultant of Metabolic & Bariatric Surgery, Hamad Medical Corporation / Weill Cornell Medicine-Qatar — Bariatric Surgery Fellowship Equalization Letter"
+    },
     "research": {
       "eyebrow": "Research & teaching",
       "title": "Published work on sleeve gastrectomy outcomes and safety",
       "lead": "Collaborative bariatric research on operative technique, outcomes and cost, complications, histopathology and preoperative assessment, alongside teaching residents and fellows.",
       "publicationsTitle": "Peer-reviewed publications",
+      "firstAuthor": "First author",
       "publications": {
         "p2020": {
           "year": "2020",
@@ -793,8 +817,8 @@
           "year": "2018",
           "text": "Is Routine Preoperative Esophagogastroduodenoscopy Screening Necessary Prior to Laparoscopic Sleeve Gastrectomy? Review of 1,555 Cases and Comparison with Current Literature"
         },
-        "p2018b": {
-          "year": "2018",
+        "p2017d": {
+          "year": "2017",
           "text": "Laparoscopic Sleeve Gastrectomy in Patients With Abdominoplasty: A Case-Control Study"
         },
         "p2017a": {
@@ -809,8 +833,8 @@
           "year": "2017",
           "text": "Solid Organ Infections: Rare Complications After Laparoscopic Sleeve Gastrectomy: A Report of Four Cases"
         },
-        "p2011": {
-          "year": "2011",
+        "p2013": {
+          "year": "2013",
           "text": "Isolated Superior Mesenteric Venous Thrombophlebitis With Acute Appendicitis"
         }
       },
@@ -835,10 +859,14 @@
       "conferences": {
         "c2024": "IFSO World Congress, Melbourne (2024)",
         "c2023": "ASMBS Annual Meeting, Las Vegas (2023)",
-        "c2019": "IFSO World Congress and Postgraduate Course, Madrid (2019)",
+        "c2023q": "7th Qatar Colorectal & Gastroenterology Conference, Doha (2023)",
+        "c2022": "4th Qatar Summit for Healthcare Risk Management (QSHRM), Doha (2022)",
+        "c2019": "24th IFSO World Congress & 4th International Consensus Conference on Duodenal Switch, Madrid (2019)",
         "c2018": "Australia & New Zealand Metabolic and Obesity Surgery Society Conference, Melbourne (2018)",
         "c2017": "ObesityWeek / ASMBS Annual Scientific Meeting, National Harbor (2017)",
         "c2016": "IFSO World Congress, Rio de Janeiro (2016)",
+        "c2015b": "2nd Qatar International Metabolic and Bariatric Surgery Summit, Doha (2015)",
+        "c2015a": "1st Qatar International Metabolic and Bariatric Surgery Summit & Society Meeting, Doha (2015)",
         "c2014": "IFSO World Congress, Montreal (2014)",
         "c2013": "IFSO World Congress, Istanbul (2013)"
       },
@@ -846,22 +874,32 @@
       "honours": {
         "nbc": "Certificate of Appreciation, National Bariatric Center / Qatar Metabolic Institute (2024)",
         "stars": "Stars of Excellence — Clinical Practice Award of Merit, Hamad Medical Corporation (2014)",
-        "journalClub": "Certificate of Appreciation, HMC Bariatric & Metabolic Surgery Journal Club (2019)"
+        "journalClub": "Certificate of Appreciation, HMC Bariatric & Metabolic Surgery Journal Club — “The Role of Gut Microbiota in the Development of Obesity” (2019)"
       }
     },
     "certificates": {
       "eyebrow": "Documents",
       "title": "Certificates",
-      "lead": "Scans of the original documents will be shown here. [Certificate scans to be supplied by the clinic.]",
+      "lead": "Selected diplomas, international memberships, training certificates and awards. Select any document to view it larger.",
+      "zoomHint": "View full size",
+      "close": "Close viewer",
+      "previous": "Previous certificate",
+      "next": "Next certificate",
+      "counter": "{current} of {total}",
       "items": {
         "frcsi": "FRCSI — Royal College of Surgeons in Ireland, 1999",
         "strasbourg": "Diplôme d'Université de Chirurgie Laparoscopique — Strasbourg, 2009",
         "qmi": "Bariatric Surgery Fellowship Training — HMC / Qatar Metabolic Institute, 2024",
-        "ms": "Master of Surgery — Alexandria University, 1992",
-        "mbchb": "M.B.Ch.B. — Alexandria University, 1989",
-        "stars": "Stars of Excellence Award of Merit — HMC, 2014"
-      },
-      "placeholder": "Certificate"
+        "ifso": "Official Regular Member — International Federation for the Surgery of Obesity (IFSO), 2018",
+        "asmbs": "International Member — American Society for Metabolic & Bariatric Surgery (ASMBS), 2018",
+        "ircad": "Laparoscopic General Surgery Intensive Course — ASIA IRCAD-Taiwan, 2009",
+        "endoscopy": "28th Middle East Hands-On GI Endoscopy Course — Cairo / ECE Germany, 2016",
+        "qrsc": "Instructor, Upper GI Anastomosis Hands-On Course — Qatar Robotic Surgery Centre, 2016",
+        "nbc": "Certificate of Appreciation — National Bariatric Center / QMI, 2024",
+        "stars": "Stars of Excellence Award of Merit — HMC, 2014",
+        "ms": "Master of Surgery (Very Good) — Alexandria University, 1992",
+        "mbchb": "M.B.Ch.B. (Very Good with Honour) — Alexandria University, 1989"
+      }
     }
   }
 }

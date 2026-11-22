@@ -9,6 +9,7 @@ const steps = ["confirm", "visit", "plan"] as const;
 export function BookingAside() {
   const t = useTranslations("BookPage");
   const tc = useTranslations("Common");
+  const tContact = useTranslations("Contact");
   const row =
     "flex items-center gap-3.5 font-semibold text-navy-800 no-underline hover:text-navy-700";
   const chip = "flex size-11 shrink-0 items-center justify-center rounded-full bg-chip";
@@ -74,9 +75,9 @@ export function BookingAside() {
           </span>
         </div>
         <span className="text-[15px] text-lead">
-          <span dir="ltr">{contact.address.inline}</span>
+          {tContact("addressInline")}
           <br />
-          {contact.hours}
+          {tContact("hours")}
         </span>
       </Reveal>
 

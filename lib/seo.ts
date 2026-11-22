@@ -75,6 +75,10 @@ export function clinicJsonLd(locale: Locale) {
           "@type": "EducationalOccupationalCredential",
           name: "Diplôme d'Université de Chirurgie Laparoscopique, Université de Strasbourg",
         },
+        {
+          "@type": "EducationalOccupationalCredential",
+          name: "Bariatric Surgery Fellowship Training, Hamad Medical Corporation / Qatar Metabolic Institute",
+        },
       ],
     },
   ];

@@ -15,11 +15,8 @@ export const contact = {
     line2: "Delta Building, Louran",
     city: "Alexandria",
     country: "Egypt",
-    /** One-line form used in the top bar and aside cards. */
-    inline: "713 Al Horreya Road, Delta Building, Louran, Alexandria",
   },
-  /** Placeholder until the clinic confirms opening hours. */
-  hours: "[Sat–Thu · 00:00–00:00]",
+  /** Opening hours live in `messages/*.json` under `Contact.hours` for localization. */
   /** Placeholder links until the clinic provides the real URLs. */
   mapsHref: "#",
   social: [

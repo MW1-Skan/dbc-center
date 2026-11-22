@@ -5,18 +5,18 @@ import { LanguageToggle } from "./LanguageToggle";
 
 /** Navy utility bar: address, hours, phone and the language toggle. Hidden on phones. */
 export function TopBar() {
-  const t = useTranslations("TopBar");
+  const t = useTranslations("Contact");
   return (
     <div className="hidden bg-navy-800 text-sm text-on-navy-light md:block">
       <div className="container-x flex flex-wrap items-center justify-between gap-3 py-2.5">
         <div className="flex flex-wrap items-center gap-6">
           <span className="flex items-center gap-2">
             <PinIcon size={16} className="text-teal-300" />
-            {t("address")}
+            {t("addressInline")}
           </span>
           <span className="hidden items-center gap-2 lg:flex">
             <ClockIcon size={16} className="text-teal-300" />
-            {contact.hours}
+            {t("hours")}
           </span>
         </div>
         <div className="flex items-center gap-5">

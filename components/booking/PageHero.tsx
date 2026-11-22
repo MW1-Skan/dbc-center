@@ -14,7 +14,7 @@ export function PageHero({ crumb, title, lead }: Props) {
         aria-hidden
         className="absolute -end-[150px] -top-[270px] size-[620px] rounded-full border-[10px] border-transparent border-b-teal-500 opacity-[.18]"
       />
-      <div className="relative container-x flex flex-col gap-4 pt-10 pb-12 md:pt-14 md:pb-16">
+      <div className="relative container-x flex flex-col gap-4 pt-[72px] pb-12 md:pt-[76px] md:pb-16">
         <div data-hero style={{ "--hero-delay": "0ms" } as React.CSSProperties}>
           <Breadcrumb current={crumb} />
         </div>

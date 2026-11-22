@@ -112,6 +112,24 @@ test.describe("profile page", () => {
     const xml = await (await request.get("/sitemap.xml")).text();
     expect(xml).toContain("/en/doctor");
   });
+
+  test("links publications to DOIs and opens certificate lightbox", async ({ page }) => {
+    await page.goto("/en/doctor");
+    const firstDoi = page.locator('a[href^="https://doi.org/"]').first();
+    await expect(firstDoi).toHaveAttribute("href", "https://doi.org/10.1177/1553350620902550");
+
+    await page.getByRole("button", { name: /FRCSI — Royal College/ }).click();
+    const dialog = page.getByRole("dialog");
+    await expect(dialog).toBeVisible();
+    await expect(dialog).toContainText("1 of 12");
+    await page.keyboard.press("Escape");
+    await expect(dialog).toBeHidden();
+  });
+});
+
+test("Arabic footer displays localized clinic address", async ({ page }) => {
+  await page.goto("/ar");
+  await expect(page.locator("footer")).toContainText("713 طريق الحرية");
 });
 
 test.describe("header slot", () => {
