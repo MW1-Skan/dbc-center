@@ -22,7 +22,7 @@ export function RoomsHero() {
         priority
         className="absolute -start-[160px] -bottom-[220px] size-[560px] object-contain opacity-[.05]"
       />
-      <div className="relative container-x grid grid-cols-[repeat(auto-fit,minmax(min(460px,100%),1fr))] items-center gap-10 pt-10 pb-14 md:gap-16 md:pt-[88px] md:pb-24">
+      <div className="relative container-x grid grid-cols-[repeat(auto-fit,minmax(min(460px,100%),1fr))] items-center gap-10 pt-[72px] pb-14 md:gap-16 md:pt-[88px] md:pb-24">
         <div className="flex flex-col gap-5 md:gap-[26px]">
           <div data-hero style={d(0)}>
             <Breadcrumb current={t("crumb")} dark />

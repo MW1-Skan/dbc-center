@@ -15,7 +15,7 @@ export function ProfileIntro() {
   const key = (k: string) => k as Parameters<typeof t>[0];
   return (
     <section className="bg-white">
-      <div className="container-x grid grid-cols-[repeat(auto-fit,minmax(min(400px,100%),1fr))] items-start gap-10 pt-10 pb-14 md:gap-[72px] md:pt-14 lg:pb-28">
+      <div className="container-x grid grid-cols-[repeat(auto-fit,minmax(min(400px,100%),1fr))] items-start gap-10 pt-[72px] pb-14 md:gap-[72px] md:pt-[76px] lg:pb-28">
         <div data-hero style={d(200)} className="relative flex justify-center lg:sticky lg:top-28">
           <ImagePlaceholder
             label={t("portraitLabel")}
@@ -90,6 +90,17 @@ export function ProfileIntro() {
                 </ul>
               </div>
             ))}
+
+            <figure className="flex flex-col gap-3.5 rounded-card-lg border border-line-mint bg-mint p-6 md:p-7">
+              <Eyebrow>{t("endorsement.eyebrow")}</Eyebrow>
+              <blockquote className="font-heading text-[17px] leading-[1.55] font-medium text-navy-800 md:text-[18px]">
+                {t("endorsement.quote")}
+              </blockquote>
+              <figcaption className="flex flex-col gap-0.5 border-t border-line-mint pt-3 text-sm">
+                <strong className="font-semibold text-navy-800">{t("endorsement.author")}</strong>
+                <span className="text-muted">{t("endorsement.role")}</span>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </div>

@@ -9,6 +9,7 @@ const year = 2026;
 /** Full footer used on the home page. Columns collapse to the mobile layout below 768px. */
 export function Footer() {
   const t = useTranslations("Footer");
+  const tc = useTranslations("Contact");
   const linkClass = "text-on-navy-muted no-underline hover:text-white";
   const heading =
     "mb-1 hidden text-[13px] font-bold tracking-eyebrow uppercase text-white md:block";
@@ -25,17 +26,14 @@ export function Footer() {
           <div className="flex flex-col gap-3">
             <h3 className={heading}>{t("visit")}</h3>
             <span>
-              {/* Latin address: kept LTR inside the RTL page. */}
-              <span dir="ltr">
-                {contact.address.line1}
-                <br />
-                {contact.address.line2}
-                <br className="hidden md:inline" />
-                <span className="md:hidden">, </span>
-                {contact.address.city}, {contact.address.country}
-              </span>
+              {tc("addressLine1")}
+              <br />
+              {tc("addressLine2")}
+              <br className="hidden md:inline" />
+              <span className="md:hidden">{tc("addressComma")}</span>
+              {tc("addressCityCountry")}
             </span>
-            <span>{contact.hours}</span>
+            <span>{tc("hours")}</span>
             <a
               href={contact.mapsHref}
               className="hidden font-semibold text-teal-200 no-underline hover:text-white md:inline"

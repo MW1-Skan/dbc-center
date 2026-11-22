@@ -25,7 +25,6 @@ node scripts/placeholders.mjs
 | `[Article title — e.g. eating in the first month after a sleeve]`                       | `Advice.items.a1`                                                                                         |
 | `[Article title — e.g. getting back to exercise safely]`                                | `Advice.items.a3`                                                                                         |
 | `[Article title — e.g. sleeve or bypass: how we decide]`                                | `Advice.items.a2`                                                                                         |
-| `[Certificate scans to be supplied by the clinic.]`                                     | `DoctorPage.certificates.lead`                                                                            |
 | `[Date]`                                                                                | `Advice.date`                                                                                             |
 | `[Desk · Exam bed · Sink · Screen]`                                                     | `RoomsPage.rooms.features`                                                                                |
 | `[Desk, chairs, examination bed, sink — confirm list]`                                  | `RoomsPage.included.items.furnished.desc`                                                                 |
@@ -42,7 +41,7 @@ node scripts/placeholders.mjs
 | `[Patient quote — one or two sentences, shared with written consent.]`                  | `Stories.quote`                                                                                           |
 | `[Patient quote, shared with consent.]`                                                 | `Stories.quoteShort`                                                                                      |
 | `[Procedure]`                                                                           | `Stories.caption`<br>`Stories.captionShort`                                                               |
-| `[Sat–Thu · 00:00–00:00]`                                                               | `content/contact.ts`                                                                                      |
+| `[Sat–Thu · 00:00–00:00]`                                                               | `Contact.hours`                                                                                           |
 | `[To be confirmed by the clinic: number of days recommended before and after surgery.]` | `Faq.items.abroad.a`                                                                                      |
 | `[window / no window]`                                                                  | `RoomsPage.rooms.size`                                                                                    |
 | `[X days]`                                                                              | `Procedures.items.sleeve.meta`<br>`Procedures.items.bypass.meta`<br>`Procedures.items.plication.meta`     |

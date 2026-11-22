@@ -17,7 +17,7 @@ export type NavItem = {
 };
 
 export const navItems: NavItem[] = [
-  { key: "doctor", href: "/#doctor" },
+  { key: "doctor", href: "/doctor" },
   { key: "procedures", href: "/#procedures" },
   { key: "team", href: "/#team" },
   { key: "stories", href: "/#stories" },
@@ -43,6 +43,7 @@ export function Header() {
   const menuId = useId();
 
   const onHome = pathname === "/";
+  const onDoctor = pathname === "/doctor";
   const onRooms = pathname === "/rooms";
   const onBook = pathname === "/book";
 
@@ -69,7 +70,8 @@ export function Header() {
           className="hidden items-center gap-4 text-[15px] font-medium lg:flex xl:gap-8 xl:text-base"
         >
           {navItems.map((item) => {
-            const current = item.key === "rooms" && onRooms;
+            const current =
+              (item.key === "rooms" && onRooms) || (item.key === "doctor" && onDoctor);
             return (
               <Link
                 key={item.key}
