@@ -43,11 +43,7 @@ export function ProfileIntro() {
             {t("p2")}
           </p>
 
-          <dl
-            data-hero
-            style={d(320)}
-            className="grid grid-cols-[repeat(auto-fit,minmax(min(150px,100%),1fr))] gap-3"
-          >
+          <dl data-hero style={d(320)} className="grid grid-cols-2 gap-3">
             {profile.facts.map((f) => (
               <div
                 key={f}

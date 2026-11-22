@@ -1,29 +1,29 @@
 {
   "Meta": {
-    "siteName": "Delta Bariatric Center",
+    "siteName": "Delta Clinics",
     "home": {
-      "title": "Delta Bariatric Center — Bariatric & metabolic surgery in Alexandria",
-      "description": "Lasting weight loss, with a surgeon and a team who stay with you. Led by Dr. Mohsen Karam, FRCSI — surgery, nutrition, psychology and physiotherapy under one roof in Alexandria, Egypt."
+      "title": "Delta Clinics — Home to Delta Bariatric Center in Alexandria",
+      "description": "Delta Clinics in Alexandria, Egypt — multi-specialty medical clinics and home to Delta Bariatric Center, led by Dr. Mohsen Karam, FRCSI."
     },
     "book": {
-      "title": "Book an appointment — Delta Bariatric Center",
-      "description": "Tell us what you need and when suits you. We will call or WhatsApp you to confirm the exact time of your consultation at Delta Bariatric Center, Alexandria."
+      "title": "Book an appointment — Delta Clinics",
+      "description": "Tell us what you need and when suits you. We will call or WhatsApp you to confirm the exact time of your consultation at Delta Clinics, Alexandria."
     },
     "rooms": {
-      "title": "Room rental for doctors & organizations — Delta Bariatric Center",
-      "description": "Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month."
+      "title": "Room rental for doctors & organizations — Delta Clinics",
+      "description": "Four furnished consultation rooms at Delta Clinics in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month."
     },
-    "ogTagline": "Bariatric & metabolic surgery · Alexandria, Egypt",
+    "ogTagline": "Multi-specialty medical clinics · Delta Bariatric Center · Alexandria",
     "doctor": {
-      "title": "Dr. Mohsen Karam — Consultant bariatric surgeon in Alexandria",
-      "description": "Profile of Dr. Mohsen Karam, FRCSI: Alexandria University graduate, 25 years at Hamad Medical Corporation in Qatar, bariatric surgeon since 2013, published researcher and teacher, now at Delta Bariatric Center."
+      "title": "Dr. Mohsen Karam — Consultant bariatric surgeon at Delta Clinics, Alexandria",
+      "description": "Profile of Dr. Mohsen Karam, FRCSI: Alexandria University graduate, 25 years at Hamad Medical Corporation in Qatar, 2,000+ bariatric procedures, now leading Delta Bariatric Center at Delta Clinics."
     }
   },
   "Common": {
-    "brandName": "Delta Bariatric Center",
+    "brandName": "Delta Clinics",
     "brandWord": "DELTA",
-    "brandSub": "BARIATRIC CENTER",
-    "homeLinkLabel": "Delta Bariatric Center — home",
+    "brandSub": "CLINICS",
+    "homeLinkLabel": "Delta Clinics — home",
     "skipToContent": "Skip to content",
     "bookConsultation": "Book a consultation",
     "whatsapp": "WhatsApp",
@@ -64,11 +64,11 @@
     "backHomeLabel": "Back to the home page"
   },
   "Hero": {
-    "eyebrow": "Bariatric & metabolic surgery · Alexandria, Egypt",
-    "eyebrowShort": "Bariatric surgery · Alexandria",
+    "eyebrow": "Delta Bariatric Center · A division of Delta Clinics · Alexandria",
+    "eyebrowShort": "Delta Bariatric Center · Alexandria",
     "title": "Lasting weight loss, with a surgeon and a team who stay with you.",
-    "lead": "Led by Dr. Mohsen Karam, FRCSI, Delta Bariatric Center brings surgery, nutrition, psychology and physiotherapy together under one roof — so every step of your journey is planned, not improvised.",
-    "leadShort": "Led by Dr. Mohsen Karam, FRCSI — surgery, nutrition, psychology and physiotherapy under one roof.",
+    "lead": "At Delta Bariatric Center — the specialized bariatric surgery division of Delta Clinics — Dr. Mohsen Karam, FRCSI brings surgery, nutrition, psychology and physiotherapy together under one roof.",
+    "leadShort": "Delta Bariatric Center at Delta Clinics — led by Dr. Mohsen Karam, FRCSI, with surgery, nutrition, psychology and physiotherapy under one roof.",
     "ctaBook": "Book a consultation",
     "ctaWhatsapp": "Message us on WhatsApp",
     "ctaWhatsappShort": "WhatsApp us",
@@ -77,7 +77,7 @@
     "photoAlt": "Photo placeholder: Dr. Karam with a patient",
     "stats": {
       "procedures": {
-        "value": "[0,000+]",
+        "value": "2,000+",
         "label": "procedures performed",
         "labelShort": "procedures"
       },
@@ -151,7 +151,7 @@
     "notSureCta": "Book a consultation"
   },
   "Departments": {
-    "eyebrow": "One center, every specialist",
+    "eyebrow": "Delta Clinics · One center, every specialist",
     "title": "Seven departments. One plan, built around you.",
     "lead": "Surgery is one day. Success is the year that follows. Your surgeon, dietitian, psychologist and physiotherapist work from the same file, in the same building — and see you at every stage.",
     "photoLabel": "Photo · The care team",
@@ -191,7 +191,7 @@
     "eyebrow": "Meet your surgeon",
     "name": "Dr. Mohsen Karam",
     "role": "Consultant General, Laparoscopic & Bariatric Surgeon",
-    "bio": "[Draft for Dr. Karam's approval] I graduated in medicine from Alexandria University, completed my Master of Surgery there and became a Fellow of the Royal College of Surgeons in Ireland in 1999. For 25 years I practised at Hamad Medical Corporation in Qatar, joining its bariatric and metabolic surgery team in 2013 and working as a consultant from 2018, while teaching residents and fellows and publishing research on sleeve gastrectomy outcomes and safety. At Delta Bariatric Center I bring that experience home to Alexandria, with a team that stays with every patient long after surgery.",
+    "bio": "[Draft for Dr. Karam's approval] I graduated in medicine from Alexandria University, completed my Master of Surgery there and became a Fellow of the Royal College of Surgeons in Ireland in 1999. For 25 years I practised at Hamad Medical Corporation in Qatar, joining its bariatric and metabolic surgery team in 2013 and working as a consultant from 2018, while teaching residents and fellows and publishing research on sleeve gastrectomy outcomes and safety. At Delta Bariatric Center within Delta Clinics I bring that experience home to Alexandria, with a team that stays with every patient long after surgery.",
     "bioShort": "[Draft for approval] Alexandria graduate and FRCSI, with 25 years at Hamad Medical Corporation in Qatar and bariatric surgery since 2013. Now practising in Alexandria with a team that stays with every patient.",
     "portraitLabel": "Portrait · Dr. Karam",
     "portraitAlt": "Portrait placeholder: Dr. Mohsen Karam",
@@ -253,7 +253,7 @@
     "eyebrow": "For doctors & organizations",
     "title": "Practice from our clinic. Four consultation rooms available.",
     "titleShort": "Four consultation rooms available to rent.",
-    "lead": "Furnished consultation rooms in the Delta Building, Louran — with reception and a waiting area already running. Rent one room or several, by the half-day, the day or the month.",
+    "lead": "Furnished consultation rooms at Delta Clinics in the Delta Building, Louran — with reception and a waiting area already running. Rent one room or several, by the half-day, the day or the month.",
     "leadShort": "Furnished rooms with reception and a waiting area — by the half-day, day or month.",
     "bullets": {
       "furnished": "Furnished, ready to use",
@@ -286,7 +286,7 @@
     }
   },
   "Footer": {
-    "tagline": "Bariatric and metabolic surgery with a full specialist team, in Alexandria.",
+    "tagline": "Multi-specialty medical clinics in Alexandria, home to Delta Bariatric Center led by Dr. Mohsen Karam.",
     "visit": "Visit",
     "contact": "Contact",
     "explore": "Explore",
@@ -296,8 +296,8 @@
     "book": "Book an appointment",
     "rooms": "Room rental",
     "advice": "Medical advice",
-    "copyright": "© {year} Delta Bariatric Center. All rights reserved.",
-    "copyrightShort": "© {year} Delta Bariatric Center",
+    "copyright": "© {year} Delta Clinics. All rights reserved.",
+    "copyrightShort": "© {year} Delta Clinics",
     "privacy": "Privacy",
     "medicalDisclaimer": "Medical disclaimer",
     "rentalTerms": "Rental terms",
@@ -386,7 +386,7 @@
     "weight": "Weight (kg)",
     "notes": "Anything we should know?",
     "notesPlaceholder": "Previous surgery, medical conditions, questions…",
-    "consent": "I agree that Delta Bariatric Center may contact me about this request. See our <link>privacy policy</link>.",
+    "consent": "I agree that Delta Clinics may contact me about this request. See our <link>privacy policy</link>.",
     "submit": "Send request",
     "submitting": "Sending…",
     "submitNote": "This is a request — your time is confirmed once we call you.",
@@ -425,7 +425,7 @@
     "crumb": "Room rental",
     "eyebrow": "For doctors & organizations",
     "title": "Your practice, in a clinic that already runs.",
-    "lead": "Four furnished consultation rooms at Delta Bariatric Center in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month.",
+    "lead": "Four furnished consultation rooms at Delta Clinics in Louran, Alexandria. Rent one room or several — a half-day a week, or the whole month.",
     "ctaAvailability": "Check availability",
     "ctaCall": "Call to arrange a visit",
     "heroPhoto": "Photo · Reception & waiting area",
@@ -452,7 +452,7 @@
       "legend": {
         "available": "Available",
         "selected": "Selected",
-        "inUse": "In use by DBC"
+        "inUse": "In use (Bariatric)"
       },
       "waitingArea": "Waiting area",
       "shared": "Shared",
@@ -463,14 +463,14 @@
         "available": "Available",
         "selected": "Selected",
         "inUse": "In use",
-        "inUseLong": "In use by DBC"
+        "inUseLong": "Delta Bariatric"
       },
       "ariaInUse": "{name}, in use by Delta Bariatric Center",
       "ariaSelected": "{name}, selected",
       "ariaAvailable": "{name}, available",
       "photoAlt": "Room photo placeholder",
       "ownSize": "Dr. Karam's consultation room",
-      "ownFeatures": "Reserved for Delta Bariatric Center patients.",
+      "ownFeatures": "Reserved for Delta Bariatric Center patients at Delta Clinics.",
       "size": "[00] m² · [window / no window]",
       "features": "[Desk · Exam bed · Sink · Screen]",
       "select": "Select room",
@@ -703,12 +703,16 @@
     "role": "Consultant General, Laparoscopic & Bariatric Surgeon",
     "qualifications": "M.B.Ch.B. · M.S. · FRCSI · D.U. Chirurgie Laparoscopique",
     "p1": "[Draft for Dr. Karam's approval] I am a general, laparoscopic and bariatric surgeon from Alexandria. After graduating from Alexandria University I spent 25 years at Hamad Medical Corporation in Qatar, where I joined the bariatric and metabolic surgery team in 2013 and worked as a consultant from 2018.",
-    "p2": "[Draft for Dr. Karam's approval] Surgery is one part of lasting weight loss. The patients who do best are followed closely by a whole team, so at Delta Bariatric Center the surgeon, dietitian, psychologist and physiotherapist work from the same file and see you at every stage.",
+    "p2": "[Draft for Dr. Karam's approval] Surgery is one part of lasting weight loss. The patients who do best are followed closely by a whole team, so at Delta Bariatric Center within Delta Clinics the surgeon, dietitian, psychologist and physiotherapist work from the same file and see you at every stage.",
     "portraitLabel": "Portrait · Dr. Karam",
     "portraitAlt": "Portrait placeholder: Dr. Mohsen Karam",
     "ctaBook": "Book a consultation",
     "ctaCertificates": "View certificates",
     "facts": {
+      "procedures": {
+        "value": "2,000+",
+        "label": "documented bariatric procedures"
+      },
       "hmc": {
         "value": "25 yrs",
         "label": "at Hamad Medical Corporation, Qatar"

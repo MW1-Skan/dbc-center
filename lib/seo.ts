@@ -45,6 +45,12 @@ export function clinicJsonLd(locale: Locale) {
       telephone: contact.phoneDisplay.replace(/\s/g, ""),
       email: contact.email,
       medicalSpecialty: "Bariatric surgery",
+      department: {
+        "@type": "MedicalClinic",
+        "@id": `${siteUrl}/#bariatric-center`,
+        name: contact.bariatricDivision,
+        medicalSpecialty: "Bariatric surgery",
+      },
       address: {
         "@type": "PostalAddress",
         streetAddress: `${contact.address.line1}, ${contact.address.line2}`,

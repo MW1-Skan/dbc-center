@@ -15,7 +15,6 @@ node scripts/placeholders.mjs
 
 | Placeholder                                                                             | Where it is used                                                                                          |
 | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| `[0,000+]`                                                                              | `Hero.stats.procedures.value`                                                                             |
 | `[00:00–00:00]`                                                                         | `RoomsPage.pricing.tiers.fullDay.desc`                                                                    |
 | `[00]`                                                                                  | `RoomsPage.stats.size.value`<br>`RoomsPage.rooms.size`                                                    |
 | `[09–12]`                                                                               | `BookPage.times.morning.hours`                                                                            |
